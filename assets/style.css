@@ -215,6 +215,16 @@ footer .small{font-size:13px;color:#8EA3B7}
  .docket td::before{content:attr(data-l);display:block;font:600 11.5px/1.4 var(--sans);text-transform:uppercase;letter-spacing:.08em;color:var(--slate)}
  .stocks li{grid-template-columns:62px minmax(0,1fr)}
 }
+/* follow us */
+.follow{margin:6px 0 16px}
+.follow .fh{font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px;opacity:.85}
+.follow ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap}
+.follow a{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.follow img{width:104px;height:104px;background:#fff;padding:6px;border-radius:8px;display:block}
+.follow span{display:flex;flex-direction:column;font-size:14px;line-height:1.35}
+.follow b{font-size:15px}
+.follow a:hover b{text-decoration:underline}
+@media (max-width:640px){.follow img{width:88px;height:88px}}
 @media print{header.top,.tape,footer{display:none}}
 
 .panel thead th.r{text-align:right}

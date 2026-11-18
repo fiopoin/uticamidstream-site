@@ -69,7 +69,7 @@ for d in data:
 
 def simple(title, desc, canonical, body, root=""):
     hdr = env.get_template("header.html.j2").render(root=root)
-    ftr = env.get_template("footer.html.j2").render(root=root)
+    ftr = env.get_template("footer.html.j2").render(root=root, cfg=CFG)
     return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="{CSP}"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{html.escape(title)} | {NAME}</title><meta name="description" content="{html.escape(desc)}"><link rel="canonical" href="{canonical}"><meta name="robots" content="index, follow"><meta name="theme-color" content="#13263A"><link rel="icon" type="image/svg+xml" href="{root}brand/um-icon.svg"><link rel="stylesheet" href="{root}assets/style.css?v={V}"></head>
 <body>{hdr}<main id="main" class="page"><div class="wrap">{body}</div></main>{ftr}</body></html>"""
