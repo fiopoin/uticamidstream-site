@@ -4,7 +4,8 @@
  "bing_site_verification": "",
  "publish_time": "05:47",
  "same_as": [
-  "https://www.facebook.com/profile.php?id=61596931970525"
+  "https://www.facebook.com/profile.php?id=61596931970525",
+  "https://www.linkedin.com/company/uticamidstream/"
  ],
  "site_url": "https://uticamidstream.com/",
  "qr_dark": "#13263A",
@@ -14,6 +15,12 @@
    "name": "Facebook",
    "handle": "Utica Midstream",
    "url": "https://www.facebook.com/profile.php?id=61596931970525"
+  },
+  {
+   "key": "linkedin",
+   "name": "LinkedIn",
+   "handle": "Utica Midstream",
+   "url": "https://www.linkedin.com/company/uticamidstream/"
   }
  ]
 }
