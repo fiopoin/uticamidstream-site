@@ -1,0 +1,187 @@
+{
+ "date": "2026-11-18",
+ "date_long": "November 18, 2026",
+ "edition": 1,
+ "prices": {
+  "asof": "Futures quotes as of about 9:45 a.m. Central, November 18, 2026, unless marked",
+  "rows": [
+   {"group": "Crude", "name": "WTI (NYMEX)", "value": "84.42", "unit": "$/bbl", "change": "-1.59", "pct": "-1.85%", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Crude", "name": "Brent (ICE)", "value": "92.13", "unit": "$/bbl", "change": "-1.01", "pct": "-1.08%", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Crude", "name": "WTI Midland", "value": "86.46", "unit": "$/bbl", "change": "-0.08", "pct": "-0.09%", "note": "Last trade overnight", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Crude", "name": "Murban", "value": "91.39", "unit": "$/bbl", "change": "-4.03", "pct": "-4.22%", "note": "Physical, prior day", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Crude", "name": "OPEC basket", "value": "89.33", "unit": "$/bbl", "change": "-0.67", "pct": "-0.74%", "note": "Reference, two days old", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Gas", "name": "Henry Hub (NYMEX Dec)", "value": "3.171", "unit": "$/MMBtu", "change": "-0.037", "pct": "-1.15%", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Gas", "name": "Dutch TTF (front month)", "value": "86.00", "unit": "€/MWh", "change": "", "pct": "+2%", "note": "8:00 a.m. Amsterdam, Nov 17", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/Latest-Energy-News/World-News/TTF-Gas-Bounces-Back-to-86-Euros-as-Hormuz-Risks-Resurface.html"}},
+   {"group": "Products", "name": "RBOB gasoline (NYMEX)", "value": "2.500", "unit": "$/gal", "change": "-0.035", "pct": "-1.37%", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}},
+   {"group": "Products", "name": "ULSD heating oil (NYMEX)", "value": "4.011", "unit": "$/gal", "change": "-0.037", "pct": "-0.91%", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/oil-price-charts/"}}
+  ],
+  "spreads": [
+   {"name": "Brent over WTI", "value": "$7.71/bbl", "note": "Calculated from the two futures quotes above."},
+   {"name": "WTI Midland over Cushing", "value": "$2.04/bbl", "note": "Calculated; Midland quote is older, so treat as indicative."},
+   {"name": "NYMEX 3-2-1 crack", "value": "$41.73/bbl", "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."}
+  ]
+ },
+ "markets": {
+  "asof": "Close, Tuesday, November 17, 2026",
+  "indexes": [
+   {"name": "S&P 500", "value": "7,340.53", "change": "-76.06", "pct": "-1.0%"},
+   {"name": "Dow Jones Industrial Average", "value": "50,759.42", "change": "-848.75", "pct": "-1.6%"},
+   {"name": "Nasdaq Composite", "value": "24,328.38", "change": "-181.37", "pct": "-0.7%"},
+   {"name": "Russell 2000", "value": "2,701.87", "change": "-41.07", "pct": "-1.5%"}
+  ],
+  "index_source": {"name": "Associated Press via La Nación", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-11172026-nid17112026/"},
+  "read": "Stocks fell for a fourth session as investors moved toward assets seen as safer. For energy, the story of 2026 has been the refiners: oil and gas refining and marketing was the best performing of the S&P 500's 126 sub-industries through September 18, up 145.4% for the year, according to FactSet data cited by Axios.",
+  "read_source": {"name": "Axios", "url": "https://axios.com/2026/09/22/diesel-oil-refinery-stocks"},
+  "stocks": [
+   {"ticker": "XOM", "name": "ExxonMobil", "segment": "Integrated", "note": "Took a $12.5 billion final investment decision on Longtail, its eighth Stabroek development offshore Guyana, on November 12.", "source": {"name": "World Oil", "url": "https://worldoil.com/news/2026/11/12/exxonmobil-takes-12-5-billion-fid-on-longtail-development-offshore-guyana/"}},
+   {"ticker": "KMI", "name": "Kinder Morgan", "segment": "Midstream", "note": "Announced FID on October 21 for Permian Link, a 2.8 Bcf/d NGPL expansion to the Texas Panhandle aimed at power demand.", "source": {"name": "S&P Global", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/110926-us-midstream-firms-step-up-gas-pipe-plans-ahead-of-expected-demand-surge"}},
+   {"ticker": "WMB", "name": "Williams", "segment": "Midstream", "note": "FID on the 2.25 Bcf/d Delta Access Pipeline from Gillis plus the 750 MMcf/d Shelby Trough Connector, both tied to LNG supply.", "source": {"name": "S&P Global", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/110926-us-midstream-firms-step-up-gas-pipe-plans-ahead-of-expected-demand-surge"}},
+   {"ticker": "ET", "name": "Energy Transfer", "segment": "Midstream", "note": "Building gas laterals to data centers, including 1 Bcf/d for Meta's Hyperion campus and 400 MMcf/d for Oracle's Project Jupiter.", "source": {"name": "S&P Global", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/110926-us-midstream-firms-step-up-gas-pipe-plans-ahead-of-expected-demand-surge"}},
+   {"ticker": "VLO", "name": "Valero", "segment": "Downstream", "note": "Third quarter net income rose to $6.8 billion from $1.1 billion a year earlier on stronger refining margins.", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/Company-News/Valero-Q3-Earnings-Surge-Sixfold-to-68-Billion-on-Refining-Boom.amp.html"}},
+   {"ticker": "VG", "name": "Venture Global", "segment": "LNG", "note": "DOE granted CP2 LNG's free trade agreement export authorization on November 9; the non-FTA request is still pending.", "source": {"name": "U.S. DOE Order 5521", "url": "https://www.energy.gov/sites/default/files/2026-11/ord5521.pdf"}}
+  ]
+ },
+ "lead": {
+  "kicker": "Crude and products",
+  "chain": ["upstream", "midstream", "downstream", "market"],
+  "headline": "Crude slips toward $84 as a supply glut outruns the Hormuz war premium",
+  "dek": "Tankers are still hitting mines in the Gulf, yet oil keeps falling. Record US output, rising inventories and a rebound in Russian exports are winning the argument, and OPEC+ has to decide its 2027 plan in eleven days.",
+  "body": [
+   "WTI traded at $84.42 and Brent at $92.13 on Wednesday morning, down more than 1% each. Brent was above $100 in early October, against about $73 before the Iran war began in late February.",
+   "The physical data point one way. The American Petroleum Institute reported a 5.3 million barrel crude build and a 5.1 million barrel gasoline build for the week to November 13, after a 9 million barrel crude build the week before. US crude output hit 14.013 million barrels a day in the week to November 6, a third straight weekly record, according to EIA figures. Russia loaded 4.32 million barrels a day of crude in the week to November 15, its highest since June, even as Ukraine struck 13 Russian refineries this month.",
+   "The risk has not gone away. Iran has reported near daily mine strikes on tankers in corridors it calls unauthorized, and LNG exits from Hormuz are running at about a third of prewar levels. The IEA expects a glut to appear this quarter and carry into next year. The seven core OPEC+ members kept December targets unchanged on November 1 and meet on November 29 to set the 2027 production framework."
+  ],
+  "flow": {
+   "upstream": "Record US output at $84 WTI says operators are still drilling into this price. The test is 2027 budgets, which most producers set over the next two months.",
+   "midstream": "Cushing drew 1.69 million barrels even as national stocks built, so the hub is tighter than the headline. Barrels are leaving the Permian at a premium: WTI Midland futures last traded about $2 over WTI.",
+   "downstream": "Gasoline stocks sit 1% above the five year average while distillates are 8% below it. Diesel is still the margin, which keeps refiners running hard for middle distillates.",
+   "market": "The war premium is fading from futures faster than from physical cargoes in the Gulf. OPEC+ on November 29 is the next scheduled decision that can move the curve."
+  },
+  "use": [
+   {"who": "Producers", "text": "Hedge decisions for 2027 are being made against a falling curve. Compare today's strip with your breakeven before the November 29 OPEC+ meeting."},
+   {"who": "Midstream", "text": "Watch Cushing and Midland. A tight hub and a Permian premium favor long-haul crude and export capacity over storage."},
+   {"who": "Refiners and traders", "text": "Distillate is the scarce product. The 3-2-1 crack is wide even with crude falling."},
+   {"who": "Investors", "text": "Falling crude with wide cracks has rewarded refiners over producers all year. Check how much of that is priced in."}
+  ],
+  "sources": [
+   {"name": "OilPrice.com prices", "url": "https://oilprice.com/oil-price-charts/"},
+   {"name": "OilPrice.com, API inventories", "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Substantial-Crude-Oil-Gasoline-Inventory-Builds.html"},
+   {"name": "OilPrice.com, Russian exports", "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Exports-Hit-Four-Month-High.html"},
+   {"name": "OilPrice.com, glut and Hormuz", "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Global-Glut-Fears-Eclipse-Hormuz-Attacks.html"},
+   {"name": "Gulf News, OPEC+ October", "url": "https://gulfnews.com/business/energy/opec-keeps-november-oil-output-targets-unchanged-as-supply-remains-disrupted-1.500697967"},
+   {"name": "Reuters via GV Wire, OPEC+ December", "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"}
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "Pipeline builders have proposed 46.5 Bcf/d of new US gas capacity this year",
+   "text": "Platts counts 46.5 Bcf/d of proposed US gas pipeline projects announced in 2026, about 20 Bcf/d of it starting in Texas. The demand case rests on LNG terminals, power plants and data centers. Large Permian projects include the 4.5 Bcf/d Solitude system to Katy, which reached FID in August, and Kinder Morgan's 2.8 Bcf/d Permian Link, which reached FID on October 21. Energy Transfer is building laterals straight to data center campuses for Meta and Oracle. Most of this capacity is due between 2028 and 2030.",
+   "why": "Takeaway sets the price producers get. More Permian egress should narrow Waha discounts by the end of the decade, and the data center laterals are a new kind of long term, utility style contract for pipeline owners.",
+   "sources": [{"name": "S&P Global Energy", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/110926-us-midstream-firms-step-up-gas-pipe-plans-ahead-of-expected-demand-surge"}]
+  },
+  {
+   "id": "offshore",
+   "segment": "Upstream",
+   "setting": "Offshore",
+   "region": "Guyana",
+   "headline": "ExxonMobil commits $12.5 billion to Longtail, a gas and condensate play in Guyana",
+   "text": "ExxonMobil took a final investment decision on Longtail, the eighth development in the Stabroek block, on November 12. It targets non-associated gas and condensate in the southeast of the block, with about 45 subsea production and injection wells and first production planned for 2030. ExxonMobil operates with 45%, alongside Hess Guyana Exploration at 30% and CNOOC at 25%. The company produces about 900,000 barrels a day from four Stabroek projects, and expects to pass 1 million once Uaru starts.",
+   "why": "Guyana is moving from an oil story to a gas story. Gas development opens questions about domestic power, an onshore gas pipeline and eventually LNG, all of which would need new infrastructure.",
+   "sources": [{"name": "World Oil", "url": "https://worldoil.com/news/2026/11/12/exxonmobil-takes-12-5-billion-fid-on-longtail-development-offshore-guyana/"}, {"name": "Offshore Engineer", "url": "https://www.oedigital.com/amp/news/544342-exxonmobil-greenlights-12-5b-longtail-development-offshore-guyana"}, {"name": "Industrial Info", "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/exxon-makes-fid-on-longtail-development-in-guyana--364826"}]
+  },
+  {
+   "id": "world",
+   "segment": "Gas and LNG",
+   "setting": "Global",
+   "region": "Europe and the Gulf",
+   "headline": "European gas climbs back to 86 euros with storage far below normal",
+   "text": "Dutch TTF front month gas rose 2% to 86 euros per MWh on Tuesday after a 7% drop on Monday. It hit a four year high above 100 euros in late October and was about 30 euros a year ago. EU storage is about 70% full against roughly 90% in prior years, and withdrawals have started. LNG exits from Hormuz are running at about a third of prewar levels, while gas flows to US LNG export plants hit a record over the weekend.",
+   "why": "Henry Hub near $3.17 against TTF near 86 euros is one of the widest gaps on record, and it is the economic case for every US LNG project waiting on a permit or FID.",
+   "sources": [{"name": "OilPrice.com", "url": "https://oilprice.com/Latest-Energy-News/World-News/TTF-Gas-Bounces-Back-to-86-Euros-as-Hormuz-Risks-Resurface.html"}]
+  },
+  {
+   "id": "downstream",
+   "segment": "Downstream",
+   "setting": "Refining",
+   "region": "United States",
+   "headline": "Refiners keep printing money as distillate stays scarce",
+   "text": "US distillate inventories are 8% below the five year average while gasoline is 1% above, according to EIA data cited with this week's API report. Valero's third quarter net income rose to $6.8 billion from $1.1 billion a year earlier on stronger margins. The EIA has reported US refineries shifting output away from gasoline toward middle distillates and running at very high rates this year.",
+   "why": "Product markets, not crude, are where 2026's supply shock has stuck. A refinery outage now moves margins more than a crude headline does.",
+   "sources": [{"name": "OilPrice.com, API", "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Substantial-Crude-Oil-Gasoline-Inventory-Builds.html"}, {"name": "OilPrice.com, Valero", "url": "https://oilprice.com/Company-News/Valero-Q3-Earnings-Surge-Sixfold-to-68-Billion-on-Refining-Boom.amp.html"}, {"name": "EIA Today in Energy", "url": "https://www.eia.gov/todayinenergy/index.php?tg=refineries"}]
+  },
+  {
+   "id": "ccus",
+   "segment": "Cross-industry",
+   "setting": "CCUS",
+   "region": "United States",
+   "headline": "Colorado becomes the seventh state to run its own CO2 storage permits",
+   "text": "The Colorado Energy and Carbon Management Commission became the primary permitting and enforcement authority for Class VI CO2 storage wells on November 12, under an EPA rule published October 13. Colorado joins Arizona, Texas, Louisiana, West Virginia, Wyoming and North Dakota. In Texas, the Railroad Commission approved three Class VI wells in September for ExxonMobil's Rose project, designed to store about 53 million tonnes over 13 years.",
+   "why": "State primacy has been the bottleneck breaker for CCS. For midstream companies, CO2 gathering and pipelines into permitted storage are becoming a real fee based business in oil states.",
+   "sources": [{"name": "Greenberg Traurig", "url": "https://www.gtlaw.com/ar/insights/2026/10/epa-grants-colorado-class-vi-primacy-for-carbon-storage-wells"}, {"name": "KUNC", "url": "https://www.kunc.org/regional-news/2026-10-29/colorado-now-has-the-authority-to-greenlight-injecting-carbon-dioxide-underground"}, {"name": "Oil & Gas Journal", "url": "https://www.ogj.com/energy-transition/news/55405924/exxonmobil-advances-gulf-coast-ccs-network-with-rose-approval-nucor-startup"}]
+  }
+ ],
+ "docket": [
+  {"agency": "OPEC+", "action": "Ministerial meeting to set the 2027 production framework", "date": "Nov 29, 2026", "status": "Scheduled", "means": "First chance to change quotas since the group paused increases in October.", "source": {"name": "Reuters via GV Wire", "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"}},
+  {"agency": "DOE", "action": "Order 5521: long term LNG export authorization to FTA nations for Venture Global CP2", "date": "Nov 9, 2026", "status": "Granted; non-FTA pending", "means": "Non-FTA approval is the one that unlocks most buyers in Europe and Asia.", "source": {"name": "energy.gov", "url": "https://www.energy.gov/sites/default/files/2026-11/ord5521.pdf"}},
+  {"agency": "EPA and Colorado ECMC", "action": "Class VI primacy for CO2 storage wells takes effect", "date": "Nov 12, 2026", "status": "In effect", "means": "Colorado now permits its own storage wells, outside Indian lands.", "source": {"name": "Greenberg Traurig", "url": "https://www.gtlaw.com/ar/insights/2026/10/epa-grants-colorado-class-vi-primacy-for-carbon-storage-wells"}},
+  {"agency": "BOEM", "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act", "date": "By Mar 15, 2027", "status": "Required by statute", "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.", "source": {"name": "boem.gov", "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"}}
+ ],
+ "basins": [
+  {"name": "Permian", "setting": "Onshore unconventional", "line": "Two new greenfield gas egress pipelines began flowing this year; Solitude (4.5 Bcf/d) and Permian Link (2.8 Bcf/d) are the next wave, due 2029 to 2030.", "source": {"name": "S&P Global", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/110926-us-midstream-firms-step-up-gas-pipe-plans-ahead-of-expected-demand-surge"}},
+  {"name": "Utica and Marcellus", "setting": "Onshore unconventional", "line": "Ohio's Utica produced a record 48 million barrels of oil in 2025, up 39%, while gas held near 2 trillion cubic feet. Oil volumes have tripled since 2021.", "source": {"name": "Marcellus Drilling News", "url": "https://marcellusdrilling.com/category/ohio/page/4/"}},
+  {"name": "Guyana", "setting": "Offshore deepwater", "line": "Longtail FID makes eight Stabroek developments; about 900,000 b/d today from four projects.", "source": {"name": "World Oil", "url": "https://worldoil.com/news/2026/11/12/exxonmobil-takes-12-5-billion-fid-on-longtail-development-offshore-guyana/"}},
+  {"name": "US Gulf of America", "setting": "Offshore", "line": "Lease Sale BBG3 was held August 12 in New Orleans; the next mandatory sale is due by March 15, 2027.", "source": {"name": "U.S. Interior", "url": "https://www.doi.gov/node/67651"}},
+  {"name": "Strait of Hormuz", "setting": "Shipping", "line": "Crude flows have partly recovered, but LNG exits are about one third of prewar levels.", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/Latest-Energy-News/World-News/TTF-Gas-Bounces-Back-to-86-Euros-as-Hormuz-Risks-Resurface.html"}},
+  {"name": "Russia", "setting": "Exports", "line": "Seaborne crude exports rose to 4.32 million b/d in the week to November 15, the most since June, as Urals prices fell a fifth week.", "source": {"name": "OilPrice.com", "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Crude-Exports-Hit-Four-Month-High.html"}}
+ ],
+ "leader": {
+  "week_of": "Week of November 16, 2026",
+  "name": "Dan Ammann",
+  "role": "President, ExxonMobil Upstream Company",
+  "summary": "This month Ammann's upstream business took a $12.5 billion final investment decision on Longtail, a Stabroek development that targets non-associated gas and condensate rather than oil. He has run ExxonMobil's upstream business since February 1, 2025, after leading its Low Carbon Solutions unit from 2022.",
+  "path": "Before ExxonMobil he was chief executive of Cruise, the GM majority owned self driving company, from 2018, and president of General Motors from 2014. When he moved to upstream he argued that meeting energy demand is an \"and\" equation: more supply and lower emissions together.",
+  "why": "An executive from autos and technology now runs one of the most closely followed growth assets in oil. Longtail tests whether Guyana can turn gas into a second engine, and his calls on pace and cost there will shape Stabroek's next decade.",
+  "sources": [
+   {"name": "ExxonMobil investor release", "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1177/exxonmobil-announces-leadership-changes"},
+   {"name": "Oil & Gas Journal", "url": "https://www.ogj.com/general-interest/personnel-moves-promotions/article/55247072/exxonmobil-makes-leadership-changes"},
+   {"name": "Industrial Info", "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/exxon-makes-fid-on-longtail-development-in-guyana--364826"}
+  ]
+ },
+ "events": [
+  {"when": "Nov 29, 2026", "name": "OPEC+ ministerial meeting", "where": "OPEC+ ministers", "note": "Decision on the 2027 production framework", "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"},
+  {"when": "Feb 2 to 4, 2027", "name": "SPE Hydraulic Fracturing Technology Conference", "where": "The Woodlands, Texas", "note": "Completions and frac technology", "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"},
+  {"when": "Feb 3 to 5, 2027", "name": "NAPE Summit", "where": "Houston", "note": "The upstream deal floor", "url": "https://napeexpo.com/summit/exhibit"},
+  {"when": "Feb 8 to 11, 2027", "name": "Produced Water Society 37th Annual Conference", "where": "Sugar Land, Texas", "note": "Water handling, disposal, reuse and minerals", "url": "https://producedwatersociety.com/"},
+  {"when": "Mar 8 to 12, 2027", "name": "CERAWeek by S&P Global", "where": "Houston", "note": "Executive conference; dates as listed by the organizer", "url": "https://baxtel.com/events/ceraweek-2027"},
+  {"when": "May 3 to 5, 2027", "name": "OTC with URTeC", "where": "NRG Park, Houston", "note": "Offshore and unconventional technology, co-located", "url": "https://otcnet.org/"},
+  {"when": "Aug 3 to 5, 2027", "name": "PWS Permian Basin Conference", "where": "Bush Convention Center, Midland", "note": "Produced water in the Permian", "url": "https://producedwatersociety.com/"},
+  {"when": "Sep 14 to 17, 2027", "name": "Gastech", "where": "George R. Brown Convention Center, Houston", "note": "Gas, LNG and hydrogen", "url": "https://chemxplore.com/events/2027-gastech"}
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Crude slides as the glut beats the war premium",
+  "points": ["WTI $84.42, Brent $92.13", "API: crude +5.3M bbl, gasoline +5.1M", "US output record 14.01M b/d"],
+  "watch": "OPEC+ sets its 2027 framework on November 29.",
+  "caption": "Oil is falling even with tankers still hitting mines in the Gulf. WTI traded near $84 and Brent near $92 this morning as record US output, rising inventories and higher Russian exports outweighed the Hormuz risk.\n\nWhat it means across the chain: Cushing is tighter than national stocks, distillate is still the scarce product, and OPEC+ sets its 2027 plan on November 29.\n\nFull edition: uticamidstream.com\n\n#OilAndGas #CrudeOil #Midstream #Energy #OPEC"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "46.5 Bcf/d of new gas pipes proposed this year",
+   "points": ["20 Bcf/d starts in Texas", "Solitude 4.5 Bcf/d, Permian Link 2.8", "Laterals now run to data centers"],
+   "watch": "Most capacity lands between 2028 and 2030.",
+   "caption": "US midstream companies have proposed 46.5 Bcf/d of new natural gas pipeline capacity in 2026, according to Platts, with about 20 Bcf/d starting in Texas. LNG, power plants and data centers are the demand case.\n\nKinder Morgan, Williams, Energy Transfer and the Solitude partners are among the builders. Most of it is due between 2028 and 2030.\n\nMore: uticamidstream.com\n\n#Midstream #NaturalGas #Pipelines #LNG #Permian"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Europe's gas is back at 86 euros, storage at 70%",
+   "points": ["TTF up 2% to 86 euros/MWh", "EU storage 70% vs 90% normal", "Hormuz LNG at a third of prewar"],
+   "watch": "A cold spell is forecast for Europe from about November 20.",
+   "caption": "European gas rebounded to 86 euros per MWh on Tuesday, nearly three times last year's level, as Hormuz attacks continued and a cold spell was forecast. EU storage is about 70% full against roughly 90% in prior years, and LNG exits from Hormuz run at about a third of prewar levels.\n\nThe gap with US Henry Hub near $3.17 is the case for every US LNG project in line.\n\nMore: uticamidstream.com\n\n#LNG #NaturalGas #EnergySecurity #Europe #OilAndGas"
+  }
+ }
+}
