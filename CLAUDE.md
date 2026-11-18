@@ -29,7 +29,7 @@ Brief ids "money" and "world" must exist.
 - Social headline under 60 chars, points under 40, caption under 600 with 4 to 6 hashtags; caption first paragraph is the page description (under 300 chars). Morning post is written for a US reader; midday and evening for a global reader.
 
 ## Brand
-Navy #13263A, navy2 #1C3550, pipeline marker amber #F5B000 (amber ink #8F5E00 on light), gas blue #3E8ED0, paper #F5F4EF. Mark: a U shaped pipe expansion loop with amber flanges, a dashed blue flow line and an amber gate valve at the bottom. Wordmark: UTICA (Barlow Semi Condensed Bold) over spaced MIDSTREAM in amber. Files in brand/, social kit in brand/social/.
+Navy #13263A, navy2 #1C3550, pipeline marker amber #F5B000 (amber ink #8F5E00 on light), gas blue #3E8ED0, water blue #2E8FD6, paper #F5F4EF. Mark (chosen by Raj, Nov 18, 2026): a pipe rack seen end on, three pipes on a support beam: crude (navy, white on dark), gas (amber, raised in the middle) and water (blue). Wordmark: UTICA (Barlow Semi Condensed Bold) over spaced MIDSTREAM in amber. Files in brand/, social kit in brand/social/.
 
 ## Schedule (America/Chicago)
 - Daily edition: 05:47.
