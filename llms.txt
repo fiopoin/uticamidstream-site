@@ -3,12 +3,11 @@
 > A free daily read on oil and gas from wellhead to market: prices, stocks, pipelines, policy, projects and people, with every fact sourced and dated. Each edition has a price board (crude, gas, products and calculated spreads), market and stock notes, a lead story traced through upstream, midstream, downstream and the market, briefs by segment, a regulatory docket, basin watch, a weekly leader profile and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Crude slips toward $84 as a supply glut outruns the Hormuz war premium](https://uticamidstream.com/): November 18, 2026. Oil is falling even with tankers still hitting mines in the Gulf. WTI traded near $84 and Brent near $92 this morning as record US output, rising inventories and higher Russian exports outweighed the Hormuz risk.
-- [Midstream: Pipeline builders have proposed 46.5 Bcf/d of new US gas capacity this year](https://uticamidstream.com/#money)
-- [Upstream: ExxonMobil commits $12.5 billion to Longtail, a gas and condensate play in Guyana](https://uticamidstream.com/#offshore)
-- [Gas and LNG: European gas climbs back to 86 euros with storage far below normal](https://uticamidstream.com/#world)
-- [Downstream: Refiners keep printing money as distillate stays scarce](https://uticamidstream.com/#downstream)
-- [Cross-industry: Colorado becomes the seventh state to run its own CO2 storage permits](https://uticamidstream.com/#ccus)
+- [Bakken crude backs up as Enbridge's North Dakota line stays down over contamination](https://uticamidstream.com/): November 19, 2026. Enbridge's 475,000 barrel a day North Dakota Pipeline has been delayed over crude quality testing, with reports of organic chlorides in Bakken crude and a force majeure at a Minnesota refinery.
+- [Upstream: Diamondback and Chevron put billions into acreage and deepwater barrels](https://uticamidstream.com/#money)
+- [Upstream: IEA says the oil market is back in surplus for the first time since the Iran war began](https://uticamidstream.com/#world)
+- [Regulation: FERC takes up Sabine Pass expansion and a new Waha pipeline at today's meeting](https://uticamidstream.com/#ferc)
+- [Upstream: Uaru starts up and lifts Guyana's capacity to 1.1 million barrels a day](https://uticamidstream.com/#offshore)
 
 ## About
 - [How we work](https://uticamidstream.com/method.html)
@@ -17,4 +16,5 @@
 - [Sitemap](https://uticamidstream.com/sitemap.xml)
 
 ## Recent editions
+- [November 19, 2026: Bakken crude backs up as Enbridge's North Dakota line stays down over contamination](https://uticamidstream.com/archive/2026-11-19.html)
 - [November 18, 2026: Crude slips toward $84 as a supply glut outruns the Hormuz war premium](https://uticamidstream.com/archive/2026-11-18.html)
