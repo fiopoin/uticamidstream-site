@@ -230,3 +230,5 @@ footer .small{font-size:13px;color:#8EA3B7}
 .panel thead th.r{text-align:right}
 .leader{align-self:start}
 .fgrid{align-items:center}
+
+.sister{font-size:14px;margin:4px 0 10px}.sister a{color:inherit;white-space:nowrap}

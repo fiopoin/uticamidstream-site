@@ -38,3 +38,9 @@ Navy #13263A, navy2 #1C3550, pipeline marker amber #F5B000 (amber ink #8F5E00 on
 
 ## Publish and verify
 Commit as user "fiopoin" (noreply@fiopoin.com) and push to main. Verify the live site (desktop and phone) after every update before reporting done.
+
+## Search engines (Raj, Nov 19, 2026)
+- After every published edition is verified live, notify search engines with IndexNow: WebFetch https://api.indexnow.org/indexnow?url=https://uticamidstream.com/&key=85451c8b7550b63f7aad1cfd0189034c and then the same with url=https://uticamidstream.com/archive/<date>.html. The key file `85451c8b7550b63f7aad1cfd0189034c.txt` at the site root must stay in place (do not delete or rename it; its value is site.json indexnow_key). A 200 or 202 reply means accepted; a failure here never blocks publishing.
+- Google Search Console and Bing Webmaster Tools verification codes go in site.json (google_site_verification, bing_site_verification); the template prints them.
+- The homepage title leads with the brand name; archive pages lead with the headline. Footers link the sister sites (FIOPO Intelligence, Carbon Energy Nexus, Utica Midstream).
+

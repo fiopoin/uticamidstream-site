@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="{{ csp|safe }}">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>{{ d.lead.headline }} | Utica Midstream</title>
+<title>{% if archived %}{{ d.lead.headline }} | Utica Midstream{% else %}Utica Midstream: Daily Oil and Gas News, Prices and Midstream Intelligence{% endif %}</title>
 <meta name="description" content="{{ desc }}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{{ url }}">
