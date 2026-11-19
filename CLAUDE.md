@@ -32,7 +32,7 @@ Brief ids "money" and "world" must exist.
 Navy #13263A, navy2 #1C3550, pipeline marker amber #F5B000 (amber ink #8F5E00 on light), gas blue #3E8ED0, water blue #2E8FD6, paper #F5F4EF. Mark (chosen by Raj, Nov 18, 2026): a pipe rack seen end on, three pipes on a support beam: crude (navy, white on dark), gas (amber, raised in the middle) and water (blue). Wordmark: UTICA (Barlow Semi Condensed Bold) over spaced MIDSTREAM in amber. Files in brand/, social kit in brand/social/.
 
 ## Schedule (America/Chicago)
-- Daily edition: 05:47.
+- Daily edition: 04:48 (Raj, Nov 19, 2026; was 05:47).
 - Social (Raj, Nov 19, 2026, Central time focus): morning "the flow" 09:27, midday "the money" 12:47, evening "the world" 16:37.
 - All three brands keep at least 60 minutes apart. Daily order: 05:37 CEN midday, 06:42 FIOPO, 09:27 Utica, 11:42 FIOPO, 12:47 Utica, 13:47 CEN evening, 16:37 Utica, 20:17 CEN morning, 22:32 FIOPO.
 
