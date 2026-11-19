@@ -33,8 +33,8 @@ Navy #13263A, navy2 #1C3550, pipeline marker amber #F5B000 (amber ink #8F5E00 on
 
 ## Schedule (America/Chicago)
 - Daily edition: 05:47.
-- Social: morning "the flow" 07:23 (US), midday "the money" 12:23, evening "the world" 16:53.
-- Keep at least 30 minutes from fiopoin posts (06:42, 11:42, 17:42 Chicago) and Carbon Energy Nexus posts (05:37, 08:17, 11:07 Chicago in winter); never post two brands at the same minute.
+- Social (Raj, Nov 19, 2026, Central time focus): morning "the flow" 09:27, midday "the money" 12:47, evening "the world" 16:37.
+- All three brands keep at least 60 minutes apart. Daily order: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 10:37 CEN, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO.
 
 ## Publish and verify
 Commit as user "fiopoin" (noreply@fiopoin.com) and push to main. Verify the live site (desktop and phone) after every update before reporting done.
