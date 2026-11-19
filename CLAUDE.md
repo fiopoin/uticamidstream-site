@@ -34,7 +34,7 @@ Navy #13263A, navy2 #1C3550, pipeline marker amber #F5B000 (amber ink #8F5E00 on
 ## Schedule (America/Chicago)
 - Daily edition: 05:47.
 - Social (Raj, Nov 19, 2026, Central time focus): morning "the flow" 09:27, midday "the money" 12:47, evening "the world" 16:37.
-- All three brands keep at least 60 minutes apart. Daily order: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 10:37 CEN, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO.
+- All three brands keep at least 60 minutes apart. Daily order: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO, 22:37 CEN.
 
 ## Publish and verify
 Commit as user "fiopoin" (noreply@fiopoin.com) and push to main. Verify the live site (desktop and phone) after every update before reporting done.
