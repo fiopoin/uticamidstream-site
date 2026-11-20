@@ -1,0 +1,582 @@
+{
+ "date": "2026-11-20",
+ "date_long": "November 20, 2026",
+ "edition": 3,
+ "prices": {
+  "asof": "Futures quotes as of about 4:55 a.m. Central, November 20, 2026, on an 11 to 12 minute delay, unless marked",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "82.81",
+    "unit": "$/bbl",
+    "change": "+0.50",
+    "pct": "+0.61%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "92.20",
+    "unit": "$/bbl",
+    "change": "+0.25",
+    "pct": "+0.27%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "84.20",
+    "unit": "$/bbl",
+    "change": "+0.53",
+    "pct": "+0.63%",
+    "note": "One hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "91.10",
+    "unit": "$/bbl",
+    "change": "-0.29",
+    "pct": "-0.32%",
+    "note": "Stale: November 18",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "85.45",
+    "unit": "$/bbl",
+    "change": "-1.00",
+    "pct": "-1.16%",
+    "note": "Reference, one day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.272",
+    "unit": "$/MMBtu",
+    "change": "-0.100",
+    "pct": "-2.97%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.504",
+    "unit": "$/gal",
+    "change": "+0.022",
+    "pct": "+0.89%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.964",
+    "unit": "$/gal",
+    "change": "-0.008",
+    "pct": "-0.21%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$9.39/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$1.39/bbl",
+    "note": "Calculated; the Midland quote runs on a one hour delay, so treat as indicative."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$42.80/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Thursday, November 19, 2026",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "7,175.83",
+    "change": "-147.80",
+    "pct": "-2.0%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "49,097.06",
+    "change": "-1,101.11",
+    "pct": "-2.2%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "23,879.20",
+    "change": "-550.69",
+    "pct": "-2.3%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via ABC News",
+   "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
+  },
+  "read": "US stocks fell hard again as AI shares kept sliding on worries the boom may be over. More than 90% of S&P 500 stocks fell, the index posted a sixth straight loss, its longest losing streak since 2024, and it now sits 8.2% below last month's record. For the week so far the S&P 500 is down 5.1% and the Dow 6.2%.",
+  "read_source": {
+   "name": "AP via ABC News",
+   "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
+  },
+  "stocks": [
+   {
+    "ticker": "LNG",
+    "name": "Cheniere Energy",
+    "segment": "LNG",
+    "note": "FERC approved the three train Sabine Pass expansion on November 19; Cheniere calls it a milestone toward a final investment decision on Phase 1.",
+    "source": {
+     "name": "Reuters via Investing.com",
+     "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+    }
+   },
+   {
+    "ticker": "ET",
+    "name": "Energy Transfer",
+    "segment": "Midstream",
+    "note": "Closed its Vaquero Midstream purchase on November 19 for $1.95 billion in cash plus about 33.3 million new units, adding Delaware basin processing.",
+    "source": {
+     "name": "Energy Transfer",
+     "url": "https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-completes-acquisition-vaquero-midstream"
+    }
+   },
+   {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "segment": "Downstream",
+    "note": "Its midstream arm MPLX declared force majeure on North Dakota pipeline deliveries after crude contamination problems, Bloomberg reported.",
+    "source": {
+     "name": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4674737-marathon-petroleum-declares-force-majeure-on-north-dakota-oil-deliveries"
+    }
+   },
+   {
+    "ticker": "ENB",
+    "name": "Enbridge",
+    "segment": "Midstream",
+    "note": "Bakken flows on its North Dakota Pipeline stayed curtailed into a sixth day while it tests for organic chlorides.",
+    "source": {
+     "name": "Bloomberg via Bloomberg Tax",
+     "url": "https://news.bloombergtax.com/international-trade/major-us-crude-oil-pipeline-disruption-stretches-into-sixth-day"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "LNG: federal approval",
+  "chain": [
+   "upstream",
+   "midstream",
+   "downstream",
+   "market"
+  ],
+  "headline": "FERC approves Cheniere's three train Sabine Pass expansion and two new feed pipelines",
+  "dek": "The approval covers about 20 million tonnes a year of new liquefaction in Louisiana plus the Creole Trail and Sabine Crossing pipelines. Cheniere now has a clear path to a Phase 1 investment decision it expects in the coming months.",
+  "body": [
+   "The Federal Energy Regulatory Commission on Thursday approved Cheniere's application to expand Sabine Pass LNG in Louisiana by about 20 million metric tons a year across three new trains, Reuters reported. NGI put the expansion at 19 million tonnes. FERC also authorized the Creole Trail Pipeline Project and the Sabine Crossing Pipeline to build new interstate pipe to feed the terminal.",
+   "Cheniere called the order a critical milestone on the way to a final investment decision on Phase 1, which it says would add more than 6 million tonnes a year by the early 2030s. That first phase is already sold under long term contracts, the company has financing lined up for half of it and has spent about $500 million on early works. NGI reports Cheniere is aiming for the Phase 1 decision around year end, with the first train adding about 0.8 to 0.9 Bcf/d of feed gas demand and the full buildout 2.5 to 2.7 Bcf/d.",
+   "The approval lands in a weak tape. WTI's December contract settled at $83.21 on Thursday and Brent at $91.98, both little changed, while the S&P 500 fell 2% in an AI led selloff. US gas storage rose 20 Bcf in the week to November 13, leaving inventories about 2.1% above average, and Henry Hub futures traded near $3.27 early Friday."
+  ],
+  "flow": {
+   "upstream": "A full buildout could need roughly 2.5 to 2.7 Bcf/d more feed gas, per NGI, a long dated source of demand for Gulf Coast gas supply.",
+   "midstream": "Creole Trail and Sabine Crossing are the new pipe into the terminal. Approval of the feed lines alongside the plant removes a common gap between terminal and supply permits.",
+   "downstream": "Phase 1 volumes are already sold under long term contracts, so the buyers are in place before the first steel goes in.",
+   "market": "More US export capacity in the early 2030s ties Henry Hub closer to global gas prices. The signal to watch is the timing of Cheniere's Phase 1 decision."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Gas focused operators near the Gulf Coast can treat Sabine Pass Phase 1 as likely new demand later this decade and plan supply deals around it."
+   },
+   {
+    "who": "Midstream",
+    "text": "Feed pipelines approved with the terminal show how to package LNG and pipe applications. Watch for construction bids on Creole Trail and Sabine Crossing."
+   },
+   {
+    "who": "LNG buyers",
+    "text": "Phase 1 is sold, but later trains are not. Buyers seeking non Gulf supply should expect Cheniere to market the remaining capacity."
+   },
+   {
+    "who": "Investors",
+    "text": "The remaining step is the investment decision. Cost, financing terms and contract coverage for the later phases will set the value of the approval."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   },
+   {
+    "name": "Natural Gas Intelligence",
+    "url": "https://www.naturalgasintel.com/news/ferc-approves-19-mty-sabine-pass-lng-expansion-2-pipeline-projects/"
+   },
+   {
+    "name": "LNG Prime",
+    "url": "https://lngprime.com/americas/chenieres-sabine-pass-lng-expansion-project-gets-ok-from-ferc/200353/"
+   },
+   {
+    "name": "DTN",
+    "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/11/19/wti-stuck-beneath-85-glut-fears"
+   },
+   {
+    "name": "Natural Gas Intelligence",
+    "url": "https://naturalgasintel.com/news/bullish-storage-miss-fails-to-impress-natural-gas-futures-traders/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "Energy Transfer closes its $1.95 billion Vaquero Midstream purchase in the Delaware basin",
+   "text": "Energy Transfer said on November 19 it completed its acquisition of Vaquero Midstream for $1.95 billion in cash plus about 33.3 million newly issued common units. The assets include the Caymus Processing Complex, with three processing trains and about 675 MMcf/d of capacity, and about 300 miles of pipeline in the Delaware basin.",
+   "why": "Gas processing in the Permian keeps changing hands even as crude weakens. Owning plants near the wellhead gives Energy Transfer more gas and NGL volumes for its long haul pipes and export docks.",
+   "sources": [
+    {
+     "name": "Energy Transfer",
+     "url": "https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-completes-acquisition-vaquero-midstream"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Cross-industry",
+   "setting": "Global",
+   "region": "Middle East",
+   "headline": "IEA says Gulf bypass pipelines cannot end dependence on Hormuz",
+   "text": "The IEA's World Energy Outlook, released November 19, estimates Gulf producers could spend about $40 billion on pipelines around the Strait of Hormuz. About 7 million b/d of new bypass capacity is under construction or being considered, adding about $2 a barrel, yet even in the IEA's most extreme diversification case about 2 million b/d would still pass the strait by 2035. Only the UAE's second Habshan to Fujairah line, adding 1.8 million b/d, is being built. Qatari and Emirati LNG has no feasible route around the strait.",
+   "why": "Hormuz risk is structural, not temporary. That supports the case for supply from the Atlantic basin, including US LNG, even as the IEA warns of a buyers' market once the crisis passes.",
+   "sources": [
+    {
+     "name": "The National",
+     "url": "https://thenationalnews.com/business/energy/2026/11/19/iea-says-40bn-spent-on-pipelines-will-not-end-gulfs-hormuz-dependence"
+    }
+   ]
+  },
+  {
+   "id": "bakken",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "North Dakota",
+   "headline": "MPLX declares force majeure as Enbridge's Bakken line stays curtailed",
+   "text": "Marathon Petroleum's midstream arm MPLX issued a force majeure on North Dakota pipeline deliveries after a run of crude contamination problems, Bloomberg reported late Wednesday. Flows on Enbridge's North Dakota Pipeline remained suppressed on Thursday morning, according to Wood Mackenzie, a sixth day of disruption. Enbridge is testing for organic chlorides, and the testing has caused the delays.",
+   "why": "A second company has now invoked force majeure. The longer the line stays curtailed, the more Bakken barrels have to find room on Dakota Access or rail.",
+   "sources": [
+    {
+     "name": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4674737-marathon-petroleum-declares-force-majeure-on-north-dakota-oil-deliveries"
+    },
+    {
+     "name": "Bloomberg via Bloomberg Tax",
+     "url": "https://news.bloombergtax.com/international-trade/major-us-crude-oil-pipeline-disruption-stretches-into-sixth-day"
+    }
+   ]
+  },
+  {
+   "id": "russia",
+   "segment": "Downstream",
+   "setting": "Refining",
+   "region": "Russia",
+   "headline": "Ukrainian strikes have cut Russian refinery runs by about 45%",
+   "text": "Reuters reported on November 18 that Ukrainian strikes since late October have cut Russian crude processing by about 45%, from about 700,000 metric tons a day at the end of October to about 400,000. Attacks over 20 days disrupted or halted 15 of Russia's 35 major refineries, according to two industry sources. Reuters had put the cut at about 30% on November 10.",
+   "why": "Less Russian refining means more crude for export and fewer products, especially diesel. That helps explain firm product cracks while crude futures sit near their lows.",
+   "sources": [
+    {
+     "name": "Kyiv Independent, citing Reuters",
+     "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/"
+    }
+   ]
+  },
+  {
+   "id": "gas",
+   "segment": "Gas and LNG",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "US gas storage adds 20 Bcf, leaving stocks above average into winter",
+   "text": "The EIA reported a 20 Bcf injection for the week ended November 13, NGI said, smaller than traders expected. Lower 48 inventories stood at 3,882 Bcf, about 2.1% above the five year average. Henry Hub futures were near $3.27 early Friday, down about 3%.",
+   "why": "A bullish storage miss did not lift prices, which tells you the market is focused on mild weather and full storage. LNG feed gas demand is the main lever for tightening the balance.",
+   "sources": [
+    {
+     "name": "Natural Gas Intelligence",
+     "url": "https://naturalgasintel.com/news/bullish-storage-miss-fails-to-impress-natural-gas-futures-traders/"
+    },
+    {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "First chance to change quotas since the group paused increases in October.",
+   "source": {
+    "name": "Reuters via GV Wire",
+    "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "EPA and Colorado ECMC",
+   "action": "Class VI primacy for CO2 storage wells takes effect",
+   "date": "Nov 12, 2026",
+   "status": "In effect",
+   "means": "Colorado now permits its own storage wells, outside Indian lands.",
+   "source": {
+    "name": "Greenberg Traurig",
+    "url": "https://www.gtlaw.com/ar/insights/2026/10/epa-grants-colorado-class-vi-primacy-for-carbon-storage-wells"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Permian",
+   "setting": "Onshore unconventional",
+   "line": "Energy Transfer closed its $1.95 billion Vaquero Midstream deal, adding about 675 MMcf/d of Delaware basin processing; Diamondback's Double Eagle deal is due to close December 21.",
+   "source": {
+    "name": "Energy Transfer",
+    "url": "https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-completes-acquisition-vaquero-midstream"
+   }
+  },
+  {
+   "name": "US Gulf Coast LNG",
+   "setting": "Export terminals",
+   "line": "FERC approved Cheniere's three train Sabine Pass expansion and two feed pipelines on November 19.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "name": "Bakken",
+   "setting": "Onshore unconventional",
+   "line": "Enbridge's North Dakota Pipeline stayed curtailed into a sixth day over organic chloride testing; MPLX has declared force majeure on deliveries.",
+   "source": {
+    "name": "Bloomberg via Bloomberg Tax",
+    "url": "https://news.bloombergtax.com/international-trade/major-us-crude-oil-pipeline-disruption-stretches-into-sixth-day"
+   }
+  },
+  {
+   "name": "Utica and Marcellus",
+   "setting": "Onshore unconventional",
+   "line": "Ohio's Utica produced a record 48 million barrels of oil in 2025, up 39%, while gas held near 2 trillion cubic feet. Oil volumes have tripled since 2021.",
+   "source": {
+    "name": "Marcellus Drilling News",
+    "url": "https://marcellusdrilling.com/category/ohio/page/4/"
+   }
+  },
+  {
+   "name": "Guyana",
+   "setting": "Offshore deepwater",
+   "line": "Uaru started November 16, lifting installed capacity to 1.1 million b/d; Longtail is the eighth project sanctioned.",
+   "source": {
+    "name": "World Oil",
+    "url": "https://www.worldoil.com/news/2026/11/16/exxonmobil-starts-uaru-production-lifting-guyana-capacity-to-1-1-mmbpd/"
+   }
+  },
+  {
+   "name": "US Gulf of America",
+   "setting": "Offshore",
+   "line": "Chevron is reported near a $5 billion deal for a majority of Beacon Offshore, with 70 deepwater leases; the next mandatory lease sale is due by March 15, 2027.",
+   "source": {
+    "name": "Reuters via Offshore Engineer",
+    "url": "https://www.oedigital.com/amp/news/544405-chevron-nears-5b-deal-to-buy-beacon-offshore"
+   }
+  },
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "The IEA's World Energy Outlook says about 2 million b/d would still pass the strait by 2035 even with $40 billion of bypass pipelines.",
+   "source": {
+    "name": "The National",
+    "url": "https://thenationalnews.com/business/energy/2026/11/19/iea-says-40bn-spent-on-pipelines-will-not-end-gulfs-hormuz-dependence"
+   }
+  },
+  {
+   "name": "Russia",
+   "setting": "Exports",
+   "line": "Ukrainian strikes have cut refinery runs by about 45% since late October, Reuters reports, with 15 of 35 major refineries hit.",
+   "source": {
+    "name": "Kyiv Independent, citing Reuters",
+    "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 16, 2026",
+  "name": "Dan Ammann",
+  "role": "President, ExxonMobil Upstream Company",
+  "summary": "This month Ammann's upstream business took a $12.5 billion final investment decision on Longtail, a Stabroek development that targets non-associated gas and condensate rather than oil. He has run ExxonMobil's upstream business since February 1, 2025, after leading its Low Carbon Solutions unit from 2022.",
+  "path": "Before ExxonMobil he was chief executive of Cruise, the GM majority owned self driving company, from 2018, and president of General Motors from 2014. When he moved to upstream he argued that meeting energy demand is an \"and\" equation: more supply and lower emissions together.",
+  "why": "An executive from autos and technology now runs one of the most closely followed growth assets in oil. Longtail tests whether Guyana can turn gas into a second engine, and his calls on pace and cost there will shape Stabroek's next decade.",
+  "sources": [
+   {
+    "name": "ExxonMobil investor release",
+    "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1177/exxonmobil-announces-leadership-changes"
+   },
+   {
+    "name": "Oil & Gas Journal",
+    "url": "https://www.ogj.com/general-interest/personnel-moves-promotions/article/55247072/exxonmobil-makes-leadership-changes"
+   },
+   {
+    "name": "Industrial Info",
+    "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/exxon-makes-fid-on-longtail-development-in-guyana--364826"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "FERC clears Cheniere's Sabine Pass expansion",
+  "points": [
+   "Three new trains, about 20 Mtpa",
+   "Two new feed pipelines",
+   "Phase 1 FID in coming months"
+  ],
+  "watch": "Cheniere's Phase 1 investment decision.",
+  "caption": "FERC approved Cheniere's three train Sabine Pass LNG expansion in Louisiana on Thursday, about 20 million tonnes a year of new capacity, plus the Creole Trail and Sabine Crossing feed pipelines.\n\nAcross the chain: a full buildout could need 2.5 to 2.7 Bcf/d more feed gas, Phase 1 is already contracted, and the investment decision is the next step.\n\nFull edition: uticamidstream.com\n\n#OilAndGas #LNG #NaturalGas #Midstream #FERC"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Energy Transfer closes $1.95B Vaquero deal",
+   "points": [
+    "$1.95B cash plus 33.3M units",
+    "675 MMcf/d of processing",
+    "About 300 miles of pipe"
+   ],
+   "watch": "More Permian processing deals as gas volumes grow.",
+   "caption": "Energy Transfer has completed its purchase of Vaquero Midstream for $1.95 billion in cash plus about 33.3 million new units, adding three processing trains with about 675 MMcf/d of capacity in the Delaware basin.\n\nPermian gas plants keep changing hands even with crude near its lows.\n\nMore: uticamidstream.com\n\n#OilAndGas #Midstream #Permian #NaturalGas #Energy"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "IEA: pipelines cannot bypass Hormuz",
+   "points": [
+    "About $40B of bypass pipe",
+    "2M b/d still via strait in 2035",
+    "No LNG route around it"
+   ],
+   "watch": "OPEC+ sets its 2027 framework on November 29.",
+   "caption": "The IEA's World Energy Outlook says Gulf producers could spend about $40 billion on pipelines around the Strait of Hormuz and still send about 2 million barrels a day through it by 2035. Qatari and Emirati LNG has no feasible route around the strait.\n\nThe agency also warns of a buyers' market once the crisis passes.\n\nMore: uticamidstream.com\n\n#OilMarkets #LNG #EnergySecurity #Hormuz #OilAndGas"
+  }
+ }
+}
