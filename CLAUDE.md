@@ -15,7 +15,7 @@ lead{kicker, chain[] of upstream|midstream|downstream|market that the story touc
 briefs[4 to 6]{id, segment Upstream|Midstream|Downstream|Gas and LNG|Cross-industry|Regulation, setting (Onshore, Offshore, Refining, CCUS, Global...), region, headline, text, why, sources[]},
 docket[]{agency, action, date, status, means, source}, basins[]{name, setting, line, source},
 leader{week_of, name, role, summary, path, why, sources[]}, events[]{when, name, where, note, url},
-social{kicker "Morning: the flow", headline, points[3], watch, caption}, social_slots{midday{kicker "Midday: the money",...}, evening{kicker "Evening: the world",...}}.
+social{kicker "Morning: the flow", headline, points[3], watch, caption, stat?{value,label}}, social_slots{midday{kicker "Midday: the money",..., stat{value,label}}, evening{kicker "Evening: the world",...}}. stat is the hero number on the midday card (for example "$2.1B", "Reuters' estimate for the 70% stake"), taken from a sourced fact; if absent the builder picks the first number in points.
 Brief ids "money" and "world" must exist.
 
 ## Daily rules
@@ -26,6 +26,7 @@ Brief ids "money" and "world" must exist.
 - Events: keep upcoming industry events in date order, drop past ones, add new ones when announced (official site first). Keep Produced Water Society events listed.
 - Docket: keep items until a week after they pass; add new decisions with status as reported.
 - Every fact sourced, dated and linked. Paraphrase; at most one short quote per source. No em or en dashes as punctuation. Plain, direct, human prose. Politically neutral. General information, not investment advice.
+- Social variety (Raj, Nov 21, 2026: posts must not look copy and paste). The builder rotates six layouts: morning (pipeline schematic or chain bar), midday (light paper big number or navy number block), evening (blue world band or quote style), alternating by date, so do not hand edit graphics. Captions must vary too: never reuse the same structure two posts running. Rotate openings (a number, a place, a company, a question the reader is asking, a plain statement of what changed), lengths (two lines to three short paragraphs), and the closing line (a takeaway, what to watch with a date, a who-is-affected line, or none). Do not reuse stock phrases such as "Across the chain:" or always end with "More: uticamidstream.com"; vary the link line ("Full edition", "Details and sources", "Prices and the full read", or the link alone). Points on the card and caption wording should not repeat each other word for word. Check the previous three days of captions before writing.
 - Social headline under 60 chars, points under 40, caption under 600 with 4 to 6 hashtags; caption first paragraph is the page description (under 300 chars). Morning post is written for a US reader; midday and evening for a global reader.
 
 ## Brand

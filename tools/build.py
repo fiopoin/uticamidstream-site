@@ -116,13 +116,17 @@ L += ["", "## About", f"- [How we work]({SITE}method.html)", f"- [Past editions]
 L += [f"- [{d['date_long']}: {d['lead']['headline']}]({page_url(d, True)})" for d in list(reversed(data))[:30]]
 open("llms.txt", "w").write("\n".join(L) + "\n")
 
-# Social graphics
-NAVY, PAPER, AMB, GAS, MUTE, LINE, UP, DN = (19, 38, 58), (241, 245, 249), (245, 176, 0), (62, 142, 208), (159, 178, 196), (45, 75, 106), (91, 208, 143), (255, 138, 128)
+# Social graphics: three slot looks (flow, money, world), each with two layouts that
+# alternate by date, so no two posts in a row share a template.
+NAVY, NAVY2, PAPER, AMB, AMBINK, GAS, WATER = (19, 38, 58), (28, 53, 80), (245, 244, 239), (245, 176, 0), (143, 94, 0), (62, 142, 208), (46, 143, 214)
+WHITE, MUTE, LINE, UP, DN, INK2 = (241, 245, 249), (159, 178, 196), (45, 75, 106), (91, 208, 143), (255, 138, 128), (84, 98, 112)
+UPI, DNI = (22, 128, 70), (180, 40, 40)
 def F(w, s): return ImageFont.truetype(f"tools/fonts/{w}.ttf", s)
 HEAD, SANS, SANSM, SANSB, MONO = "BarlowSemiCondensed-Bold", "IBMPlexSans-Regular", "IBMPlexSans-Medium", "IBMPlexSans-SemiBold", "IBMPlexMono-SemiBold"
-lock = Image.open("brand/um-lockup-white-1200.png").convert("RGBA")
-lock = lock.crop(lock.getbbox())
-mark = Image.open("brand/um-mark-white-400.png").convert("RGBA")
+def _png(p):
+    i = Image.open(p).convert("RGBA"); return i.crop(i.getbbox())
+LOCK_W, LOCK_N, MARK_W, MARK_C = _png("brand/um-lockup-white-1200.png"), _png("brand/um-lockup-navy-1200.png"), _png("brand/um-mark-white-400.png"), _png("brand/um-mark-400.png")
+M = 84
 
 def wrap(dr, text, font, width):
     words, lines, cur = text.split(), [], ""
@@ -133,66 +137,234 @@ def wrap(dr, text, font, width):
     lines.append(cur)
     return lines
 
-def card(d, s, W, H, path, pad=0, prices=True):
-    im = Image.new("RGB", (W, H), NAVY); dr = ImageDraw.Draw(im); M = 84
+def paste(im, src, x, y, w):
+    s = src.resize((w, int(w * src.height / src.width)), Image.LANCZOS); im.paste(s, (x, y), s); return s.height
+
+def headline(dr, text, x, y, width, sizes, fill, maxl=3):
+    for sz in sizes:
+        f = F(HEAD, sz); ls = wrap(dr, text, f, width)
+        if len(ls) <= maxl: break
+    for line in ls:
+        dr.text((x, y), line, font=f, fill=fill); y += int(f.size * 1.02)
+    return y
+
+def stat_of(s):
+    if s.get("stat"): return s["stat"]["value"], s["stat"].get("label", "")
+    import re
+    for pat in (r"[$€£]\d[\d,.]*\s?(?:B|M|K|bn|billion|million)?", r"\d[\d,.]*\s?(?:Bcf/d|MMcf/d|b/d|mtpa|%)"):
+        for p in s["points"]:
+            m = re.search(pat, p)
+            if m: return m.group().strip(), p
+    for p in s["points"]:
+        m = re.search(r"[$€£]?\d[\d,.]*\s?(?:%|B|M|K|bn|billion|million|Bcf/d|MMcf/d|b/d|mtpa)?", p)
+        if m and len(m.group().strip()) >= 2: return m.group().strip(), p
+    return None, None
+
+def price_strip(dr, d, x, y, W, dark):
+    if not d.get("prices"): return y
+    rows = {r["name"].split(" (")[0]: r for r in d["prices"]["rows"]}
+    picks = [(n, rows.get(k)) for n, k in (("WTI", "WTI"), ("BRENT", "Brent"), ("HENRY HUB", "Henry Hub")) if rows.get(k)]
+    if not picks: return y
+    cw = W // len(picks)
+    for i, (n, r) in enumerate(picks):
+        x0 = x + i * cw
+        dr.text((x0, y), n, font=F(HEAD, 26), fill=MUTE if dark else INK2)
+        dr.text((x0, y + 32), r["value"], font=F(MONO, 44), fill=WHITE if dark else NAVY)
+        pc = r.get("pct", "")
+        dr.text((x0 + dr.textlength(r["value"], font=F(MONO, 44)) + 14, y + 46), pc, font=F(MONO, 28),
+                fill=(DN if dark else DNI) if pc.startswith("-") else (UP if dark else UPI))
+    return y + 100
+
+def footer(im, dr, d, W, H, dark, mark_right=True):
+    fy = H - M - 96
+    dr.line((M, fy, W - M, fy), fill=LINE if dark else (214, 210, 198), width=2)
+    dr.text((M, H - M - 70), d["date_long"], font=F(SANS, 28), fill=MUTE if dark else INK2)
+    dr.text((M, H - M - 30), "uticamidstream.com", font=F(SANSB, 36), fill=WHITE if dark else NAVY)
+    if mark_right: paste(im, MARK_W if dark else MARK_C, W - M - 112, H - M - 108, 112)
+    return fy
+
+def chain_on(d, s):
+    return d["lead"].get("chain", []) if s is d.get("social") else ["midstream"]
+
+# Morning A: chain bar and bullets (the original look)
+def flow_a(d, s, W, H, pad):
+    im = Image.new("RGB", (W, H), NAVY); dr = ImageDraw.Draw(im)
     dr.rectangle((0, 0, W, 14), fill=AMB)
-    lg = lock.resize((560, int(560 * lock.height / lock.width)), Image.LANCZOS); im.paste(lg, (M, M), lg)
-    y = M + lg.height + 64 + pad
+    y = M + paste(im, LOCK_W, M, M, 560) + 64 + pad
     dr.text((M, y), s["kicker"].upper(), font=F(HEAD, 38), fill=AMB); y += 70
-    hf = F(HEAD, 104 if H > W * 1.5 else 92)
-    if H <= W * 1.5 and len(wrap(dr, s["headline"], hf, W - 2 * M)) > 2:
-        hf = F(HEAD, 78)
-    for line in wrap(dr, s["headline"], hf, W - 2 * M):
-        dr.text((M, y), line, font=hf, fill=PAPER); y += int(hf.size * 1.02)
-    y += 40
-    # value chain bar
-    seg = (W - 2 * M) // 4
+    y = headline(dr, s["headline"], M, y, W - 2 * M, (104, 92, 78) if H > W * 1.5 else (92, 78), WHITE) + 40
+    seg, on = (W - 2 * M) // 4, chain_on(d, s)
     for i, lab in enumerate(("UPSTREAM", "MIDSTREAM", "DOWNSTREAM", "MARKET")):
         x0 = M + i * seg
-        on = lab.lower() in d["lead"].get("chain", []) if s is d.get("social") else lab == "MIDSTREAM"
-        dr.rectangle((x0, y, x0 + seg - (10 if i < 3 else 0), y + 10), fill=AMB if lab == "MIDSTREAM" else (GAS if on else LINE))
+        dr.rectangle((x0, y, x0 + seg - (10 if i < 3 else 0), y + 10), fill=AMB if lab == "MIDSTREAM" else (GAS if lab.lower() in on else LINE))
         dr.text((x0, y + 20), lab, font=F(HEAD, 24), fill=MUTE)
-    y += 84
-    pf = F(SANSM, 44)
+    y += 84; pf = F(SANSM, 44)
     for p in s["points"]:
         dr.rectangle((M, y + 18, M + 18, y + 36), fill=AMB)
         for line in wrap(dr, p, pf, W - 2 * M - 50):
-            dr.text((M + 46, y), line, font=pf, fill=PAPER); y += 58
+            dr.text((M + 46, y), line, font=pf, fill=WHITE); y += 58
         y += 22
     if s.get("watch"):
-        y += 16
-        dr.text((M, y), "WHAT TO WATCH", font=F(HEAD, 32), fill=GAS); y += 46
-        wf = F(SANS, 38)
-        for line in wrap(dr, s["watch"], wf, W - 2 * M):
-            dr.text((M, y), line, font=wf, fill=PAPER); y += 52
-    end = y
-    foot = H - M - 96
-    if prices and d.get("prices"):
-        rows = {r["name"].split(" (")[0]: r for r in d["prices"]["rows"]}
-        picks = [("WTI", rows.get("WTI")), ("BRENT", rows.get("Brent")), ("HENRY HUB", rows.get("Henry Hub"))]
-        picks = [(n, r) for n, r in picks if r]
-        if picks and foot - end > 150:
-            py = foot - 120
-            cw = (W - 2 * M) // len(picks)
-            for i, (n, r) in enumerate(picks):
-                x0 = M + i * cw
-                dr.text((x0, py), n, font=F(HEAD, 26), fill=MUTE)
-                dr.text((x0, py + 32), r["value"], font=F(MONO, 44), fill=PAPER)
-                pc = r.get("pct", "")
-                dr.text((x0 + dr.textlength(r["value"], font=F(MONO, 44)) + 14, py + 46), pc, font=F(MONO, 28), fill=DN if pc.startswith("-") else UP)
-    dr.line((M, foot, W - M, foot), fill=LINE, width=2)
+        y += 16; dr.text((M, y), "WHAT TO WATCH", font=F(HEAD, 32), fill=GAS); y += 46
+        for line in wrap(dr, s["watch"], F(SANS, 38), W - 2 * M):
+            dr.text((M, y), line, font=F(SANS, 38), fill=WHITE); y += 52
+    fy = footer(im, dr, d, W, H, True)
+    if fy - y > 150: price_strip(dr, d, M, fy - 120, W - 2 * M, True)
+    return im, y
+
+# Morning B: a pipeline schematic, headline up top, numbered steps along the pipe
+def flow_b(d, s, W, H, pad):
+    im = Image.new("RGB", (W, H), NAVY2); dr = ImageDraw.Draw(im)
+    dr.rectangle((0, 0, 14, H), fill=AMB)
+    y = M + pad
+    paste(im, MARK_W, M, y, 96)
+    dr.text((M + 120, y + 8), "UTICA MIDSTREAM", font=F(HEAD, 34), fill=WHITE)
+    dr.text((M + 120, y + 50), s["kicker"].upper(), font=F(HEAD, 30), fill=AMB)
+    y += 160
+    y = headline(dr, s["headline"], M, y, W - 2 * M, (112, 98, 84) if H > W * 1.5 else (100, 86, 76), WHITE) + 56
+    # pipe with four valves
+    on = chain_on(d, s); xs = [M + 40 + i * (W - 2 * M - 80) // 3 for i in range(4)]
+    dr.rectangle((M, y + 26, W - M, y + 46), fill=LINE)
+    for i, lab in enumerate(("UPSTREAM", "MIDSTREAM", "DOWNSTREAM", "MARKET")):
+        lit = lab == "MIDSTREAM" or lab.lower() in on
+        c = AMB if lab == "MIDSTREAM" else (GAS if lit else LINE)
+        if i < 3 and lit and (("UPSTREAM", "MIDSTREAM", "DOWNSTREAM", "MARKET")[i + 1].lower() in on or i == 0 and "upstream" in on):
+            dr.rectangle((xs[i], y + 26, xs[i + 1], y + 46), fill=GAS)
+        dr.ellipse((xs[i] - 36, y, xs[i] + 36, y + 72), fill=c, outline=NAVY2, width=6)
+        tw = dr.textlength(lab, font=F(HEAD, 24))
+        dr.text((max(M, min(xs[i] - tw / 2, W - M - tw)), y + 86), lab, font=F(HEAD, 24), fill=WHITE if lit else MUTE)
+    y += 150
+    for n, p in enumerate(s["points"], 1):
+        dr.text((M, y - 4), f"0{n}", font=F(MONO, 40), fill=AMB)
+        for line in wrap(dr, p, F(SANSM, 44), W - 2 * M - 90):
+            dr.text((M + 90, y), line, font=F(SANSM, 44), fill=WHITE); y += 58
+        y += 14; dr.line((M + 90, y, W - M, y), fill=LINE, width=2); y += 24
+    if s.get("watch"):
+        y += 10
+        for i, line in enumerate(wrap(dr, "Watch: " + s["watch"], F(SANS, 38), W - 2 * M)):
+            dr.text((M, y), line, font=F(SANS, 38), fill=MUTE if i else WHITE); y += 52
+    fy = footer(im, dr, d, W, H, True, mark_right=False)
+    if fy - y > 150: price_strip(dr, d, M, fy - 120, W - 2 * M, True)
+    return im, y
+
+# Midday A: light paper card with a big number
+def money_a(d, s, W, H, pad):
+    im = Image.new("RGB", (W, H), PAPER); dr = ImageDraw.Draw(im)
+    dr.rectangle((0, 0, W, 14), fill=NAVY)
+    y = M + paste(im, LOCK_N, M, M, 420) + 70 + pad
+    dr.text((M, y), s["kicker"].upper(), font=F(HEAD, 36), fill=AMBINK); y += 72
+    val, lab = stat_of(s)
+    if val:
+        vf = F(HEAD, 230 if dr.textlength(val, font=F(HEAD, 230)) < W - 2 * M else 160)
+        dr.text((M - 6, y - 30), val, font=vf, fill=NAVY); y += int(vf.size * 0.95)
+        dr.rectangle((M, y, M + 160, y + 12), fill=AMB); y += 34
+        for line in wrap(dr, lab, F(SANSM, 36), W - 2 * M):
+            dr.text((M, y), line, font=F(SANSM, 36), fill=INK2); y += 48
+        y += 30
+    y = headline(dr, s["headline"], M, y, W - 2 * M, (84, 74, 66), NAVY) + 30
+    rest = [p for p in s["points"] if p != lab]
+    for p in rest:
+        for i, line in enumerate(wrap(dr, p, F(SANS, 40), W - 2 * M - 40)):
+            if i == 0: dr.text((M, y), "+", font=F(SANSB, 40), fill=AMBINK)
+            dr.text((M + 40, y), line, font=F(SANS, 40), fill=NAVY); y += 54
+        y += 10
+    if s.get("watch") and H > W * 1.5:
+        y += 20
+        for line in wrap(dr, "Next: " + s["watch"], F(SANS, 36), W - 2 * M):
+            dr.text((M, y), line, font=F(SANS, 36), fill=INK2); y += 50
+    footer(im, dr, d, W, H, False)
+    return im, y
+
+# Midday B: navy number block over paper, ticker style
+def money_b(d, s, W, H, pad):
+    im = Image.new("RGB", (W, H), PAPER); dr = ImageDraw.Draw(im)
+    val, lab = stat_of(s)
+    bh = (600 if H > W * 1.5 else 530) + pad
+    dr.rectangle((0, 0, W, bh), fill=NAVY)
+    paste(im, LOCK_W, M, M, 360)
+    dr.text((M, M + 128 + pad // 3), s["kicker"].upper(), font=F(HEAD, 34), fill=AMB)
+    if val:
+        vf = F(HEAD, 170 if dr.textlength(val, font=F(HEAD, 170)) < W - 2 * M else 120)
+        dr.text((M - 4, bh - 104), val, font=vf, fill=AMB, anchor="ls")
+        dr.text((M, bh - 80), (lab or "")[:60], font=F(SANSM, 32), fill=WHITE)
+    dr.rectangle((0, bh, W, bh + 14), fill=AMB)
+    y = bh + 70
+    y = headline(dr, s["headline"], M, y, W - 2 * M, (92, 80, 70), NAVY) + 36
+    for p in [p for p in s["points"] if p != lab]:
+        dr.rectangle((M, y + 6, M + 8, y + 44), fill=NAVY)
+        for line in wrap(dr, p, F(SANSM, 40), W - 2 * M - 36):
+            dr.text((M + 34, y), line, font=F(SANSM, 40), fill=NAVY); y += 54
+        y += 18
+    if s.get("watch"):
+        y += 10
+        dr.text((M, y), "WHAT'S NEXT", font=F(HEAD, 30), fill=AMBINK); y += 42
+        for line in wrap(dr, s["watch"], F(SANS, 36), W - 2 * M):
+            dr.text((M, y), line, font=F(SANS, 36), fill=INK2); y += 50
+    footer(im, dr, d, W, H, False)
+    return im, y
+
+# Evening A: blue world band, numbered dispatch
+def world_a(d, s, W, H, pad):
+    im = Image.new("RGB", (W, H), NAVY); dr = ImageDraw.Draw(im)
+    bh = 300 + pad
+    dr.rectangle((0, 0, W, bh), fill=GAS)
+    for k in range(1, 7):  # latitude lines
+        yy = int(bh * k / 7); dr.line((0, yy, W, yy), fill=(84, 158, 218), width=2)
+    paste(im, LOCK_W, M, M, 420)
+    dr.text((M, bh - 74), s["kicker"].upper(), font=F(HEAD, 40), fill=NAVY)
+    y = bh + 64
+    y = headline(dr, s["headline"], M, y, W - 2 * M, (100, 88, 76), WHITE) + 44
+    for n, p in enumerate(s["points"], 1):
+        dr.ellipse((M, y + 2, M + 52, y + 54), outline=GAS, width=4)
+        dr.text((M + 26, y + 28), str(n), font=F(HEAD, 32), fill=GAS, anchor="mm")
+        for line in wrap(dr, p, F(SANSM, 42), W - 2 * M - 80):
+            dr.text((M + 80, y + 2), line, font=F(SANSM, 42), fill=WHITE); y += 56
+        y += 26
+    if s.get("watch"):
+        y += 10
+        dr.text((M, y), "ON THE CALENDAR", font=F(HEAD, 30), fill=GAS); y += 44
+        for line in wrap(dr, s["watch"], F(SANS, 38), W - 2 * M):
+            dr.text((M, y), line, font=F(SANS, 38), fill=WHITE); y += 52
+    footer(im, dr, d, W, H, True)
+    return im, y
+
+# Evening B: big quote-style headline, water blue rule, no lockup at top
+def world_b(d, s, W, H, pad):
+    im = Image.new("RGB", (W, H), NAVY2); dr = ImageDraw.Draw(im)
+    for x in range(-H, W, 90):  # faint meridian hatching
+        dr.line((x, 0, x + H // 3, H), fill=(33, 60, 89), width=2)
+    y = M + 20 + pad
+    dr.text((M, y), s["kicker"].upper(), font=F(HEAD, 38), fill=WATER); y += 60
+    dr.rectangle((M, y, M + 120, y + 10), fill=AMB); y += 50
+    y = headline(dr, s["headline"], M, y, W - 2 * M, (128, 112, 96, 84) if H > W * 1.5 else (116, 100, 86, 76), WHITE, maxl=4) + 50
+    pts = "  /  ".join(s["points"])
+    for line in wrap(dr, pts, F(SANSM, 40), W - 2 * M):
+        dr.text((M, y), line, font=F(SANSM, 40), fill=MUTE); y += 56
+    if s.get("watch"):
+        y += 36
+        dr.rectangle((M, y, W - M, y + 2), fill=LINE); y += 30
+        for i, line in enumerate(wrap(dr, "Next: " + s["watch"], F(SANS, 38), W - 2 * M)):
+            dr.text((M, y), line, font=F(SANS, 38), fill=WHITE); y += 52
+    fy = H - M - 96
     dr.text((M, H - M - 70), d["date_long"], font=F(SANS, 28), fill=MUTE)
-    dr.text((M, H - M - 30), "uticamidstream.com", font=F(SANSB, 36), fill=PAPER)
-    mk = mark.resize((112, 112), Image.LANCZOS); im.paste(mk, (W - M - 112, H - M - 108), mk)
+    paste(im, LOCK_W, W - M - 380, H - M - 76, 380)
+    dr.text((M, H - M - 30), "uticamidstream.com", font=F(SANSB, 36), fill=WHITE)
+    return im, y
+
+LAYOUTS = {"morning": (flow_a, flow_b), "midday": (money_a, money_b), "evening": (world_a, world_b)}
+
+def card(d, s, slot, W, H, path, pad=0):
+    k = datetime.strptime(d["date"], "%Y-%m-%d").toordinal() % 2
+    im, end = LAYOUTS[slot][k](d, s, W, H, pad)
     im.save(path, optimize=True)
     return end
 
-def render_slot(d, s, base):
-    card(d, s, 1080, 1350, f"social/{base}.png")
-    end = card(d, s, 1080, 1920, f"social/{base}-story.png")
+def render_slot(d, s, base, slot="morning"):
+    card(d, s, slot, 1080, 1350, f"social/{base}.png")
+    end = card(d, s, slot, 1080, 1920, f"social/{base}-story.png")
     free = (1920 - 84 - 300) - end
     if free > 80:
-        card(d, s, 1080, 1920, f"social/{base}-story.png", pad=free // 2)
+        card(d, s, slot, 1080, 1920, f"social/{base}-story.png", pad=free // 2)
 
 for d in data:
     if "social" not in d: continue
@@ -200,7 +372,7 @@ for d in data:
         render_slot(d, d["social"], d["date"])
         open(f"social/{d['date']}.txt", "w").write(d["social"]["caption"] + "\n")
         for slot, ss in d.get("social_slots", {}).items():
-            render_slot(d, ss, f"{d['date']}-{slot}")
+            render_slot(d, ss, f"{d['date']}-{slot}", slot)
             open(f"social/{d['date']}-{slot}.txt", "w").write(ss["caption"] + "\n")
 
 slots = {"morning": {"image": f"{SITE}social/{latest['date']}.png", "story": f"{SITE}social/{latest['date']}-story.png", "caption": latest["social"]["caption"]}}
