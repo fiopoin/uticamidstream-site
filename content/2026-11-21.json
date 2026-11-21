@@ -1,0 +1,564 @@
+{
+ "date": "2026-11-21",
+ "date_long": "November 21, 2026",
+ "edition": 4,
+ "prices": {
+  "asof": "Last quotes shown at about 5 a.m. Central, Saturday, November 21, 2026. Futures are closed for the weekend, so these are Friday's final delayed quotes unless marked",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "82.98",
+    "unit": "$/bbl",
+    "change": "+0.54",
+    "pct": "+0.66%",
+    "note": "Front month on the page; Reuters put Friday's December settlement at $83.98",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "92.15",
+    "unit": "$/bbl",
+    "change": "+0.17",
+    "pct": "+0.18%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "83.73",
+    "unit": "$/bbl",
+    "change": "+0.06",
+    "pct": "+0.07%",
+    "note": "18 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "90.23",
+    "unit": "$/bbl",
+    "change": "-1.28",
+    "pct": "-1.40%",
+    "note": "Last updated November 20",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "85.86",
+    "unit": "$/bbl",
+    "change": "+0.41",
+    "pct": "+0.48%",
+    "note": "Reference, one day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.421",
+    "unit": "$/MMBtu",
+    "change": "+0.153",
+    "pct": "+4.68%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.490",
+    "unit": "$/gal",
+    "change": "-0.005",
+    "pct": "-0.22%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.917",
+    "unit": "$/gal",
+    "change": "-0.035",
+    "pct": "-0.88%",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$9.17/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$0.75/bbl",
+    "note": "Calculated; the Midland quote runs on an 18 hour delay, so treat as indicative."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$41.58/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Friday, November 20, 2026",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "6,910.39",
+    "change": "-265.44",
+    "pct": "-3.7%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "48,147.33",
+    "change": "-949.73",
+    "pct": "-1.9%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "22,617.73",
+    "change": "-1,261.47",
+    "pct": "-5.3%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via Yakima Herald",
+   "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html"
+  },
+  "read": "An AI led selloff dragged the S&P 500 down 3.7% on Friday and into a correction, more than 10% below its October 6 record. It lost 8.6% for the week, its worst week in more than 18 months, and the Nasdaq fell 10% for the week and is now down 2.7% for the year.",
+  "read_source": {
+   "name": "AP via Yakima Herald",
+   "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html"
+  },
+  "stocks": [
+   {
+    "ticker": "ENB",
+    "name": "Enbridge",
+    "segment": "Midstream",
+    "note": "Its 475,000 b/d North Dakota Pipeline was still running at reduced rates on November 20 with no restart timeline, Bloomberg reported.",
+    "source": {
+     "name": "Bloomberg via Insurance Journal",
+     "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+    }
+   },
+   {
+    "ticker": "FANG",
+    "name": "Diamondback Energy",
+    "segment": "Upstream",
+    "note": "Agreed with KKR to buy Five Point's 70% of the Deep Blue water network; Reuters put the price near $2.1 billion.",
+    "source": {
+     "name": "MarketScale, citing Reuters",
+     "url": "https://marketscale.com/industries/energy/diamondback-and-kkr-agree-to-an-estimated-21-billion-permian-water-network-buyout"
+    }
+   },
+   {
+    "ticker": "ET",
+    "name": "Energy Transfer",
+    "segment": "Midstream",
+    "note": "After closing Vaquero, it put the total deal value at $2.625 billion and took FID on its 1.2 Bcf/d South Mississippi Pipeline.",
+    "source": {
+     "name": "Rigzone",
+     "url": "https://rigzone.com/news/energy_transfer_seals_vaquero_acquisition-20-nov-2026-185135-article"
+    }
+   },
+   {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "segment": "Downstream",
+    "note": "Its MPLX unit is one of the companies that declared force majeure on North Dakota deliveries this week.",
+    "source": {
+     "name": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4674737-marathon-petroleum-declares-force-majeure-on-north-dakota-oil-deliveries"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Midstream: Bakken outage",
+  "chain": [
+   "upstream",
+   "midstream",
+   "downstream",
+   "market"
+  ],
+  "headline": "Bakken producers truck crude to Dakota Access as Enbridge's North Dakota line stays curtailed",
+  "dek": "A week into reduced flows on a 475,000 b/d pipeline, some barrels are moving by road, at least two Midwest refiners have declared force majeure and Enbridge has given no restart date.",
+  "body": [
+   "Enbridge's North Dakota Pipeline has run at lower rates since last week, after reports of tainted crude led the company to test for organic chlorides, Bloomberg reported on Friday. Enbridge has not given a timeline for restoring normal flows on the 475,000 b/d system, Reuters reported earlier in the week.",
+   "Some producers and marketers are now trucking barrels to delivery points on the Dakota Access Pipeline, according to Energy Aspects analyst Jeremy Irwin, who said at least two Midwest refiners have declared force majeure on Bakken deliveries. A Reuters source named Flint Hills Resources' Pine Bend refinery in Minnesota as one, and Marathon Petroleum's MPLX unit declared force majeure on North Dakota deliveries on November 18. Energy Aspects expects the loss to tighten Midcontinent light sweet supply.",
+   "Bloomberg said the disruption could draw down crude stocks at Cushing, Oklahoma. The wider market is soft: December WTI settled at $83.98 on Friday, up 77 cents but down about 5% on the week, its third weekly drop, as tanker traffic through Hormuz returned to near prewar levels, Reuters reported."
+  ],
+  "flow": {
+   "upstream": "Bakken wells keep producing, but barrels that relied on Enbridge's line now need trucks or another pipe, which adds cost and squeezes wellhead netbacks.",
+   "midstream": "Dakota Access and truck terminals pick up volume. The organic chloride testing is the gate, and Enbridge has not said when it will finish.",
+   "downstream": "Refiners that run Bakken light sweet, including Pine Bend, have declared force majeure and must find other crude and avoid contaminated cargoes.",
+   "market": "Lost Bakken flows tighten Midcontinent light sweet supply and could pull barrels from Cushing, even while benchmark crude falls on wider supply."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Line up truck capacity and Dakota Access space now, and check contracts for force majeure terms while flows stay reduced."
+   },
+   {
+    "who": "Midstream",
+    "text": "Crude quality testing can shut a system as surely as a leak. Review chloride screening at injection points and how fast you can isolate a bad batch."
+   },
+   {
+    "who": "Refiners",
+    "text": "Midwest plants that run Bakken should confirm replacement barrels and test incoming crude for organic chlorides, which can damage units."
+   },
+   {
+    "who": "Traders",
+    "text": "Watch Cushing stocks and Midcontinent light sweet differentials for the outage's effect, and Enbridge's restart notice for the end of it."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Bloomberg via Insurance Journal",
+    "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+   },
+   {
+    "name": "Reuters via BOE Report",
+    "url": "https://boereport.com/2026/11/17/enbridge-working-to-restore-north-dakota-pipeline-after-crude-quality-issues-cause-delays/"
+   },
+   {
+    "name": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4674737-marathon-petroleum-declares-force-majeure-on-north-dakota-oil-deliveries"
+   },
+   {
+    "name": "Reuters via Investing.com",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "Permian, Texas",
+   "headline": "Diamondback and KKR buy out Five Point's stake in the Deep Blue water network",
+   "text": "Diamondback Energy and KKR agreed to buy Five Point Infrastructure's 70% stake in Deep Blue Midland Basin, the water joint venture Diamondback formed with Five Point in 2023. Neither side disclosed terms; Reuters, citing a source, put the price at about $2.1 billion. The network handles nearly 2 million b/d of water, and the deal is expected to close in the fourth quarter.",
+   "why": "Produced water is now a core Permian midstream asset. An operator taking back control of its water system shows how much disposal and reuse capacity matters to drilling plans.",
+   "sources": [
+    {
+     "name": "MarketScale, citing Reuters",
+     "url": "https://marketscale.com/industries/energy/diamondback-and-kkr-agree-to-an-estimated-21-billion-permian-water-network-buyout"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Downstream",
+   "setting": "Global",
+   "region": "United States, China, Russia",
+   "headline": "US, China and Russia pledge more refined fuel supply but give no details",
+   "text": "Presidents Trump, Xi and Putin met for about an hour and a half in Shenzhen on the sidelines of APEC on November 19. Their joint statement said the three countries plan to increase the production and supply of refined petroleum products, without saying how, Bloomberg reported. The diesel premium over crude on ICE Futures Europe fell as much as $2.84 to $58.55 a barrel. One analyst quoted by Al Jazeera called the statement political noise.",
+   "why": "Diesel is the tightest part of the barrel after strikes on Russian refineries. Any real increase would most likely come from Chinese export quotas, which Beijing sets.",
+   "sources": [
+    {
+     "name": "Bloomberg via Rigzone",
+     "url": "https://www.rigzone.com/news/wire/usa_china_russia_agree_to_increase_supply_of_global_fuels-19-nov-2026-185124-article/"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/20/trump-putin-xi-pledge-to-increase-global-petrol-supplies-but-how"
+    }
+   ]
+  },
+  {
+   "id": "rigs",
+   "segment": "Upstream",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "US rig count rises to 607, the highest since April 2024",
+   "text": "Drillers added six oil rigs in the week to November 20, lifting the oil count to 469, its highest since May 2025, Baker Hughes data showed, Reuters reported. Gas rigs rose one to 128 and the total reached 607, up 53 from a year earlier.",
+   "why": "Activity is rising even as crude posts a third weekly loss, a sign operators are still responding to the higher prices of earlier this year.",
+   "sources": [
+    {
+     "name": "Reuters via BOE Report",
+     "url": "https://boereport.com/2026/11/20/us-energy-firms-add-rigs-count-highest-since-april-2024-baker-hughes/"
+    }
+   ]
+  },
+  {
+   "id": "presidio",
+   "segment": "Upstream",
+   "setting": "Onshore",
+   "region": "Permian, Texas",
+   "headline": "Presidio enters the Permian with a $360 million Midland basin deal",
+   "text": "Presidio Production agreed on November 19 to buy two Rushmore Resource Partners companies for $360 million, adding 358 producing Spraberry and Wolfcamp wells in the southern Midland basin making about 12,800 boe/d, 46% of it gas. Presidio expects 2027 output to rise about 50%. The deal should close in the first quarter of 2027.",
+   "why": "Buyers of low decline producing wells are now paying up in the Permian, not just in older basins. The gas and NGL heavy mix ties value to Waha and Gulf Coast pricing.",
+   "sources": [
+    {
+     "name": "World Oil",
+     "url": "https://www.worldoil.com/news/2026/11/19/presidio-to-enter-permian-with-360-million-acquisition-of-rushmore-assets/"
+    }
+   ]
+  },
+  {
+   "id": "hydrogen",
+   "segment": "Cross-industry",
+   "setting": "Hydrogen",
+   "region": "China",
+   "headline": "China puts its first pure hydrogen pipeline into service",
+   "text": "A 195 km pipeline carrying green hydrogen from Darhan Muminggan Banner to users in Baotou, Inner Mongolia, has entered service, according to Xinhua as reported on November 20. It is designed for up to 100,000 tonnes a year but starts at about 7,800 tonnes, and the developer projects transport costs falling from about $1.94 to $0.45 per kg.",
+   "why": "Dedicated hydrogen pipe is the missing link for large scale supply. Pipeline builders and steel makers elsewhere will watch how the line performs at higher volumes.",
+   "sources": [
+    {
+     "name": "Interesting Engineering, citing Xinhua",
+     "url": "https://interestingengineering.com/energy/china-first-hydrogen-pipeline-enters-service"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "First chance to change quotas since the group paused increases in October.",
+   "source": {
+    "name": "Reuters via GV Wire",
+    "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Permian",
+   "setting": "Onshore unconventional",
+   "line": "Diamondback and KKR are buying Five Point's 70% of the Deep Blue water network, about $2.1 billion per Reuters; Presidio agreed a $360 million Midland basin deal.",
+   "source": {
+    "name": "MarketScale, citing Reuters",
+    "url": "https://marketscale.com/industries/energy/diamondback-and-kkr-agree-to-an-estimated-21-billion-permian-water-network-buyout"
+   }
+  },
+  {
+   "name": "US Gulf Coast LNG",
+   "setting": "Export terminals",
+   "line": "US plants sent 40 LNG cargoes in the week to November 18, up three, per EIA data; FERC approved the Sabine Pass expansion on November 19.",
+   "source": {
+    "name": "LNG Prime",
+    "url": "https://lngprime.com/americas/us-lng-exports-climb-to-40-shipments/200319"
+   }
+  },
+  {
+   "name": "Bakken",
+   "setting": "Onshore unconventional",
+   "line": "Producers are trucking crude to Dakota Access while Enbridge's 475,000 b/d North Dakota Pipeline stays curtailed; at least two Midwest refiners have declared force majeure.",
+   "source": {
+    "name": "Bloomberg via Insurance Journal",
+    "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+   }
+  },
+  {
+   "name": "Utica and Marcellus",
+   "setting": "Onshore unconventional",
+   "line": "Ohio's Utica produced a record 48 million barrels of oil in 2025, up 39%, while gas held near 2 trillion cubic feet. Oil volumes have tripled since 2021.",
+   "source": {
+    "name": "Marcellus Drilling News",
+    "url": "https://marcellusdrilling.com/category/ohio/page/4/"
+   }
+  },
+  {
+   "name": "Guyana",
+   "setting": "Offshore deepwater",
+   "line": "Uaru started November 16, lifting installed capacity to 1.1 million b/d; Longtail is the eighth project sanctioned.",
+   "source": {
+    "name": "World Oil",
+    "url": "https://www.worldoil.com/news/2026/11/16/exxonmobil-starts-uaru-production-lifting-guyana-capacity-to-1-1-mmbpd/"
+   }
+  },
+  {
+   "name": "US Gulf of America",
+   "setting": "Offshore",
+   "line": "Chevron is reported near a $5 billion deal for a majority of Beacon Offshore, with 70 deepwater leases; the next mandatory lease sale is due by March 15, 2027.",
+   "source": {
+    "name": "Reuters via Offshore Engineer",
+    "url": "https://www.oedigital.com/amp/news/544405-chevron-nears-5b-deal-to-buy-beacon-offshore"
+   }
+  },
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "Crude shipments have returned to roughly prewar levels, Reuters reports, even as Iran's Revolutionary Guards said two tankers hit naval mines.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518"
+   }
+  },
+  {
+   "name": "Russia",
+   "setting": "Exports",
+   "line": "Ukrainian strikes have cut refinery runs by about 45% since late October, Reuters reports, with 15 of 35 major refineries hit.",
+   "source": {
+    "name": "Kyiv Independent, citing Reuters",
+    "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 16, 2026",
+  "name": "Dan Ammann",
+  "role": "President, ExxonMobil Upstream Company",
+  "summary": "This month Ammann's upstream business took a $12.5 billion final investment decision on Longtail, a Stabroek development that targets non-associated gas and condensate rather than oil. He has run ExxonMobil's upstream business since February 1, 2025, after leading its Low Carbon Solutions unit from 2022.",
+  "path": "Before ExxonMobil he was chief executive of Cruise, the GM majority owned self driving company, from 2018, and president of General Motors from 2014. When he moved to upstream he argued that meeting energy demand is an \"and\" equation: more supply and lower emissions together.",
+  "why": "An executive from autos and technology now runs one of the most closely followed growth assets in oil. Longtail tests whether Guyana can turn gas into a second engine, and his calls on pace and cost there will shape Stabroek's next decade.",
+  "sources": [
+   {
+    "name": "ExxonMobil investor release",
+    "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1177/exxonmobil-announces-leadership-changes"
+   },
+   {
+    "name": "Oil & Gas Journal",
+    "url": "https://www.ogj.com/general-interest/personnel-moves-promotions/article/55247072/exxonmobil-makes-leadership-changes"
+   },
+   {
+    "name": "Industrial Info",
+    "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/exxon-makes-fid-on-longtail-development-in-guyana--364826"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Bakken crude moves to trucks in pipe outage",
+  "points": [
+   "475,000 b/d line still curtailed",
+   "Trucks feed Dakota Access",
+   "Two Midwest refiners in force majeure"
+  ],
+  "watch": "Enbridge's restart notice and Cushing stocks.",
+  "caption": "Bakken producers are trucking crude to Dakota Access while Enbridge's 475,000 b/d North Dakota Pipeline stays curtailed over organic chloride testing, and at least two Midwest refiners have declared force majeure.\n\nAcross the chain: wellhead netbacks squeezed, refiners hunting for replacement barrels, and a possible draw on Cushing.\n\nFull edition: uticamidstream.com\n\n#OilAndGas #Midstream #Bakken #Pipelines #CrudeOil"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Diamondback and KKR buy out Deep Blue water",
+   "points": [
+    "Five Point's 70% stake",
+    "About $2.1B, per Reuters",
+    "Nearly 2M b/d of water"
+   ],
+   "watch": "Closing expected in the fourth quarter.",
+   "caption": "Diamondback Energy and KKR agreed to buy Five Point Infrastructure's 70% stake in the Deep Blue water network in the Midland basin, a deal Reuters put at about $2.1 billion. The system handles nearly 2 million barrels of water a day.\n\nProduced water is now a core Permian midstream asset.\n\nMore: uticamidstream.com\n\n#OilAndGas #ProducedWater #Midstream #Permian #Energy"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "US, China, Russia pledge more fuel supply",
+   "points": [
+    "Joint statement in Shenzhen",
+    "No targets or timelines",
+    "Diesel premium fell on the news"
+   ],
+   "watch": "OPEC+ sets its 2027 framework on November 29.",
+   "caption": "Presidents Trump, Xi and Putin said after a meeting in Shenzhen that their countries plan to increase production and supply of refined petroleum products, but gave no targets or timelines. The diesel premium over crude fell as much as $2.84 a barrel.\n\nDiesel stays the tightest part of the barrel.\n\nMore: uticamidstream.com\n\n#OilMarkets #Diesel #Refining #EnergySecurity #OilAndGas"
+  }
+ }
+}

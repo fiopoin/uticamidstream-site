@@ -3,12 +3,12 @@
 > A free daily read on oil and gas from wellhead to market: prices, stocks, pipelines, policy, projects and people, with every fact sourced and dated. Each edition has a price board (crude, gas, products and calculated spreads), market and stock notes, a lead story traced through upstream, midstream, downstream and the market, briefs by segment, a regulatory docket, basin watch, a weekly leader profile and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [FERC approves Cheniere's three train Sabine Pass expansion and two new feed pipelines](https://uticamidstream.com/): November 20, 2026. FERC approved Cheniere's three train Sabine Pass LNG expansion in Louisiana on Thursday, about 20 million tonnes a year of new capacity, plus the Creole Trail and Sabine Crossing feed pipelines.
-- [Midstream: Energy Transfer closes its $1.95 billion Vaquero Midstream purchase in the Delaware basin](https://uticamidstream.com/#money)
-- [Cross-industry: IEA says Gulf bypass pipelines cannot end dependence on Hormuz](https://uticamidstream.com/#world)
-- [Midstream: MPLX declares force majeure as Enbridge's Bakken line stays curtailed](https://uticamidstream.com/#bakken)
-- [Downstream: Ukrainian strikes have cut Russian refinery runs by about 45%](https://uticamidstream.com/#russia)
-- [Gas and LNG: US gas storage adds 20 Bcf, leaving stocks above average into winter](https://uticamidstream.com/#gas)
+- [Bakken producers truck crude to Dakota Access as Enbridge's North Dakota line stays curtailed](https://uticamidstream.com/): November 21, 2026. Bakken producers are trucking crude to Dakota Access while Enbridge's 475,000 b/d North Dakota Pipeline stays curtailed over organic chloride testing, and at least two Midwest refiners have declared force majeure.
+- [Midstream: Diamondback and KKR buy out Five Point's stake in the Deep Blue water network](https://uticamidstream.com/#money)
+- [Downstream: US, China and Russia pledge more refined fuel supply but give no details](https://uticamidstream.com/#world)
+- [Upstream: US rig count rises to 607, the highest since April 2024](https://uticamidstream.com/#rigs)
+- [Upstream: Presidio enters the Permian with a $360 million Midland basin deal](https://uticamidstream.com/#presidio)
+- [Cross-industry: China puts its first pure hydrogen pipeline into service](https://uticamidstream.com/#hydrogen)
 
 ## About
 - [How we work](https://uticamidstream.com/method.html)
@@ -17,6 +17,7 @@
 - [Sitemap](https://uticamidstream.com/sitemap.xml)
 
 ## Recent editions
+- [November 21, 2026: Bakken producers truck crude to Dakota Access as Enbridge's North Dakota line stays curtailed](https://uticamidstream.com/archive/2026-11-21.html)
 - [November 20, 2026: FERC approves Cheniere's three train Sabine Pass expansion and two new feed pipelines](https://uticamidstream.com/archive/2026-11-20.html)
 - [November 19, 2026: Bakken crude backs up as Enbridge's North Dakota line stays down over contamination](https://uticamidstream.com/archive/2026-11-19.html)
 - [November 18, 2026: Crude slips toward $84 as a supply glut outruns the Hormuz war premium](https://uticamidstream.com/archive/2026-11-18.html)
