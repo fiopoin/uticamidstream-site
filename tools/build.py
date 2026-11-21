@@ -307,10 +307,10 @@ def money_b(d, s, W, H, pad):
 def world_a(d, s, W, H, pad):
     im = Image.new("RGB", (W, H), NAVY); dr = ImageDraw.Draw(im)
     bh = 300 + pad
-    dr.rectangle((0, 0, W, bh), fill=GAS)
+    dr.rectangle((0, 0, W, bh), fill=BAND)
     for k in range(1, 7):  # latitude lines
-        yy = int(bh * k / 7); dr.line((0, yy, W, yy), fill=(84, 158, 218), width=2)
-    paste(im, LOCK_W, M, M, 420)
+        yy = int(bh * k / 7); dr.line((0, yy, W, yy), fill=tuple(min(255, c + 26) for c in BAND), width=2)
+    paste(im, LOCK_N if BAND == AMB else LOCK_W, M, M, 420)
     dr.text((M, bh - 74), s["kicker"].upper(), font=F(HEAD, 40), fill=NAVY)
     y = bh + 64
     y = headline(dr, s["headline"], M, y, W - 2 * M, (100, 88, 76), WHITE) + 44
@@ -332,7 +332,7 @@ def world_a(d, s, W, H, pad):
 def world_b(d, s, W, H, pad):
     im = Image.new("RGB", (W, H), NAVY2); dr = ImageDraw.Draw(im)
     for x in range(-H, W, 90):  # faint meridian hatching
-        dr.line((x, 0, x + H // 3, H), fill=(33, 60, 89), width=2)
+        dr.line((x, 0, x + H // 3, H), fill=tuple(min(255, c + 6) for c in NAVY2), width=2)
     y = M + 20 + pad
     dr.text((M, y), s["kicker"].upper(), font=F(HEAD, 38), fill=WATER); y += 60
     dr.rectangle((M, y, M + 120, y + 10), fill=AMB); y += 50
@@ -353,8 +353,26 @@ def world_b(d, s, W, H, pad):
 
 LAYOUTS = {"morning": (flow_a, flow_b), "midday": (money_a, money_b), "evening": (world_a, world_b)}
 
+# Palettes (Raj, Nov 21, 2026: mix the colors daily). Each palette swaps the dark grounds, the paper and the
+# evening band; brand amber stays the pipeline marker. Layout alternates by date and the palette shifts by date
+# and slot: every slot changes color each day, a slot repeats its exact look only every eight days, and the
+# three slots of a day never share a palette.
+PALETTES = {
+    "navy":      dict(NAVY=(19, 38, 58), NAVY2=(28, 53, 80), PAPER=(245, 244, 239), LINE=(45, 75, 106), BAND=(62, 142, 208)),
+    "deepwater": dict(NAVY=(8, 46, 62), NAVY2=(12, 62, 80), PAPER=(232, 242, 246), LINE=(34, 88, 108), BAND=(46, 143, 214)),
+    "steel":     dict(NAVY=(24, 30, 38), NAVY2=(36, 44, 54), PAPER=(238, 240, 242), LINE=(60, 72, 86), BAND=(245, 176, 0)),
+    "crude":     dict(NAVY=(34, 29, 24), NAVY2=(48, 41, 33), PAPER=(248, 240, 225), LINE=(82, 70, 56), BAND=(245, 176, 0)),
+}
+PAL_ORDER = list(PALETTES)
+BAND = PALETTES["navy"]["BAND"]
+SLOT_K = {"morning": 0, "midday": 1, "evening": 2}
+
 def card(d, s, slot, W, H, path, pad=0):
-    k = datetime.strptime(d["date"], "%Y-%m-%d").toordinal() % 2
+    n = datetime.strptime(d["date"], "%Y-%m-%d").toordinal()
+    k = n % 2
+    pal = s.get("design", {}).get("palette")
+    pal = pal if pal in PALETTES else PAL_ORDER[(n + n // 4 + SLOT_K[slot]) % len(PAL_ORDER)]
+    globals().update(PALETTES[pal])
     im, end = LAYOUTS[slot][k](d, s, W, H, pad)
     im.save(path, optimize=True)
     return end
