@@ -3,12 +3,12 @@
 > A free daily read on oil and gas from wellhead to market: prices, stocks, pipelines, policy, projects and people, with every fact sourced and dated. Each edition has a price board (crude, gas, products and calculated spreads), market and stock notes, a lead story traced through upstream, midstream, downstream and the market, briefs by segment, a regulatory docket, basin watch, a weekly leader profile and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Bakken producers truck crude to Dakota Access as Enbridge's North Dakota line stays curtailed](https://uticamidstream.com/): November 21, 2026. Bakken producers are trucking crude to Dakota Access while Enbridge's 475,000 b/d North Dakota Pipeline stays curtailed over organic chloride testing, and at least two Midwest refiners have declared force majeure.
-- [Midstream: Diamondback and KKR buy out Five Point's stake in the Deep Blue water network](https://uticamidstream.com/#money)
-- [Downstream: US, China and Russia pledge more refined fuel supply but give no details](https://uticamidstream.com/#world)
-- [Upstream: US rig count rises to 607, the highest since April 2024](https://uticamidstream.com/#rigs)
-- [Upstream: Presidio enters the Permian with a $360 million Midland basin deal](https://uticamidstream.com/#presidio)
-- [Cross-industry: China puts its first pure hydrogen pipeline into service](https://uticamidstream.com/#hydrogen)
+- [Ohio permits 2,150 MW of gas power for data centers as Rockies Express seeks bids for a new lateral](https://uticamidstream.com/): November 22, 2026. Two Ohio villages, 2,150 MW of new gas-fired power, all of it for data centers. On November 19 the state siting board permitted an 800 MW plant in Ashville and a 1,350 MW plant in Millersport.
+- [Downstream: CVR Energy prices $1.25 billion of notes to fund its Marathon refinery purchase](https://uticamidstream.com/#money)
+- [Midstream: Iranian officials talk of running the US oil blockade as export revenue dries up](https://uticamidstream.com/#world)
+- [Regulation: Senate passes a broad energy permitting bill, 62 to 33](https://uticamidstream.com/#permitting)
+- [Upstream: Nigeria opens registration for a 40 block licensing round](https://uticamidstream.com/#nigeria)
+- [Downstream: Thanksgiving gasoline could set a holiday price record despite a month long drop](https://uticamidstream.com/#gasoline)
 
 ## About
 - [How we work](https://uticamidstream.com/method.html)
@@ -17,6 +17,7 @@
 - [Sitemap](https://uticamidstream.com/sitemap.xml)
 
 ## Recent editions
+- [November 22, 2026: Ohio permits 2,150 MW of gas power for data centers as Rockies Express seeks bids for a new lateral](https://uticamidstream.com/archive/2026-11-22.html)
 - [November 21, 2026: Bakken producers truck crude to Dakota Access as Enbridge's North Dakota line stays curtailed](https://uticamidstream.com/archive/2026-11-21.html)
 - [November 20, 2026: FERC approves Cheniere's three train Sabine Pass expansion and two new feed pipelines](https://uticamidstream.com/archive/2026-11-20.html)
 - [November 19, 2026: Bakken crude backs up as Enbridge's North Dakota line stays down over contamination](https://uticamidstream.com/archive/2026-11-19.html)

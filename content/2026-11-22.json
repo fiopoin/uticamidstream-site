@@ -1,0 +1,618 @@
+{
+ "date": "2026-11-22",
+ "date_long": "November 22, 2026",
+ "edition": 5,
+ "prices": {
+  "asof": "Last quotes shown at about 5 a.m. Central, Sunday, November 22, 2026. Futures are closed for the weekend, so these are Friday's final delayed quotes unless marked",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "83.41",
+    "unit": "$/bbl",
+    "change": "+0.97",
+    "pct": "+1.18%",
+    "note": "Front month, 20 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "92.57",
+    "unit": "$/bbl",
+    "change": "+0.59",
+    "pct": "+0.64%",
+    "note": "20 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "84.78",
+    "unit": "$/bbl",
+    "change": "+1.05",
+    "pct": "+1.25%",
+    "note": "19 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "90.23",
+    "unit": "$/bbl",
+    "change": "-1.28",
+    "pct": "-1.40%",
+    "note": "Last updated November 20",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "85.86",
+    "unit": "$/bbl",
+    "change": "+0.41",
+    "pct": "+0.48%",
+    "note": "Reference, two day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.411",
+    "unit": "$/MMBtu",
+    "change": "+0.143",
+    "pct": "+4.38%",
+    "note": "20 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.503",
+    "unit": "$/gal",
+    "change": "+0.008",
+    "pct": "+0.30%",
+    "note": "20 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.922",
+    "unit": "$/gal",
+    "change": "-0.030",
+    "pct": "-0.75%",
+    "note": "20 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$9.16/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$1.37/bbl",
+    "note": "Calculated; the Midland quote runs on a 19 hour delay, so treat as indicative."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$41.58/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Friday, November 20, 2026",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "6,910.39",
+    "change": "-265.44",
+    "pct": "-3.7%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "48,147.33",
+    "change": "-949.73",
+    "pct": "-1.9%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "22,617.73",
+    "change": "-1,261.47",
+    "pct": "-5.3%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via Yakima Herald",
+   "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html"
+  },
+  "read": "An AI led selloff dragged the S&P 500 down 3.7% on Friday and into a correction, more than 10% below its October 6 record. It lost 8.6% for the week, its worst week in more than 18 months, and the Nasdaq fell 10% for the week and is now down 2.7% for the year.",
+  "read_source": {
+   "name": "AP via Yakima Herald",
+   "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html"
+  },
+  "stocks": [
+   {
+    "ticker": "CVI",
+    "name": "CVR Energy",
+    "segment": "Downstream",
+    "note": "Priced $1.25 billion of 9.25% secured notes due 2032 on November 19 to help fund its purchase of two Marathon refineries; closing of the notes is expected November 25.",
+    "source": {
+     "name": "CVR Energy release via Business Wire",
+     "url": "https://finviz.com/news/425643/cvr-energy-announces-pricing-of-125-billion-of-9250-senior-secured-notes-due-2032"
+    }
+   },
+   {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "segment": "Downstream",
+    "note": "Is selling its St. Paul Park and Mandan refineries and related MPLX midstream assets to CVR for $4.2 billion in total, agreed November 3.",
+    "source": {
+     "name": "Oil Market Daily via PR Newswire",
+     "url": "https://finviz.com/news/425306/crude-gives-back-ground-midweek-as-inventories-build-and-surplus-talk-grows"
+    }
+   },
+   {
+    "ticker": "ENB",
+    "name": "Enbridge",
+    "segment": "Midstream",
+    "note": "Its 475,000 b/d North Dakota Pipeline was still running at reduced rates on November 20 with no restart timeline, Bloomberg reported.",
+    "source": {
+     "name": "Bloomberg via Insurance Journal",
+     "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+    }
+   },
+   {
+    "ticker": "XOM",
+    "name": "ExxonMobil",
+    "segment": "Integrated",
+    "note": "Its tender offers, with Pioneer Natural Resources, for up to $3.0 billion of notes were set to expire on November 20.",
+    "source": {
+     "name": "Oil Market Daily via PR Newswire",
+     "url": "https://finviz.com/news/425306/crude-gives-back-ground-midweek-as-inventories-build-and-surplus-talk-grows"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Midstream: data center gas",
+  "chain": [
+   "upstream",
+   "midstream",
+   "downstream",
+   "market"
+  ],
+  "headline": "Ohio permits 2,150 MW of gas power for data centers as Rockies Express seeks bids for a new lateral",
+  "dek": "The state siting board approved plants in Ashville and Millersport on November 19, and REX is taking binding bids to move up to 175,000 Dth/d to a site near Ashville.",
+  "body": [
+   "The Ohio Power Siting Board on November 19 approved permits for two gas-fired plants that will power data center campuses in central Ohio, Signal Ohio reported. PowerConneX won approval for an 800 MW plant in Ashville to serve two data center buildings owned by its parent, EdgeConneX. Advanced Power won approval for the 1,350 MW Fairfield Energy Center in Millersport, which will feed a $2.1 billion Vantage Data Centers campus.",
+   "Both plants drew wide opposition at public hearings. In Ashville, more than 80% of voters backed repealing the village's emergency resolution on its development agreement with EdgeConneX, but the company told regulators the vote does not affect the plant, and the vote's effect after the board's ruling is unclear. Some projects still need separate environmental permits for water discharges or backup diesel generators.",
+   "Gas supply is the next step. Rockies Express Pipeline is seeking binding bids for a short lateral that would deliver up to 175,000 Dth/d to a new customer near Ashville that is building a behind-the-meter plant for a data center, NGI reported on November 20. Bids close Tuesday and service could start January 1, 2027. NGI's data show the REX Zone 3 delivered premium to Cheyenne narrowing from nearly $2/MMBtu in July to near zero this month."
+  ],
+  "flow": {
+   "upstream": "Producers that sell into Ohio gain a new class of buyer: plants built to serve a single data center campus rather than the grid.",
+   "midstream": "Short laterals off large interstate lines become the product. REX's binding bids close Tuesday, with service possible from January 1, 2027.",
+   "downstream": "The plants have siting permits but some still need water and air permits, and local opposition and a referendum in Ashville remain in the background.",
+   "market": "The REX Zone 3 premium to Cheyenne is near zero now, per NGI. New behind-the-meter load is the demand to watch against that."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Ask whether laterals to data center sites open firm sales you can contract directly, and on what term."
+   },
+   {
+    "who": "Midstream",
+    "text": "Laterals to data center sites are a near term growth line. Treat local referendums and permit fights as schedule risk."
+   },
+   {
+    "who": "Power developers",
+    "text": "Behind-the-meter gas is clearing Ohio's siting board, but expect hearings to focus on turbines, diesel backups and water."
+   },
+   {
+    "who": "Traders",
+    "text": "Watch REX's bid results and the Zone 3 basis for signs that data center load is tightening Ohio supply."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   },
+   {
+    "name": "NGI",
+    "url": "https://naturalgasintel.com/news/rex-seeks-natural-gas-commitments-for-lateral-near-ohio-data-center-site/"
+   },
+   {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/buckeye-lake-millersport-ohio-data-center-gas-power-plant/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Downstream",
+   "setting": "Refining",
+   "region": "Minnesota and North Dakota",
+   "headline": "CVR Energy prices $1.25 billion of notes to fund its Marathon refinery purchase",
+   "text": "CVR Energy priced $1.25 billion of 9.25% senior secured notes due 2032 at 98.98% of face on November 19, with closing expected November 25. The money, along with a planned $1.0 billion term loan and a larger credit line, will help fund its purchase of the St. Paul Park, Minnesota, and Mandan, North Dakota, refineries from Marathon Petroleum and MPLX. Until that deal closes, the proceeds sit in escrow.",
+   "why": "A 9.25% coupon shows what lenders charge a midsize refiner for a large acquisition. Mandan sits in North Dakota, where Bakken crude is short on pipeline space during Enbridge's curtailment.",
+   "sources": [
+    {
+     "name": "CVR Energy release via Business Wire",
+     "url": "https://finviz.com/news/425643/cvr-energy-announces-pricing-of-125-billion-of-9250-senior-secured-notes-due-2032"
+    },
+    {
+     "name": "Oil Market Daily via PR Newswire",
+     "url": "https://finviz.com/news/425306/crude-gives-back-ground-midweek-as-inventories-build-and-surplus-talk-grows"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Midstream",
+   "setting": "Shipping",
+   "region": "Iran, Persian Gulf",
+   "headline": "Iranian officials talk of running the US oil blockade as export revenue dries up",
+   "text": "An Iranian lawmaker said on November 21 that 14 tankers were preparing to challenge the US naval blockade, though Tehran has not announced a plan. Kpler counts about 20 tankers near Kharg Island, most loaded and stationary, and projects Iran's crude and condensate export revenue will reach zero by mid-December. ABC News, citing UKMTO and IMO data, reported that attacks in and around Hormuz in October and November were the highest of any months since the war began.",
+   "why": "A tanker convoy would test the blockade directly. Shipping insurers and Gulf exporters face higher risk even while overall Gulf flows recover.",
+   "sources": [
+    {
+     "name": "RFE/RL via Eurasia Review",
+     "url": "https://www.eurasiareview.com/21112026-with-oil-revenue-running-out-iran-teases-breaking-us-blockade/"
+    },
+    {
+     "name": "Arab Times",
+     "url": "https://www.arabtimesonline.com/news/iranian-regime-says-it-has-no-choice-but-to-break-us-blockade-as-14-oil-tankers-prepare-to-challenge-restrictions/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
+    }
+   ]
+  },
+  {
+   "id": "permitting",
+   "segment": "Regulation",
+   "setting": "Federal",
+   "region": "United States",
+   "headline": "Senate passes a broad energy permitting bill, 62 to 33",
+   "text": "The Senate passed a bipartisan bill to speed federal approval of large energy projects, including power plants, grid upgrades, data centers, oil, gas, coal, wind and solar, OilPrice.com reported citing Reuters. Fourteen Democrats and one independent joined Republicans. Critics said it weakens environmental review. The bill now goes to the House.",
+   "why": "Faster permits would shorten timelines for pipelines and gas plants like the ones Ohio just approved, if the House agrees.",
+   "sources": [
+    {
+     "name": "OilPrice.com, citing Reuters",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+    }
+   ]
+  },
+  {
+   "id": "nigeria",
+   "segment": "Upstream",
+   "setting": "Onshore and offshore",
+   "region": "Nigeria",
+   "headline": "Nigeria opens registration for a 40 block licensing round",
+   "text": "Nigeria's upstream regulator, NUPRC, opened the portal for its 2026 licensing round on November 20 and will take registrations until January 15, 2027. The 40 blocks on offer are 17 onshore, 14 in shallow water and nine in deep water. A pre-bid conference is set for Lagos on December 16.",
+   "why": "The round tests whether Nigeria's 2021 petroleum law has made acreage attractive enough to pull in new operators.",
+   "sources": [
+    {
+     "name": "BusinessDay",
+     "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+    }
+   ]
+  },
+  {
+   "id": "gasoline",
+   "segment": "Downstream",
+   "setting": "Retail fuel",
+   "region": "United States",
+   "headline": "Thanksgiving gasoline could set a holiday price record despite a month long drop",
+   "text": "The US average fell to $3.69 a gallon on November 20, nearly 60 cents below a month earlier, OilPrice.com reported. GasBuddy expects $3.62 on Thanksgiving Day, which would top the holiday record of $3.56 set in 2022. AAA expects 72.9 million people to travel by car. Diesel averaged about $5.90.",
+   "why": "Pump prices are falling but are still about 60 cents above a year ago, and diesel remains far more expensive than gasoline.",
+   "sources": [
+    {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Thanksgiving-Gas-Prices-Could-Break-a-Record-Despite-Recent-Plunge.html"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "Ohio Power Siting Board",
+   "action": "Permits for PowerConneX's 800 MW Ashville plant and Advanced Power's 1,350 MW Fairfield Energy Center, both for data centers",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Both projects can move ahead, though some still need separate environmental permits.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "agency": "US Senate",
+   "action": "Bipartisan energy permitting bill",
+   "date": "Nov 19, 2026",
+   "status": "Passed Senate, 62 to 33",
+   "means": "Moves to the House; would speed federal approvals for energy projects of all kinds.",
+   "source": {
+    "name": "OilPrice.com, citing Reuters",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "First chance to change quotas since the group paused increases in October.",
+   "source": {
+    "name": "Reuters via GV Wire",
+    "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Permian",
+   "setting": "Onshore unconventional",
+   "line": "Diamondback and KKR are buying Five Point's 70% of the Deep Blue water network, about $2.1 billion per Reuters; Presidio agreed a $360 million Midland basin deal.",
+   "source": {
+    "name": "MarketScale, citing Reuters",
+    "url": "https://marketscale.com/industries/energy/diamondback-and-kkr-agree-to-an-estimated-21-billion-permian-water-network-buyout"
+   }
+  },
+  {
+   "name": "US Gulf Coast LNG",
+   "setting": "Export terminals",
+   "line": "US plants sent 40 LNG cargoes in the week to November 18, up three, per EIA data; FERC approved the Sabine Pass expansion on November 19.",
+   "source": {
+    "name": "LNG Prime",
+    "url": "https://lngprime.com/americas/us-lng-exports-climb-to-40-shipments/200319"
+   }
+  },
+  {
+   "name": "Bakken",
+   "setting": "Onshore unconventional",
+   "line": "Enbridge's 475,000 b/d North Dakota Pipeline was still curtailed as of November 20. CVR priced $1.25 billion of notes to help fund its purchase of the Mandan refinery.",
+   "source": {
+    "name": "Bloomberg via Insurance Journal",
+    "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+   }
+  },
+  {
+   "name": "Utica and Marcellus",
+   "setting": "Onshore unconventional",
+   "line": "Ohio's siting board approved 800 MW and 1,350 MW gas plants for data centers on November 19; REX is taking bids for a lateral of up to 175,000 Dth/d near Ashville.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "name": "Guyana",
+   "setting": "Offshore deepwater",
+   "line": "Uaru started November 16, lifting installed capacity to 1.1 million b/d; Longtail is the eighth project sanctioned.",
+   "source": {
+    "name": "World Oil",
+    "url": "https://www.worldoil.com/news/2026/11/16/exxonmobil-starts-uaru-production-lifting-guyana-capacity-to-1-1-mmbpd/"
+   }
+  },
+  {
+   "name": "US Gulf of America",
+   "setting": "Offshore",
+   "line": "Chevron is reported near a $5 billion deal for a majority of Beacon Offshore, with 70 deepwater leases; the next mandatory lease sale is due by March 15, 2027.",
+   "source": {
+    "name": "Reuters via Offshore Engineer",
+    "url": "https://www.oedigital.com/amp/news/544405-chevron-nears-5b-deal-to-buy-beacon-offshore"
+   }
+  },
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "Attacks in October and November were the highest since the war began, per UKMTO and IMO data; Iranian lawmakers say tankers will test the US blockade.",
+   "source": {
+    "name": "ABC News",
+    "url": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id=138304456"
+   }
+  },
+  {
+   "name": "Russia",
+   "setting": "Exports",
+   "line": "Ukrainian strikes have cut refinery runs by about 45% since late October, Reuters reports, with 15 of 35 major refineries hit.",
+   "source": {
+    "name": "Kyiv Independent, citing Reuters",
+    "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/"
+   }
+  },
+  {
+   "name": "Nigeria",
+   "setting": "Onshore and offshore",
+   "line": "NUPRC opened registration for a 40 block licensing round on November 20; registration runs to January 15, 2027.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 16, 2026",
+  "name": "Dan Ammann",
+  "role": "President, ExxonMobil Upstream Company",
+  "summary": "This month Ammann's upstream business took a $12.5 billion final investment decision on Longtail, a Stabroek development that targets non-associated gas and condensate rather than oil. He has run ExxonMobil's upstream business since February 1, 2025, after leading its Low Carbon Solutions unit from 2022.",
+  "path": "Before ExxonMobil he was chief executive of Cruise, the GM majority owned self driving company, from 2018, and president of General Motors from 2014. When he moved to upstream he argued that meeting energy demand is an \"and\" equation: more supply and lower emissions together.",
+  "why": "An executive from autos and technology now runs one of the most closely followed growth assets in oil. Longtail tests whether Guyana can turn gas into a second engine, and his calls on pace and cost there will shape Stabroek's next decade.",
+  "sources": [
+   {
+    "name": "ExxonMobil investor release",
+    "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1177/exxonmobil-announces-leadership-changes"
+   },
+   {
+    "name": "Oil & Gas Journal",
+    "url": "https://www.ogj.com/general-interest/personnel-moves-promotions/article/55247072/exxonmobil-makes-leadership-changes"
+   },
+   {
+    "name": "Industrial Info",
+    "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/exxon-makes-fid-on-longtail-development-in-guyana--364826"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Ohio clears two gas plants for data centers",
+  "points": [
+   "800 MW Ashville, 1,350 MW Millersport",
+   "REX seeks bids for a new lateral",
+   "Service could start Jan. 1, 2027"
+  ],
+  "watch": "REX binding bids close Tuesday.",
+  "caption": "Two Ohio villages, 2,150 MW of new gas-fired power, all of it for data centers. On November 19 the state siting board permitted an 800 MW plant in Ashville and a 1,350 MW plant in Millersport.\n\nRockies Express is lining up the gas, with binding bids due Tuesday on a lateral of up to 175,000 Dth/d near Ashville.\n\nDetails and sources: uticamidstream.com\n\n#NaturalGas #DataCenters #Ohio #Midstream #Utica"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "CVR borrows $1.25B to buy two refineries",
+   "points": [
+    "Secured notes due March 2032",
+    "Funds Marathon's $4.2B refinery sale",
+    "Cash held in escrow until close"
+   ],
+   "watch": "The notes are due to close November 25.",
+   "caption": "What does a refiner pay to borrow for a big acquisition right now? For CVR Energy, 9.25%. It priced $1.25 billion of secured notes due 2032 to help buy Marathon's St. Paul Park and Mandan refineries.\n\nhttps://uticamidstream.com\n\n#Refining #CVR #Downstream #Bonds #OilAndGas",
+   "stat": {
+    "value": "9.25%",
+    "label": "Coupon on CVR's $1.25B of notes"
+   }
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Iran talks of running the US oil blockade",
+   "points": [
+    "About 20 tankers wait near Kharg",
+    "Revenue seen at zero by mid-December",
+    "Hormuz attacks at wartime highs"
+   ],
+   "watch": "OPEC+ sets its 2027 framework on November 29.",
+   "caption": "Iranian lawmakers say tankers are getting ready to break the US naval blockade, though Tehran has announced no plan. Kpler counts about 20 tankers near Kharg Island and sees Iran's crude export revenue reaching zero by mid-December.\n\nMeanwhile, attacks around Hormuz in October and November were the most of any months since the war began, according to UKMTO and IMO data.\n\nPrices and the full read: uticamidstream.com\n\n#Iran #Hormuz #Shipping #OilMarkets #CrudeOil"
+  }
+ }
+}
