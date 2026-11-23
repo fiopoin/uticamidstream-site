@@ -1,0 +1,664 @@
+{
+ "date": "2026-11-23",
+ "date_long": "November 23, 2026",
+ "edition": 6,
+ "prices": {
+  "asof": "Quotes shown on OilPrice.com at about 4:55 a.m. Central, Monday, November 23, 2026. Futures trade overnight; delays are as the page labels them",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "83.15",
+    "unit": "$/bbl",
+    "change": "-0.26",
+    "pct": "-0.31%",
+    "note": "Front month, 11 minute delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "91.98",
+    "unit": "$/bbl",
+    "change": "-0.59",
+    "pct": "-0.64%",
+    "note": "11 minute delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "84.25",
+    "unit": "$/bbl",
+    "change": "-0.24",
+    "pct": "-0.28%",
+    "note": "Stale: about 3 hours old",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "90.23",
+    "unit": "$/bbl",
+    "change": "-1.28",
+    "pct": "-1.40%",
+    "note": "Stale: last updated November 20",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "85.86",
+    "unit": "$/bbl",
+    "change": "+0.41",
+    "pct": "+0.48%",
+    "note": "Stale: reference, about four days old",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.128",
+    "unit": "$/MMBtu",
+    "change": "-0.283",
+    "pct": "-8.30%",
+    "note": "Front month, 11 minute delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.486",
+    "unit": "$/gal",
+    "change": "-0.016",
+    "pct": "-0.65%",
+    "note": "13 minute delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.926",
+    "unit": "$/gal",
+    "change": "+0.005",
+    "pct": "+0.12%",
+    "note": "11 minute delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$8.83/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$1.10/bbl",
+    "note": "Calculated; the Midland quote is about three hours old, so treat as indicative."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$41.42/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Friday, November 20, 2026",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "6,910.39",
+    "change": "-265.44",
+    "pct": "-3.7%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "48,147.33",
+    "change": "-949.73",
+    "pct": "-1.9%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "22,617.73",
+    "change": "-1,261.47",
+    "pct": "-5.3%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via Yakima Herald",
+   "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html"
+  },
+  "read": "An AI led selloff dragged the S&P 500 down 3.7% on Friday and into a correction, more than 10% below its October 6 record. It lost 8.6% for the week, its worst week in more than 18 months, and the Nasdaq fell 10% for the week and is now down 2.7% for the year.",
+  "read_source": {
+   "name": "AP via Yakima Herald",
+   "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html"
+  },
+  "stocks": [
+   {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "segment": "Upstream",
+    "note": "Agreed November 23 to sell its Norway business and its Teesside terminal stake to Vår Energi; expects about $2.5 billion in net cash, earmarked partly for 2027 buybacks.",
+    "source": {
+     "name": "ConocoPhillips release",
+     "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+    }
+   },
+   {
+    "ticker": "VAR",
+    "name": "Vår Energi (Oslo)",
+    "segment": "Upstream",
+    "note": "Buyer of the ConocoPhillips Norway business at a $4.425 billion enterprise value; raised its fourth quarter dividend guidance to $450 million.",
+    "source": {
+     "name": "Investing.com, Reuters based",
+     "url": "https://www.investing.com/news/stock-market-news/var-energi-to-buy-conocophillips-norway-assets-in-443-bln-deal-93CH-5044458"
+    }
+   },
+   {
+    "ticker": "MTDR",
+    "name": "Matador Resources",
+    "segment": "Upstream",
+    "note": "Its 51% owned San Mateo Midstream priced $850 million of 7.125% notes due 2031 on November 16 to repay a term loan and part of its revolver.",
+    "source": {
+     "name": "Baker Botts",
+     "url": "https://www.bakerbotts.com/news/2026/11/baker-botts-advises-san-mateo-midstream-in-upsized-$850-million-senior-notes-offering"
+    }
+   },
+   {
+    "ticker": "CVI",
+    "name": "CVR Energy",
+    "segment": "Downstream",
+    "note": "Priced $1.25 billion of 9.25% secured notes due 2032 on November 19 to help fund its purchase of two Marathon refineries; closing of the notes is expected November 25.",
+    "source": {
+     "name": "CVR Energy release via Business Wire",
+     "url": "https://finviz.com/news/425643/cvr-energy-announces-pricing-of-125-billion-of-9250-senior-secured-notes-due-2032"
+    }
+   },
+   {
+    "ticker": "ENB",
+    "name": "Enbridge",
+    "segment": "Midstream",
+    "note": "Its 475,000 b/d North Dakota Pipeline was still running at reduced rates on November 20 with no restart timeline, Bloomberg reported.",
+    "source": {
+     "name": "Bloomberg via Insurance Journal",
+     "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Market: Hormuz and the blockade",
+  "chain": [
+   "upstream",
+   "midstream",
+   "downstream",
+   "market"
+  ],
+  "headline": "A tanker incident at the US blockade line tests oil's calm as Iran stages tankers at Kharg",
+  "dek": "UKMTO reported a tanker incident involving military forces in the Gulf of Oman on Sunday. Futures barely moved early Monday, with Brent near $92.",
+  "body": [
+   "UK Maritime Trade Operations said on Sunday, November 22, that a tanker was involved in an incident with military forces in the Gulf of Oman, near the line the US Navy is using for its blockade of Iranian ports, and that investigations are ongoing. No vessel was named. The same day Iranian state media, quoting the Revolutionary Guard navy, said two tankers hit sea mines north of Ghanem Island, east of Hormuz. ABC News said it was not confirmed whether the reports describe the same event.",
+   "The incident follows days of talk in Tehran about breaking the blockade. Satellite images and tracking data show more than 14 tankers gathered around Kharg Island, Euronews reported, and Iran's deputy foreign minister called the blockade an act of war on Saturday, the day the US military marked 130 days of it. TankerTrackers said a tanker shown sailing through Hormuz on public tracking data was a spoof. On Monday Iran's foreign ministry spokesman said shipping could be restored quickly if the US lifts sanctions and the blockade and meets the terms of the June memorandum. Bahrain said an Iranian attack on Saturday started a fire at an industrial site in Sitra.",
+   "Traders so far are treating the reports as noise. OilPrice.com showed WTI at $83.15 and Brent at $91.98 shortly before 5 a.m. Central on Monday, both slightly lower on the day. The strait normally carries about a quarter of world seaborne oil trade, according to Euronews, and OPEC+ ministers meet on November 29 to set the 2027 framework."
+  ],
+  "flow": {
+   "upstream": "Gulf producers outside Iran still face attacks on energy sites; Bahrain's Sitra fire on Saturday is the latest.",
+   "midstream": "Tankers and insurers carry the risk. A convoy test or a confirmed interdiction would reprice freight and war risk cover east of Hormuz.",
+   "downstream": "Refiners that rely on Gulf crude and products watch for any disruption to loadings outside Iran, not just Iranian barrels.",
+   "market": "Brent near $92 and a Brent to WTI spread under $9 show little premium for the incident so far."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Treat the calm in futures as conditional. A confirmed seizure or a convoy attempt could move prices fast before the November 29 OPEC+ meeting."
+   },
+   {
+    "who": "Midstream and shippers",
+    "text": "Check war risk terms and routing for any voyage east of Hormuz this week."
+   },
+   {
+    "who": "Refiners",
+    "text": "Review supply plans for Gulf grades and keep options open on Atlantic basin barrels."
+   },
+   {
+    "who": "Traders",
+    "text": "Watch UKMTO notices and US Central Command statements; so far the market is pricing unconfirmed claims at close to zero."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Euronews",
+    "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz"
+   },
+   {
+    "name": "ABC News",
+    "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+   },
+   {
+    "name": "Euronews",
+    "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi"
+   },
+   {
+    "name": "Fox News",
+    "url": "https://www.foxnews.com/world/trump-dares-iran-breach-us-port-blockade-tehran-reportedly-readies-14-oil-tankers"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Upstream",
+   "setting": "Offshore",
+   "region": "Norway and the UK",
+   "headline": "Vår Energi agrees to buy ConocoPhillips' Norway business for $4.425 billion",
+   "text": "ConocoPhillips said on November 23 it will sell its Norway business and its 40.25% stake in, and operatorship of, the Teesside oil terminal in England to Vår Energi for $4.425 billion, effective January 1, 2026. After adjustments and a 2026 tax bill of about $1.4 billion that Vår takes on, ConocoPhillips expects net cash of about $2.5 billion. The Norway business produced about 120,000 boe/d in 2025 and includes the operated Greater Ekofisk Area, eight partner operated fields and an interest in the Norpipe oil line. Closing is expected by the end of the first quarter of 2027, subject to approval by Norway's energy ministry.",
+   "why": "Vår, majority owned by Eni, becomes operator of the Ekofisk hub and its export route to the UK. ConocoPhillips said the proceeds will go partly to share buybacks in 2027.",
+   "sources": [
+    {
+     "name": "ConocoPhillips release",
+     "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+    },
+    {
+     "name": "Offshore Energy",
+     "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+    },
+    {
+     "name": "Investing.com, Reuters based",
+     "url": "https://www.investing.com/news/stock-market-news/var-energi-to-buy-conocophillips-norway-assets-in-443-bln-deal-93CH-5044458"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Regulation",
+   "setting": "Global",
+   "region": "Antalya, Türkiye",
+   "headline": "COP31 ends without an agreed deal after a fight over fossil fuel language",
+   "text": "The UN climate talks in Antalya closed on Sunday, November 22, two days late, without a text adopted by all parties, the first such failure since Copenhagen in 2009, Al Jazeera reported. An opening draft called for a faster move away from fossil fuels; a later draft dropped every mention after Saudi Arabia and other oil and gas producers reportedly objected. The European Union said it would not back a deal that leaves fossil fuels out, and Panama formally objected.",
+   "why": "Without a new text, the last agreed language on transitioning away from oil, gas and coal stands. Open questions included carbon capture and whether gas counts in power expansion.",
+   "sources": [
+    {
+     "name": "Al Jazeera, with AP and Reuters",
+     "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+    }
+   ]
+  },
+  {
+   "id": "sanmateo",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "Delaware basin, New Mexico",
+   "headline": "San Mateo Midstream upsizes its notes to $850 million at 7.125%",
+   "text": "San Mateo Midstream, owned 51% by Matador Resources and 49% by an affiliate of Five Point Infrastructure, priced $850 million of senior unsecured notes due 2031 at par on November 16, up from a planned $750 million. The money repays a $650 million term loan due July 2027 and part of its revolver. San Mateo gathers and processes gas, gathers oil and handles produced water in the northern Delaware basin.",
+   "why": "Demand for the larger deal shows investors are still lending to Permian gathering and water systems, the same kind of asset Diamondback and KKR are buying in Deep Blue.",
+   "sources": [
+    {
+     "name": "San Mateo release via Barchart",
+     "url": "https://www.webull.com/news/15935609911832576"
+    },
+    {
+     "name": "Baker Botts",
+     "url": "https://www.bakerbotts.com/news/2026/11/baker-botts-advises-san-mateo-midstream-in-upsized-$850-million-senior-notes-offering"
+    }
+   ]
+  },
+  {
+   "id": "lng",
+   "segment": "Gas and LNG",
+   "setting": "Export terminals",
+   "region": "US Gulf Coast",
+   "headline": "US LNG feedgas eases from a record as Sabine Pass flows dip",
+   "text": "Gas flows to US LNG plants fell to about 19.2 Bcf/d on November 17 from 19.5 Bcf/d the day before, Pipeline & Gas Journal reported from LSEG data. Sabine Pass dropped to about 4.2 Bcf/d from more than 5 Bcf/d, suggesting a train was down or running slow, and Freeport stayed near 1.5 Bcf/d against a usual 2 Bcf/d. Bloomberg had put flows at a record of about 21.8 Bcf/d on November 14.",
+   "why": "Feedgas is now the biggest swing in daily US gas demand. Henry Hub futures were down about 8% early Monday on OilPrice.com.",
+   "sources": [
+    {
+     "name": "Pipeline & Gas Journal, citing LSEG",
+     "url": "https://pgjonline.com/news/2026/november/us-lng-feedgas-slips-to-192-bft3d-as-sabine-pass-flows-drop-freeport-stays-constrained"
+    },
+    {
+     "name": "Bloomberg via Energy Connects",
+     "url": "https://www.energyconnects.com/news/gas-lng/2026/november/record-us-lng-exports-may-bring-relief-to-war-strained-markets/"
+    },
+    {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "Norway Ministry of Energy",
+   "action": "Approval of Vår Energi's purchase of ConocoPhillips Skandinavia and the Teesside operator",
+   "date": "Agreed Nov 23, 2026",
+   "status": "Pending approval",
+   "means": "Closing expected by the end of the first quarter of 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "agency": "UNFCCC COP31",
+   "action": "Final decision text of the Antalya climate talks",
+   "date": "Nov 22, 2026",
+   "status": "Not adopted",
+   "means": "No new language on fossil fuels; earlier COP commitments stand.",
+   "source": {
+    "name": "Al Jazeera, with AP and Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+   }
+  },
+  {
+   "agency": "Ohio Power Siting Board",
+   "action": "Permits for PowerConneX's 800 MW Ashville plant and Advanced Power's 1,350 MW Fairfield Energy Center, both for data centers",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Both projects can move ahead, though some still need separate environmental permits.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "agency": "US Senate",
+   "action": "Bipartisan energy permitting bill",
+   "date": "Nov 19, 2026",
+   "status": "Passed Senate, 62 to 33",
+   "means": "Moves to the House; would speed federal approvals for energy projects of all kinds.",
+   "source": {
+    "name": "OilPrice.com, citing Reuters",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "First chance to change quotas since the group paused increases in October.",
+   "source": {
+    "name": "Reuters via GV Wire",
+    "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Permian",
+   "setting": "Onshore unconventional",
+   "line": "San Mateo Midstream priced $850 million of notes to refinance; Diamondback and KKR are buying 70% of the Deep Blue water network, about $2.1 billion per Reuters.",
+   "source": {
+    "name": "Baker Botts",
+    "url": "https://www.bakerbotts.com/news/2026/11/baker-botts-advises-san-mateo-midstream-in-upsized-$850-million-senior-notes-offering"
+   }
+  },
+  {
+   "name": "US Gulf Coast LNG",
+   "setting": "Export terminals",
+   "line": "Feedgas slipped to about 19.2 Bcf/d on November 17 as Sabine Pass dipped, per LSEG data; Bloomberg put flows at a record 21.8 Bcf/d on November 14.",
+   "source": {
+    "name": "Pipeline & Gas Journal, citing LSEG",
+    "url": "https://pgjonline.com/news/2026/november/us-lng-feedgas-slips-to-192-bft3d-as-sabine-pass-flows-drop-freeport-stays-constrained"
+   }
+  },
+  {
+   "name": "Bakken",
+   "setting": "Onshore unconventional",
+   "line": "Enbridge's 475,000 b/d North Dakota Pipeline was still curtailed as of November 20. CVR priced $1.25 billion of notes to help fund its purchase of the Mandan refinery.",
+   "source": {
+    "name": "Bloomberg via Insurance Journal",
+    "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+   }
+  },
+  {
+   "name": "Utica and Marcellus",
+   "setting": "Onshore unconventional",
+   "line": "Ohio's siting board approved 800 MW and 1,350 MW gas plants for data centers on November 19; REX is taking bids for a lateral of up to 175,000 Dth/d near Ashville.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "name": "Norwegian North Sea",
+   "setting": "Offshore",
+   "line": "Vår Energi agreed to buy ConocoPhillips' Norway business, including Greater Ekofisk and Norpipe, for $4.425 billion; closing by end of Q1 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "name": "Guyana",
+   "setting": "Offshore deepwater",
+   "line": "Uaru started November 16, lifting installed capacity to 1.1 million b/d; Longtail is the eighth project sanctioned.",
+   "source": {
+    "name": "World Oil",
+    "url": "https://www.worldoil.com/news/2026/11/16/exxonmobil-starts-uaru-production-lifting-guyana-capacity-to-1-1-mmbpd/"
+   }
+  },
+  {
+   "name": "US Gulf of America",
+   "setting": "Offshore",
+   "line": "Chevron is reported near a $5 billion deal for a majority of Beacon Offshore, with 70 deepwater leases; the next mandatory lease sale is due by March 15, 2027.",
+   "source": {
+    "name": "Reuters via Offshore Engineer",
+    "url": "https://www.oedigital.com/amp/news/544405-chevron-nears-5b-deal-to-buy-beacon-offshore"
+   }
+  },
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "UKMTO reported a tanker incident involving military forces in the Gulf of Oman on November 22; more than 14 tankers are gathered at Kharg, per Euronews.",
+   "source": {
+    "name": "Euronews",
+    "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz"
+   }
+  },
+  {
+   "name": "Russia",
+   "setting": "Exports",
+   "line": "Ukrainian strikes have cut refinery runs by about 45% since late October, Reuters reports, with 15 of 35 major refineries hit.",
+   "source": {
+    "name": "Kyiv Independent, citing Reuters",
+    "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/"
+   }
+  },
+  {
+   "name": "Nigeria",
+   "setting": "Onshore and offshore",
+   "line": "NUPRC opened registration for a 40 block licensing round on November 20; registration runs to January 15, 2027.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 23, 2026",
+  "name": "Nick Walker",
+  "role": "Chief executive, Vår Energi",
+  "summary": "Walker's company agreed on November 23 to buy ConocoPhillips' Norway business and its Teesside terminal stake for an enterprise value of $4.425 billion, taking over operatorship of the Greater Ekofisk Area and the Norpipe export system. He has led Vår Energi, Norway's Eni controlled independent, since September 2023.",
+  "path": "Before Vår he was chief executive of Lundin Energy until its sale to Aker BP in mid 2022, and he earlier worked at BP, Talisman Energy, Africa Oil and Cairn Oil & Gas under Vedanta. Vår says he has more than 30 years in technical, commercial and executive roles. He studied mining engineering at Imperial College London and computer science at University College London, and holds an MBA from City University Business School.",
+  "why": "The deal, on top of the BlueNord combination, puts Vår among the largest independent offshore producers, with a target of more than 500,000 boe/d into the mid 2030s. How he runs the ageing Ekofisk hub and its UK link will shape a large share of Norway's southern North Sea output.",
+  "sources": [
+   {
+    "name": "Vår Energi executive committee",
+    "url": "https://varenergi.no/en/about-us/executive-committee/"
+   },
+   {
+    "name": "Offshore Engineer",
+    "url": "https://www.oedigital.com/news/507756-former-lundin-energy-head-takes-the-helm-as-ceo-of-v-r-energi"
+   },
+   {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   },
+   {
+    "name": "Offshore Energy",
+    "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Tanker incident reported at the US blockade line",
+  "points": [
+   "UKMTO cites military forces",
+   "14 plus tankers gathered at Kharg",
+   "WTI near $83, little changed"
+  ],
+  "watch": "OPEC+ ministers meet November 29.",
+  "caption": "Is Iran testing the US blockade? UKMTO reported a tanker incident involving military forces in the Gulf of Oman on Sunday, and Iranian media claimed two tankers hit mines east of Hormuz. Neither report is confirmed, and oil futures barely moved early Monday.\n\nShippers, insurers and refiners buying Gulf barrels carry the risk this week.\n\nSources and prices at uticamidstream.com\n\n#OilMarkets #Hormuz #Tankers #CrudeOil #Shipping"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Vår Energi buys Conoco's Norway arm",
+   "points": [
+    "Takes over the Ekofisk hub",
+    "About $2.5B net cash to the seller",
+    "Due to close by end of Q1 2027"
+   ],
+   "watch": "Norway's energy ministry must approve the deal.",
+   "caption": "ConocoPhillips is leaving Norway. Vår Energi agreed to pay an enterprise value of $4.425 billion for its Norway business and Teesside terminal stake, with about $2.5 billion in net cash going to the seller and buybacks planned for 2027.\n\nWatch for Norwegian approval; closing is targeted by the end of March 2027.\n\nhttps://uticamidstream.com\n\n#NorthSea #Norway #MergersAndAcquisitions #Offshore #ConocoPhillips",
+   "stat": {
+    "value": "$4.425B",
+    "label": "Enterprise value of Vår Energi's ConocoPhillips Norway deal"
+   }
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "COP31 closes with no deal on fossil fuels",
+   "points": [
+    "First failed COP since 2009",
+    "EU wanted fossil fuels named",
+    "Producers opposed phase out wording"
+   ],
+   "watch": "OPEC+ sets its 2027 framework on November 29.",
+   "caption": "Antalya, two days past the deadline: COP31 ended Sunday without a text all countries would adopt. The fossil fuel language was the breaking point. Producer states reportedly pushed it out, and the EU refused to sign without it.\n\nFor oil and gas, the older pledge to transition away from fossil fuels still stands, with nothing new on top.\n\nRead the edition: uticamidstream.com\n\n#COP31 #Climate #OilAndGas #EnergyPolicy"
+  }
+ }
+}

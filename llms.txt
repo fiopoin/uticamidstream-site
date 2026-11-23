@@ -3,12 +3,11 @@
 > A free daily read on oil and gas from wellhead to market: prices, stocks, pipelines, policy, projects and people, with every fact sourced and dated. Each edition has a price board (crude, gas, products and calculated spreads), market and stock notes, a lead story traced through upstream, midstream, downstream and the market, briefs by segment, a regulatory docket, basin watch, a weekly leader profile and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Ohio permits 2,150 MW of gas power for data centers as Rockies Express seeks bids for a new lateral](https://uticamidstream.com/): November 22, 2026. Two Ohio villages, 2,150 MW of new gas-fired power, all of it for data centers. On November 19 the state siting board permitted an 800 MW plant in Ashville and a 1,350 MW plant in Millersport.
-- [Downstream: CVR Energy prices $1.25 billion of notes to fund its Marathon refinery purchase](https://uticamidstream.com/#money)
-- [Midstream: Iranian officials talk of running the US oil blockade as export revenue dries up](https://uticamidstream.com/#world)
-- [Regulation: Senate passes a broad energy permitting bill, 62 to 33](https://uticamidstream.com/#permitting)
-- [Upstream: Nigeria opens registration for a 40 block licensing round](https://uticamidstream.com/#nigeria)
-- [Downstream: Thanksgiving gasoline could set a holiday price record despite a month long drop](https://uticamidstream.com/#gasoline)
+- [A tanker incident at the US blockade line tests oil's calm as Iran stages tankers at Kharg](https://uticamidstream.com/): November 23, 2026. Is Iran testing the US blockade? UKMTO reported a tanker incident involving military forces in the Gulf of Oman on Sunday, and Iranian media claimed two tankers hit mines east of Hormuz. Neither report is confirmed, and oil futures barely moved early Monday.
+- [Upstream: Vår Energi agrees to buy ConocoPhillips' Norway business for $4.425 billion](https://uticamidstream.com/#money)
+- [Regulation: COP31 ends without an agreed deal after a fight over fossil fuel language](https://uticamidstream.com/#world)
+- [Midstream: San Mateo Midstream upsizes its notes to $850 million at 7.125%](https://uticamidstream.com/#sanmateo)
+- [Gas and LNG: US LNG feedgas eases from a record as Sabine Pass flows dip](https://uticamidstream.com/#lng)
 
 ## About
 - [How we work](https://uticamidstream.com/method.html)
@@ -17,6 +16,7 @@
 - [Sitemap](https://uticamidstream.com/sitemap.xml)
 
 ## Recent editions
+- [November 23, 2026: A tanker incident at the US blockade line tests oil's calm as Iran stages tankers at Kharg](https://uticamidstream.com/archive/2026-11-23.html)
 - [November 22, 2026: Ohio permits 2,150 MW of gas power for data centers as Rockies Express seeks bids for a new lateral](https://uticamidstream.com/archive/2026-11-22.html)
 - [November 21, 2026: Bakken producers truck crude to Dakota Access as Enbridge's North Dakota line stays curtailed](https://uticamidstream.com/archive/2026-11-21.html)
 - [November 20, 2026: FERC approves Cheniere's three train Sabine Pass expansion and two new feed pipelines](https://uticamidstream.com/archive/2026-11-20.html)
