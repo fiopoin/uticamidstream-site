@@ -1,0 +1,686 @@
+{
+ "date": "2026-11-24",
+ "date_long": "November 24, 2026",
+ "edition": 7,
+ "prices": {
+  "asof": "Latest quotes OilPrice.com showed when checked at about 5 a.m. Central, Tuesday, November 24, 2026. The changes are measured from Friday's settlement, so these rows reflect Monday's session, not Tuesday's overnight trade. Reuters had WTI at $79.57 and Brent at $88.71 at 0510 GMT Tuesday.",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "80.31",
+    "unit": "$/bbl",
+    "change": "-3.10",
+    "pct": "-3.72%",
+    "note": "Monday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "89.38",
+    "unit": "$/bbl",
+    "change": "-3.19",
+    "pct": "-3.45%",
+    "note": "Monday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "81.40",
+    "unit": "$/bbl",
+    "change": "-3.09",
+    "pct": "-3.66%",
+    "note": "Monday trade, 13 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "89.29",
+    "unit": "$/bbl",
+    "change": "-0.94",
+    "pct": "-1.04%",
+    "note": "Stale: last updated November 23",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "85.86",
+    "unit": "$/bbl",
+    "change": "+0.41",
+    "pct": "+0.48%",
+    "note": "Stale: page shows a four day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.185",
+    "unit": "$/MMBtu",
+    "change": "-0.226",
+    "pct": "-6.63%",
+    "note": "Monday trade, 12 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.408",
+    "unit": "$/gal",
+    "change": "-0.095",
+    "pct": "-3.79%",
+    "note": "Monday trade, 14 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.710",
+    "unit": "$/gal",
+    "change": "-0.211",
+    "pct": "-5.39%",
+    "note": "Monday trade, 12 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$9.07/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$1.09/bbl",
+    "note": "Calculated from the quotes above."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$39.05/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Monday, November 23, 2026",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "7,237.17",
+    "change": "+326.78",
+    "pct": "+4.7%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "49,595.31",
+    "change": "+1,447.98",
+    "pct": "+3.0%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "24,089.56",
+    "change": "+1,471.82",
+    "pct": "+6.5%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via myMotherLode",
+   "url": "https://mymotherlode.com/news/national/11334721/how-major-us-stock-indexes-fared-monday-11-23-2026.html"
+  },
+  "read": "Stocks and oil split on Monday. Nvidia led a sharp rally after Jensen Huang's surprise return as chief executive, AP reported, lifting the S&P 500 4.7% and ending a seven day losing streak. Oil went the other way: WTI for January fell 4.5% to $80.17 and Brent 3.5% to $89.37, Bloomberg data showed, as hedges against a wider Iran conflict were unwound. The rebound in AI names matters for gas through data center power demand; the slide in crude hits producer cash flow heading into the November 29 OPEC+ meeting.",
+  "read_source": {
+   "name": "GOLDINVEST, citing Bloomberg and Kpler",
+   "url": "https://goldinvest.de/en/oil-price-slips-below-89-dollars-ahead-of-opec-meeting-as-war-premium-fades"
+  },
+  "stocks": [
+   {
+    "ticker": "TTE",
+    "name": "TotalEnergies",
+    "segment": "Upstream and LNG",
+    "note": "Agreed November 23 to buy interests in US gas assets from Continental Resources, adding about 150 MMcf/d of net output by 2032; no price disclosed.",
+    "source": {
+     "name": "Oil & Gas Journal",
+     "url": "https://www.ogj.com/general-interest/companies/news/55420906/totalenergies-acquires-interests-in-us-gas-assets-from-continental-resources"
+    }
+   },
+   {
+    "ticker": "FANG",
+    "name": "Diamondback Energy",
+    "segment": "Upstream",
+    "note": "Named in Bloomberg's November 23 report that Permian flaring is heading for a three year low; its CEO expects the company's gas exposure to grow.",
+    "source": {
+     "name": "Seeking Alpha, citing Bloomberg",
+     "url": "https://seekingalpha.com/news/4675758-permian-gas-flaring-hits-3-yr-low-as-new-pipelines-ease-glut"
+    }
+   },
+   {
+    "ticker": "ET",
+    "name": "Energy Transfer",
+    "segment": "Midstream",
+    "note": "Its Hugh Brinson line from Waha toward Dallas and Fort Worth is one of the new outlets cutting Permian flaring; Phase II is due in the first quarter of 2027.",
+    "source": {
+     "name": "Construction Review Online",
+     "url": "https://constructionreviewonline.com/permian-gas-flaring-falls-to-3-year-low-as-pipelines-open/"
+    }
+   },
+   {
+    "ticker": "XOM",
+    "name": "ExxonMobil",
+    "segment": "Integrated",
+    "note": "Its tender offers for up to $3 billion of Exxon and Pioneer notes expired November 20, with settlement expected November 24.",
+    "source": {
+     "name": "ExxonMobil release",
+     "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1215/exxonmobil-cash-tender-offers-to-purchase-certain"
+    }
+   },
+   {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "segment": "Upstream",
+    "note": "Agreed November 23 to sell its Norway business and Teesside terminal stake to Vår Energi for about $2.5 billion in net cash.",
+    "source": {
+     "name": "ConocoPhillips release",
+     "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+    }
+   },
+   {
+    "ticker": "CVI",
+    "name": "CVR Energy",
+    "segment": "Downstream",
+    "note": "Its $1.25 billion of 9.25% secured notes, raised to help buy two Marathon refineries, are due to close November 25.",
+    "source": {
+     "name": "CVR Energy release via Business Wire",
+     "url": "https://finviz.com/news/425643/cvr-energy-announces-pricing-of-125-billion-of-9250-senior-secured-notes-due-2032"
+    }
+   },
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "segment": "Data center demand",
+    "note": "Not an energy stock, but it sets the tone for data center power and gas demand. It led Monday's rally after Jensen Huang returned as CEO, AP said.",
+    "source": {
+     "name": "AP via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Market: the war premium fades",
+  "chain": [
+   "upstream",
+   "midstream",
+   "downstream",
+   "market"
+  ],
+  "headline": "Oil falls to a three month low as the Iran war premium fades and stocks of crude build",
+  "dek": "WTI slipped under $80 early Tuesday after a 4.5% drop on Monday, even as Iran said three more tankers hit mines near Hormuz.",
+  "body": [
+   "Crude fell for a second day. On Monday, WTI for January lost 4.5% to $80.17 and Brent 3.5% to $89.37, according to Bloomberg data cited by GOLDINVEST, after President Trump told Fox News he would give diplomacy with Iran more time. By 0510 GMT on Tuesday, Reuters reported, Brent was down another 66 cents at $88.71 after its lowest close since August 31, and WTI was at $79.57 after touching its lowest since August 26.",
+   "Supply is the other weight. Deutsche Bank said observed global liquids inventories rose 52 million barrels in October, which it said implies oversupply of about 1.7 million barrels a day, Reuters reported. The IEA expects a surplus of about 2 million barrels a day this quarter, GOLDINVEST noted. In Libya, the Sharara pipeline reopened after an armed group closed a valve, the National Oil Corporation's chair told Reuters on Monday.",
+   "The shipping risk has not gone away. Iran's Revolutionary Guards navy said three \"violating\" tankers caught fire after hitting mines in the strait on Monday, according to Press TV, and the Wall Street Journal said the US is investigating whether Iran was behind cyberattacks on as many as 50 tankers. Kpler data show about 9.5 million barrels a day moved through Hormuz in the ten days to November 19, down from 12.2 million in October. \"Brent has largely lost any upward impetus in recent days,\" said Suvro Sarkar of DBS Bank. OPEC+ ministers meet on November 29."
+  ],
+  "flow": {
+   "upstream": "WTI near $80 trims 2027 cash flow plans and makes hedging the strip less attractive than it was a week ago.",
+   "midstream": "Tankers still face mine and cyber risk at Hormuz, so freight and war risk cover east of the strait stay expensive even as crude falls.",
+   "downstream": "Cheaper crude helps refiners, but gasoline and diesel futures fell nearly as fast, and the 3-2-1 crack held near $39 a barrel.",
+   "market": "Traders are pricing surplus over disruption. A Brent to WTI spread near $9 and rising inventories point to a looser market into OPEC+."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Check 2027 hedges and budgets against WTI near $80 before the November 29 OPEC+ decision."
+   },
+   {
+    "who": "Midstream and shippers",
+    "text": "Keep war risk and routing plans for Hormuz in place; falling prices do not mean safer water."
+   },
+   {
+    "who": "Refiners",
+    "text": "Lower crude costs are arriving with lower product prices, so margins are steadier than the headline drop suggests."
+   },
+   {
+    "who": "Traders",
+    "text": "Watch OPEC+ on November 29 and weekly US inventory data for whether the surplus case holds."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Reuters via The Express Tribune",
+    "url": "https://tribune.com.pk/story/2642028/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat"
+   },
+   {
+    "name": "GOLDINVEST, citing Bloomberg and Kpler",
+    "url": "https://goldinvest.de/en/oil-price-slips-below-89-dollars-ahead-of-opec-meeting-as-war-premium-fades"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/oil-price-charts/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Upstream",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "TotalEnergies buys more US gas from Continental Resources",
+   "text": "TotalEnergies said on November 23 it agreed to acquire interests in US natural gas assets from Continental Resources, adding about 150 MMcf/d of net production, roughly 26,000 boe/d, by 2032. Neither the price nor the basin was disclosed; Oil & Gas Journal said the assets are tied into existing midstream lines. The deal follows TotalEnergies' 2025 purchase of Anadarko basin interests from Continental and its 2024 Eagle Ford deals with EOG Resources and Lewis Energy. With its operated Barnett position, the company expects net US gas output of about 850 MMcf/d from 2032.",
+   "why": "TotalEnergies was the largest US LNG exporter in 2025 at about 19 million tonnes, Pipeline & Gas Journal reported. Owning more of its own feedgas hedges that export book against Henry Hub swings.",
+   "sources": [
+    {
+     "name": "Oil & Gas Journal",
+     "url": "https://www.ogj.com/general-interest/companies/news/55420906/totalenergies-acquires-interests-in-us-gas-assets-from-continental-resources"
+    },
+    {
+     "name": "Pipeline & Gas Journal",
+     "url": "https://pgjonline.com/news/2026/november/totalenergies-acquires-more-us-gas-assets-from-continental-resources-adding-150-mmft3d-by-2032"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Upstream",
+   "setting": "Offshore",
+   "region": "Egypt, Eastern Mediterranean",
+   "headline": "Egypt presses Chevron and Eni to speed up the Nargis gas field",
+   "text": "Egypt's petroleum minister, Karim Badawi, met Chevron and Eni executives on Saturday, November 21, to push for faster development of the offshore Nargis field, Construction Review Online reported. The Nargis-2 well, drilled with the Stena Forth, reached more than 5,000 metres and found up to 35 metres of net gas pay, the ministry said on October 24. Chevron operates the concession with Eni, Mubadala Energy and Egypt's Tharwa Petroleum. No production date or cost for a third well was given; the companies agreed to hold regular technical meetings.",
+   "why": "Nargis-1, found in December 2022, was put at around 3.5 Tcf of gas in reports at the time, an estimate. A firm plan would add an East Mediterranean supply source for Egypt and its partners.",
+   "sources": [
+    {
+     "name": "Construction Review Online",
+     "url": "https://constructionreviewonline.com/nargis-gas-field-development-egypt-presses-chevron-eni"
+    }
+   ]
+  },
+  {
+   "id": "permian",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "Permian basin, Texas and New Mexico",
+   "headline": "Permian gas flaring heads for a three year low as new pipes take the gas",
+   "text": "Flaring in the Permian is on track for its lowest monthly level in three years as added pipeline capacity moves surplus gas to other Texas markets, Bloomberg reported on November 23. Flaring is averaging about 268 MMcf/d this month, the lowest since November 2023, Construction Review Online said, against close to 500 MMcf/d estimated in mid 2025. Energy Transfer's 42 inch Hugh Brinson line from Waha toward the Dallas and Fort Worth area entered full service for Phase I on September 1, with Phase II due in the first quarter of 2027.",
+   "why": "Less flaring means more gas sold and fewer days of negative Waha prices, which averaged about minus $2.19 per MMBtu in the first half of 2026.",
+   "sources": [
+    {
+     "name": "Seeking Alpha, citing Bloomberg",
+     "url": "https://seekingalpha.com/news/4675758-permian-gas-flaring-hits-3-yr-low-as-new-pipelines-ease-glut"
+    },
+    {
+     "name": "Construction Review Online",
+     "url": "https://constructionreviewonline.com/permian-gas-flaring-falls-to-3-year-low-as-pipelines-open/"
+    }
+   ]
+  },
+  {
+   "id": "gas",
+   "segment": "Gas and LNG",
+   "setting": "Onshore",
+   "region": "US Lower 48",
+   "headline": "Henry Hub swings 31 cents as December options expire today",
+   "text": "December NYMEX gas settled at $3.411 per MMBtu on Friday, up 4.4%, then fell about 31 cents on Monday morning, Rigzone reported from EBW Analytics. NGI said weekend weather models warmed the early December outlook, while a pre-Thanksgiving cold shot pushed physical prices up across most of the Lower 48, with New England hubs gaining more than $1 and Appalachian hubs back above $2. December options expire on Tuesday and the contract settles on Wednesday.",
+   "why": "EBW's Eli Rubin expects volatility to continue into expiry and a structurally weak market over the next 30 to 45 days, a signal for producers deciding whether to curtail in Appalachia.",
+   "sources": [
+    {
+     "name": "Rigzone, citing EBW Analytics",
+     "url": "https://www.rigzone.com/news/usa_natural_gas_price_sees_volatile_swing-23-nov-2026-185149-article/"
+    },
+    {
+     "name": "Natural Gas Intelligence",
+     "url": "https://naturalgasintel.com/news/holiday-week-cold-shot-sends-northeast-natural-gas-cash-soaring"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "Norway Ministry of Energy",
+   "action": "Approval of Vår Energi's purchase of ConocoPhillips Skandinavia and the Teesside operator",
+   "date": "Agreed Nov 23, 2026",
+   "status": "Pending approval",
+   "means": "Closing expected by the end of the first quarter of 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "agency": "UNFCCC COP31",
+   "action": "Final decision text of the Antalya climate talks",
+   "date": "Nov 22, 2026",
+   "status": "Not adopted",
+   "means": "No new language on fossil fuels; earlier COP commitments stand.",
+   "source": {
+    "name": "Al Jazeera, with AP and Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+   }
+  },
+  {
+   "agency": "Ohio Power Siting Board",
+   "action": "Permits for PowerConneX's 800 MW Ashville plant and Advanced Power's 1,350 MW Fairfield Energy Center, both for data centers",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Both projects can move ahead, though some still need separate environmental permits.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "agency": "US Senate",
+   "action": "Bipartisan energy permitting bill",
+   "date": "Nov 19, 2026",
+   "status": "Passed Senate, 62 to 33",
+   "means": "Moves to the House; would speed federal approvals for energy projects of all kinds.",
+   "source": {
+    "name": "OilPrice.com, citing Reuters",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "First chance to change quotas since the group paused increases in October.",
+   "source": {
+    "name": "Reuters via GV Wire",
+    "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Permian",
+   "setting": "Onshore unconventional",
+   "line": "Flaring is averaging about 268 MMcf/d this month, the lowest since November 2023, as new pipelines move gas to other Texas markets.",
+   "source": {
+    "name": "Construction Review Online",
+    "url": "https://constructionreviewonline.com/permian-gas-flaring-falls-to-3-year-low-as-pipelines-open/"
+   }
+  },
+  {
+   "name": "US Gulf Coast LNG",
+   "setting": "Export terminals",
+   "line": "Feedgas slipped to about 19.2 Bcf/d on November 17 as Sabine Pass dipped, per LSEG data; Bloomberg put flows at a record 21.8 Bcf/d on November 14.",
+   "source": {
+    "name": "Pipeline & Gas Journal, citing LSEG",
+    "url": "https://pgjonline.com/news/2026/november/us-lng-feedgas-slips-to-192-bft3d-as-sabine-pass-flows-drop-freeport-stays-constrained"
+   }
+  },
+  {
+   "name": "Utica and Marcellus",
+   "setting": "Onshore unconventional",
+   "line": "Marcellus spot gas fell below $1.50 on Friday and shut in supply, Rigzone said; on Monday a cold shot pushed Appalachian hubs back above $2, per NGI.",
+   "source": {
+    "name": "Rigzone, citing EBW Analytics",
+    "url": "https://www.rigzone.com/news/usa_natural_gas_price_sees_volatile_swing-23-nov-2026-185149-article/"
+   }
+  },
+  {
+   "name": "Bakken",
+   "setting": "Onshore unconventional",
+   "line": "Enbridge's 475,000 b/d North Dakota Pipeline was still curtailed as of November 20. CVR priced $1.25 billion of notes to help fund its purchase of the Mandan refinery.",
+   "source": {
+    "name": "Bloomberg via Insurance Journal",
+    "url": "https://www.insurancejournal.com/news/midwest/2026/11/20/893327.htm"
+   }
+  },
+  {
+   "name": "US Gulf of America",
+   "setting": "Offshore",
+   "line": "Chevron is reported near a $5 billion deal for a majority of Beacon Offshore, with 70 deepwater leases; the next mandatory lease sale is due by March 15, 2027.",
+   "source": {
+    "name": "Reuters via Offshore Engineer",
+    "url": "https://www.oedigital.com/amp/news/544405-chevron-nears-5b-deal-to-buy-beacon-offshore"
+   }
+  },
+  {
+   "name": "Guyana",
+   "setting": "Offshore deepwater",
+   "line": "Uaru started November 16, lifting installed capacity to 1.1 million b/d; Longtail is the eighth project sanctioned.",
+   "source": {
+    "name": "World Oil",
+    "url": "https://www.worldoil.com/news/2026/11/16/exxonmobil-starts-uaru-production-lifting-guyana-capacity-to-1-1-mmbpd/"
+   }
+  },
+  {
+   "name": "Norwegian North Sea",
+   "setting": "Offshore",
+   "line": "Vår Energi agreed to buy ConocoPhillips' Norway business, including Greater Ekofisk and Norpipe, for $4.425 billion; closing by end of Q1 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "About 9.5 million b/d moved through the strait in the ten days to November 19, down from 12.2 million in October, per Kpler data; Iran said three tankers hit mines on Monday.",
+   "source": {
+    "name": "GOLDINVEST, citing Bloomberg and Kpler",
+    "url": "https://goldinvest.de/en/oil-price-slips-below-89-dollars-ahead-of-opec-meeting-as-war-premium-fades"
+   }
+  },
+  {
+   "name": "Egypt",
+   "setting": "Offshore",
+   "line": "The petroleum minister pressed Chevron and Eni on November 21 to speed up Nargis, where the second well found up to 35 metres of net gas pay.",
+   "source": {
+    "name": "Construction Review Online",
+    "url": "https://constructionreviewonline.com/nargis-gas-field-development-egypt-presses-chevron-eni"
+   }
+  },
+  {
+   "name": "Libya",
+   "setting": "Onshore",
+   "line": "The Sharara pipeline reopened after an armed group closed a valve, the National Oil Corporation's chair told Reuters on November 23.",
+   "source": {
+    "name": "Reuters via The Express Tribune",
+    "url": "https://tribune.com.pk/story/2642028/oil-prices-near-three-month-lows-as-rising-supply-offsets-hormuz-threat"
+   }
+  },
+  {
+   "name": "Russia",
+   "setting": "Exports",
+   "line": "Ukrainian strikes have cut refinery runs by about 45% since late October, Reuters reports, with 15 of 35 major refineries hit.",
+   "source": {
+    "name": "Kyiv Independent, citing Reuters",
+    "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/"
+   }
+  },
+  {
+   "name": "Nigeria",
+   "setting": "Onshore and offshore",
+   "line": "NUPRC opened registration for a 40 block licensing round on November 20; registration runs to January 15, 2027.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 23, 2026",
+  "name": "Nick Walker",
+  "role": "Chief executive, Vår Energi",
+  "summary": "Walker's company agreed on November 23 to buy ConocoPhillips' Norway business and its Teesside terminal stake for an enterprise value of $4.425 billion, taking over operatorship of the Greater Ekofisk Area and the Norpipe export system. He has led Vår Energi, Norway's Eni controlled independent, since September 2023.",
+  "path": "Before Vår he was chief executive of Lundin Energy until its sale to Aker BP in mid 2022, and he earlier worked at BP, Talisman Energy, Africa Oil and Cairn Oil & Gas under Vedanta. Vår says he has more than 30 years in technical, commercial and executive roles. He studied mining engineering at Imperial College London and computer science at University College London, and holds an MBA from City University Business School.",
+  "why": "The deal, on top of the BlueNord combination, puts Vår among the largest independent offshore producers, with a target of more than 500,000 boe/d into the mid 2030s. How he runs the ageing Ekofisk hub and its UK link will shape a large share of Norway's southern North Sea output.",
+  "sources": [
+   {
+    "name": "Vår Energi executive committee",
+    "url": "https://varenergi.no/en/about-us/executive-committee/"
+   },
+   {
+    "name": "Offshore Engineer",
+    "url": "https://www.oedigital.com/news/507756-former-lundin-energy-head-takes-the-helm-as-ceo-of-v-r-energi"
+   },
+   {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   },
+   {
+    "name": "Offshore Energy",
+    "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Oil slides to a three month low",
+  "points": [
+   "WTI dips under $80 early Tuesday",
+   "October stocks up 52M barrels",
+   "Hormuz flows down from October"
+  ],
+  "watch": "OPEC+ sets 2027 quotas November 29.",
+  "caption": "$79.57. That was WTI early Tuesday, the lowest since late August, after crude lost 4.5% on Monday as Washington signaled more time for Iran diplomacy and inventory data pointed to a surplus.\n\nProducers budgeting for 2027 feel it first. Refiners get cheaper crude, but fuel futures fell almost as fast.\n\nFull edition: uticamidstream.com\n\n#OilPrices #WTI #CrudeOil #OPEC #Energy"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "TotalEnergies adds US gas with Continental",
+   "points": [
+    "Builds on its 2025 Anadarko deal",
+    "Price and basin not disclosed",
+    "US gas target near 850 MMcf/d"
+   ],
+   "watch": "Which basin the assets sit in is still unknown.",
+   "caption": "TotalEnergies is buying more American gas. A new deal with Continental Resources should add about 150 MMcf/d of net production by 2032, though neither the price nor the basin was disclosed.\n\nThe largest US LNG exporter of 2025 now owns more of the molecules it ships abroad.\n\nRead the deal: uticamidstream.com\n\n#LNG #NaturalGas #TotalEnergies #Upstream #Shale",
+   "stat": {
+    "value": "150 MMcf/d",
+    "label": "Net gas TotalEnergies expects the Continental deal to add by 2032"
+   }
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Egypt presses Chevron and Eni to speed up Nargis",
+   "points": [
+    "Talks held on November 21",
+    "Second well: 35 m of net gas pay",
+    "No production date yet"
+   ],
+   "watch": "Regular technical meetings are now planned.",
+   "caption": "Egypt wants its Nargis gas sooner. Petroleum Minister Karim Badawi met Chevron and Eni on Saturday to push the offshore field forward after the Nargis-2 well found up to 35 metres of net pay.\n\nThere is still no cost, schedule or start date.\n\nuticamidstream.com\n\n#Egypt #NaturalGas #EastMed #Offshore #Chevron"
+  }
+ }
+}
