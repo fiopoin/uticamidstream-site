@@ -3,11 +3,13 @@
 > A free daily read on oil and gas from wellhead to market: prices, stocks, pipelines, policy, projects and people, with every fact sourced and dated. Each edition has a price board (crude, gas, products and calculated spreads), market and stock notes, a lead story traced through upstream, midstream, downstream and the market, briefs by segment, a regulatory docket, basin watch, a weekly leader profile and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Oil falls to a three month low as the Iran war premium fades and stocks of crude build](https://uticamidstream.com/): November 24, 2026. $79.57. That was WTI early Tuesday, the lowest since late August, after crude lost 4.5% on Monday as Washington signaled more time for Iran diplomacy and inventory data pointed to a surplus.
-- [Upstream: TotalEnergies buys more US gas from Continental Resources](https://uticamidstream.com/#money)
-- [Upstream: Egypt presses Chevron and Eni to speed up the Nargis gas field](https://uticamidstream.com/#world)
-- [Midstream: Permian gas flaring heads for a three year low as new pipes take the gas](https://uticamidstream.com/#permian)
-- [Gas and LNG: Henry Hub swings 31 cents as December options expire today](https://uticamidstream.com/#gas)
+- [Oil gives back Tuesday's gain as glut fears outweigh new ship attacks near Hormuz](https://uticamidstream.com/): November 25, 2026. Shipping attacks near Hormuz are moving oil for a day at a time. Brent jumped more than 2% on Tuesday after three vessels were hit, then gave back $1.35 by early Wednesday as surplus worries for 2027 returned.
+- [Upstream: POSCO closes its $550 million Marcellus buy from Chord Energy](https://uticamidstream.com/#money)
+- [Downstream: Dangote refinery heads for a stock listing worth about N65 trillion](https://uticamidstream.com/#world)
+- [Gas and LNG: Rio Grande LNG asks to bring fuel gas into its first train](https://uticamidstream.com/#lng)
+- [Gas and LNG: First storage draw of the winter is due in today's early EIA report](https://uticamidstream.com/#gas)
+- [Upstream: Diversified closes its $1.8 billion Birch Permian deal](https://uticamidstream.com/#permian)
+- [Cross-industry: Data centers plan more than 115 GW of their own gas plants](https://uticamidstream.com/#power)
 
 ## About
 - [How we work](https://uticamidstream.com/method.html)
@@ -16,6 +18,7 @@
 - [Sitemap](https://uticamidstream.com/sitemap.xml)
 
 ## Recent editions
+- [November 25, 2026: Oil gives back Tuesday's gain as glut fears outweigh new ship attacks near Hormuz](https://uticamidstream.com/archive/2026-11-25.html)
 - [November 24, 2026: Oil falls to a three month low as the Iran war premium fades and stocks of crude build](https://uticamidstream.com/archive/2026-11-24.html)
 - [November 23, 2026: A tanker incident at the US blockade line tests oil's calm as Iran stages tankers at Kharg](https://uticamidstream.com/archive/2026-11-23.html)
 - [November 22, 2026: Ohio permits 2,150 MW of gas power for data centers as Rockies Express seeks bids for a new lateral](https://uticamidstream.com/archive/2026-11-22.html)

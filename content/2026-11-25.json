@@ -1,0 +1,662 @@
+{
+ "date": "2026-11-25",
+ "date_long": "November 25, 2026",
+ "edition": 8,
+ "prices": {
+  "asof": "Latest quotes OilPrice.com showed when checked at about 5 a.m. Central, Wednesday, November 25, 2026. Changes are measured from Monday's settlement, so these rows reflect Tuesday's session, not Wednesday's overnight trade. Reuters had Brent at $90.05 and WTI at $80.70 at 07:10 Saudi time on Wednesday.",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "81.49",
+    "unit": "$/bbl",
+    "change": "+1.32",
+    "pct": "+1.65%",
+    "note": "Tuesday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "90.92",
+    "unit": "$/bbl",
+    "change": "+1.55",
+    "pct": "+1.73%",
+    "note": "Tuesday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "82.72",
+    "unit": "$/bbl",
+    "change": "+1.45",
+    "pct": "+1.78%",
+    "note": "Tuesday trade, 1 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "84.99",
+    "unit": "$/bbl",
+    "change": "-4.30",
+    "pct": "-4.82%",
+    "note": "Stale: last updated November 24",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "83.80",
+    "unit": "$/bbl",
+    "change": "-2.06",
+    "pct": "-2.40%",
+    "note": "Stale: page shows a one day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.340",
+    "unit": "$/MMBtu",
+    "change": "+0.156",
+    "pct": "+4.9%",
+    "note": "Tuesday trade, 15 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.444",
+    "unit": "$/gal",
+    "change": "+0.039",
+    "pct": "+1.61%",
+    "note": "Tuesday trade, 13 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.696",
+    "unit": "$/gal",
+    "change": "-0.002",
+    "pct": "-0.05%",
+    "note": "Tuesday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$9.43/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$1.23/bbl",
+    "note": "Calculated from the quotes above."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$38.69/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Tuesday, November 24, 2026",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "7,201.09",
+    "change": "-36.08",
+    "pct": "-0.5%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "50,018.70",
+    "change": "+423.39",
+    "pct": "+0.9%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "23,733.54",
+    "change": "-356.02",
+    "pct": "-1.5%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via myMotherLode",
+   "url": "https://mymotherlode.com/news/national/11337878/how-major-us-stock-indexes-fared-tuesday-11-24-2026.html"
+  },
+  "read": "Stocks split on Tuesday. AI and technology shares led the Nasdaq down 1.5% while the Dow added more than 400 points to close above 50,000, AP reported. Oil bounced: Brent settled up 2.27% at $91.40 and WTI up 2.35% at $82.05, Forbes Middle East reported, on Hormuz shipping risk. Both gave back $1.35 early Wednesday, Reuters said, as surplus worries for 2027 returned ahead of the November 29 OPEC+ meeting. Energy names now trade more on that supply outlook than on each new incident at sea.",
+  "read_source": {
+   "name": "Reuters via Arab News",
+   "url": "https://arabnews.com/energy/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-3013948"
+  },
+  "stocks": [
+   {
+    "ticker": "CHRD",
+    "name": "Chord Energy",
+    "segment": "Upstream",
+    "note": "Completed the $550 million sale of its non-operated Pennsylvania Marcellus position to POSCO International on November 23, leaving it focused on the Williston Basin.",
+    "source": {
+     "name": "Korea JoongAng Daily",
+     "url": "https://www.koreajoongangdaily.com/business/posco-completes-550-million-acquisition-of-us-shale-gas-field/12988546"
+    }
+   },
+   {
+    "ticker": "NEXT",
+    "name": "NextDecade",
+    "segment": "LNG",
+    "note": "An affiliate filed to bring high pressure fuel gas into Rio Grande LNG, NGI reported November 24; first LNG is on track for the second quarter of 2027.",
+    "source": {
+     "name": "NGI",
+     "url": "https://naturalgasintel.com/news/rio-grande-lng-close-to-introducing-natural-gas-to-first-liquefaction-train/"
+    }
+   },
+   {
+    "ticker": "DEC",
+    "name": "Diversified Energy",
+    "segment": "Upstream",
+    "note": "Closed its roughly $1.8 billion purchase of Birch Permian on November 19, funded in part by $1.455 billion of asset backed notes due 2046.",
+    "source": {
+     "name": "Diversified Energy 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001922446/000114036126045091/ef20085978_8k.htm"
+    }
+   },
+   {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources",
+    "segment": "Upstream",
+    "note": "Its C$13.55 a share cash deal for Advantage Energy, about $2.53 billion with debt, is targeted to close in the first quarter of 2027.",
+    "source": {
+     "name": "Canadian Natural release",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001017413/000101741326000054/a11162026pradvantageacq.htm"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Market: shipping risk versus surplus",
+  "chain": [
+   "upstream",
+   "midstream",
+   "market"
+  ],
+  "headline": "Oil gives back Tuesday's gain as glut fears outweigh new ship attacks near Hormuz",
+  "dek": "Brent fell back to about $90 early Wednesday, a day after rising more than 2% when three vessels were struck by projectiles in the strait.",
+  "body": [
+   "Crude swung both ways in 24 hours. On Tuesday, Brent settled up 2.27% at $91.40 and WTI up 2.35% at $82.05, Forbes Middle East reported, on shipping risk in the Strait of Hormuz. By 07:10 Saudi time on Wednesday, Reuters reported, both had lost $1.35, with Brent at $90.05 and WTI at $80.70.",
+   "The attacks continued. The UK Maritime Trade Operations agency said three vessels were struck by unidentified projectiles on Monday while sailing east through the strait, and Iran's Revolutionary Guards said they stopped a container ship on an \"unauthorised\" route on Tuesday, according to Reuters. ANZ analysts said flows through Hormuz were at 49% of normal levels, Angel One reported.",
+   "Supply still sets the tone. Zhenqiang Seto of LSEG told Reuters that surplus worries for 2027 outweigh shipping risk. Industry data from the American Petroleum Institute showed US crude stocks up 126,000 barrels in the week to November 20, against an average forecast of a 1.5 million barrel rise in a Reuters poll. Iraq is pressing OPEC+ to raise its estimate of Iraqi production capacity, four people familiar with the matter told Reuters, ahead of the group's November 29 meeting on 2027 policy."
+  ],
+  "flow": {
+   "upstream": "A swing of more than $1 a day around $80 WTI keeps 2027 budgets cautious; the Iraq capacity push hints at more OPEC+ barrels, not fewer.",
+   "midstream": "Tankers keep taking hits east of Hormuz and flows are about half of normal, so war risk cover and routing costs stay high.",
+   "downstream": "Diesel futures were flat on Tuesday while crude rose, and the 3-2-1 crack eased to about $38.70.",
+   "market": "Each incident lifts prices for a session, then the surplus view returns. The Brent to WTI spread widened to about $9.43."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Plan for volatility around $80 WTI and watch whether OPEC+ resets capacity baselines for Iraq and others on November 29."
+   },
+   {
+    "who": "Shippers and insurers",
+    "text": "Treat the strait as active risk: three projectile strikes and a container ship stopped by Iran in two days."
+   },
+   {
+    "who": "Refiners",
+    "text": "Product prices lagged crude on Tuesday; check margins before buying more Middle East grades."
+   },
+   {
+    "who": "Traders",
+    "text": "Read Wednesday's EIA oil and gas data, released early for Thanksgiving, against the small API crude build."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Reuters via Arab News",
+    "url": "https://arabnews.com/energy/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-3013948"
+   },
+   {
+    "name": "Forbes Middle East",
+    "url": "https://www.forbesmiddleeast.com/industry/energy/brent-crude-rises-227-to-9140-wti-gains-235-to-8205"
+   },
+   {
+    "name": "Angel One",
+    "url": "https://www.angelone.in/news/commodities/crude-oil-prices-fall-today-as-hormuz-attacks-mount-supply-concerns-and-weak-fuel-markets-weigh-november-25-2026"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/oil-price-charts/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Upstream",
+   "setting": "Onshore",
+   "region": "Pennsylvania, United States",
+   "headline": "POSCO closes its $550 million Marcellus buy from Chord Energy",
+   "text": "POSCO International said it finalized the purchase of Chord Energy's entire stake in a Pennsylvania shale gas field on November 23, with a signing ceremony in Houston, Korea JoongAng Daily reported. When the deal was announced in September, Oil & Gas Journal said the non-operated position covers about 32,000 net acres in the core of the Marcellus and produced about 121 MMcf/d over the trailing twelve months, with 1.3 Tcf of reserves. The local operator keeps running the wells; POSCO handles marketing. POSCO expects about 100 billion won, about $74 million, of operating profit a year.",
+   "why": "Asian buyers are moving from buying US LNG to owning the gas behind it. POSCO plans to send part of the output to LNG plants from 2029, OGJ said, while Chord narrows to the Williston Basin.",
+   "sources": [
+    {
+     "name": "Korea JoongAng Daily",
+     "url": "https://www.koreajoongangdaily.com/business/posco-completes-550-million-acquisition-of-us-shale-gas-field/12988546"
+    },
+    {
+     "name": "Oil & Gas Journal",
+     "url": "https://www.ogj.com/general-interest/companies/news/55405540/posco-international-to-acquire-chords-marcellus-gas-assets-for-550-million"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Downstream",
+   "setting": "Refining",
+   "region": "Nigeria",
+   "headline": "Dangote refinery heads for a stock listing worth about N65 trillion",
+   "text": "Nigeria's Securities and Exchange Commission approved the Dangote refinery's share allotment plan on November 23, the last regulatory step before listing, BusinessDay reported. Brokers expect the shares to debut as early as December 1, though revised timetables had pointed to December 8. The IPO sold 4.1 billion shares at N525, about 3.3% of the company, and drew about N5.85 trillion of applications. At the offer price the refinery is valued near N65.2 trillion. Capacity was rerated to 700,000 b/d in July, with a plan for 1.4 million b/d by 2029.",
+   "why": "It would be the largest listed company in Africa, and the proceeds help fund a $14.3 billion expansion that would reshape fuel trade flows into West Africa, long a market for US and European gasoline.",
+   "sources": [
+    {
+     "name": "BusinessDay",
+     "url": "https://businessday.ng/markets/article/dangote-refinery-eyes-dec-1-for-historic-n65trn-ngx-listing/"
+    }
+   ]
+  },
+  {
+   "id": "lng",
+   "segment": "Gas and LNG",
+   "setting": "Export terminals",
+   "region": "South Texas",
+   "headline": "Rio Grande LNG asks to bring fuel gas into its first train",
+   "text": "A NextDecade affiliate has filed to introduce high pressure fuel gas into the Rio Grande LNG plant under construction near Brownsville, NGI reported on November 24, a step that brings the first liquefaction train closer to start up. First LNG remains on track for the second quarter of 2027. NextDecade has started pre-filing for two more trains, and NGI said the site could eventually reach 48 million tonnes a year.",
+   "why": "Commissioning gas is the first new feedgas pull from a Texas project in this cycle, adding demand on South Texas pipelines well before the first cargo.",
+   "sources": [
+    {
+     "name": "NGI",
+     "url": "https://naturalgasintel.com/news/rio-grande-lng-close-to-introducing-natural-gas-to-first-liquefaction-train/"
+    }
+   ]
+  },
+  {
+   "id": "gas",
+   "segment": "Gas and LNG",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "First storage draw of the winter is due in today's early EIA report",
+   "text": "NGI expects the EIA report for the week ended November 20 to show a 25 Bcf withdrawal, the first of the 2026 to 2027 heating season and in line with the five year average. The report comes at noon Eastern on Wednesday, a day early because of Thanksgiving. NGI said Lower 48 dry gas output rose 3.0 Bcf/d to 111.1 Bcf/d last week, LNG feedgas was about 20.7 Bcf/d, and Baker Hughes and Primary Vision showed the biggest combined jump in rigs and frac spreads since October 9.",
+   "why": "Supply is climbing just as heating demand arrives. A smaller draw than expected would test Tuesday's rally of about 5% in NYMEX gas futures.",
+   "sources": [
+    {
+     "name": "NGI",
+     "url": "https://naturalgasintel.com/news/winter-makes-presence-felt-as-us-natural-gas-storage-shifts-to-withdrawal-mode/"
+    },
+    {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   ]
+  },
+  {
+   "id": "permian",
+   "segment": "Upstream",
+   "setting": "Onshore",
+   "region": "Midland Basin, Texas",
+   "headline": "Diversified closes its $1.8 billion Birch Permian deal",
+   "text": "Diversified Energy completed its purchase of Birch Permian Holdings on November 19 for about $1.8 billion, its 8-K shows. The deal brings about 46,000 net acres in the Midland Basin, 480 net operated wells, and midstream and water infrastructure. To help pay, a subsidiary sold $1.455 billion of fixed rate asset backed notes due 2046, secured by Midland wellbore interests, with coupons from 6.68% to 10.756%.",
+   "why": "Securitizing producing wells is spreading from Appalachia to the Permian, giving buyers of mature acreage a funding route outside bank loans.",
+   "sources": [
+    {
+     "name": "Diversified Energy 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001922446/000114036126045091/ef20085978_8k.htm"
+    }
+   ]
+  },
+  {
+   "id": "power",
+   "segment": "Cross-industry",
+   "setting": "Power and data centers",
+   "region": "United States",
+   "headline": "Data centers plan more than 115 GW of their own gas plants",
+   "text": "Data center developers had announced more than 100 behind the meter gas power plants in the US as of October, with planned capacity above 115 GW, MIT Technology Review reported on November 24, citing Cleanview data. About 4.9 GW is running and 15.8 GW is under construction. BloombergNEF counts 181 GW of announced on-site data center gas projects worldwide, 90% of it in the US. \"The biggest motivator for on-site power right now from data centers is speed,\" said Musfika Mishi of BloombergNEF.",
+   "why": "That is new gas demand that bypasses the grid queue but not the pipeline, so laterals, compression and supply contracts near data center sites become the bottleneck.",
+   "sources": [
+    {
+     "name": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "Nigeria SEC",
+   "action": "Share allotment plan for the Dangote refinery IPO",
+   "date": "Nov 23, 2026",
+   "status": "Approved",
+   "means": "Clears the way for a listing on the Nigerian Exchange, expected as early as December 1.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/markets/article/dangote-refinery-eyes-dec-1-for-historic-n65trn-ngx-listing/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "NextDecade affiliate request to introduce fuel gas at Rio Grande LNG",
+   "date": "Reported Nov 24, 2026",
+   "status": "Filed",
+   "means": "A commissioning step toward first LNG, targeted for the second quarter of 2027.",
+   "source": {
+    "name": "NGI",
+    "url": "https://naturalgasintel.com/news/rio-grande-lng-close-to-introducing-natural-gas-to-first-liquefaction-train/"
+   }
+  },
+  {
+   "agency": "Norway Ministry of Energy",
+   "action": "Approval of Vår Energi's purchase of ConocoPhillips Skandinavia and the Teesside operator",
+   "date": "Agreed Nov 23, 2026",
+   "status": "Pending approval",
+   "means": "Closing expected by the end of the first quarter of 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "agency": "UNFCCC COP31",
+   "action": "Final decision text of the Antalya climate talks",
+   "date": "Nov 22, 2026",
+   "status": "Not adopted",
+   "means": "No new language on fossil fuels; earlier COP commitments stand.",
+   "source": {
+    "name": "Al Jazeera, with AP and Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+   }
+  },
+  {
+   "agency": "Ohio Power Siting Board",
+   "action": "Permits for PowerConneX's 800 MW Ashville plant and Advanced Power's 1,350 MW Fairfield Energy Center, both for data centers",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Both projects can move ahead, though some still need separate environmental permits.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "agency": "US Senate",
+   "action": "Bipartisan energy permitting bill",
+   "date": "Nov 19, 2026",
+   "status": "Passed Senate, 62 to 33",
+   "means": "Moves to the House; would speed federal approvals for energy projects of all kinds.",
+   "source": {
+    "name": "OilPrice.com, citing Reuters",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "First chance to change quotas since the group paused increases in October.",
+   "source": {
+    "name": "Reuters via GV Wire",
+    "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Appalachia",
+   "setting": "Onshore unconventional",
+   "line": "POSCO International closed its $550 million purchase of Chord's non-operated Marcellus stake on November 23, about 121 MMcf/d of trailing output.",
+   "source": {
+    "name": "Oil & Gas Journal",
+    "url": "https://www.ogj.com/general-interest/companies/news/55405540/posco-international-to-acquire-chords-marcellus-gas-assets-for-550-million"
+   }
+  },
+  {
+   "name": "Permian",
+   "setting": "Onshore unconventional",
+   "line": "Diversified closed the $1.8 billion Birch Permian deal on November 19, adding 46,000 net Midland acres plus midstream and water assets.",
+   "source": {
+    "name": "Diversified Energy 8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001922446/000114036126045091/ef20085978_8k.htm"
+   }
+  },
+  {
+   "name": "US Gulf Coast LNG",
+   "setting": "Export terminals",
+   "line": "Feedgas was about 20.7 Bcf/d last week per NGI; Rio Grande LNG filed to bring fuel gas into its first train.",
+   "source": {
+    "name": "NGI",
+    "url": "https://naturalgasintel.com/news/winter-makes-presence-felt-as-us-natural-gas-storage-shifts-to-withdrawal-mode/"
+   }
+  },
+  {
+   "name": "Montney",
+   "setting": "Onshore unconventional",
+   "line": "Canadian Natural's deal for Advantage Energy adds about 79,000 boe/d of Montney and Charlie Lake output; closing targeted for Q1 2027.",
+   "source": {
+    "name": "Canadian Natural release",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001017413/000101741326000054/a11162026pradvantageacq.htm"
+   }
+  },
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "UKMTO said three vessels were struck by projectiles on November 23; ANZ puts flows at 49% of normal.",
+   "source": {
+    "name": "Angel One",
+    "url": "https://www.angelone.in/news/commodities/crude-oil-prices-fall-today-as-hormuz-attacks-mount-supply-concerns-and-weak-fuel-markets-weigh-november-25-2026"
+   }
+  },
+  {
+   "name": "Libya",
+   "setting": "Onshore",
+   "line": "Oil is flowing again into storage at Zawiya's Akakus facility after the Sharara pipeline reopened, Reuters reported.",
+   "source": {
+    "name": "Reuters via Arab News",
+    "url": "https://arabnews.com/energy/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-3013948"
+   }
+  },
+  {
+   "name": "Nigeria",
+   "setting": "Refining",
+   "line": "The Dangote refinery, rerated to 700,000 b/d, cleared its last SEC step before listing.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/markets/article/dangote-refinery-eyes-dec-1-for-historic-n65trn-ngx-listing/"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 23, 2026",
+  "name": "Nick Walker",
+  "role": "Chief executive, Vår Energi",
+  "summary": "Walker's company agreed on November 23 to buy ConocoPhillips' Norway business and its Teesside terminal stake for an enterprise value of $4.425 billion, taking over operatorship of the Greater Ekofisk Area and the Norpipe export system. He has led Vår Energi, Norway's Eni controlled independent, since September 2023.",
+  "path": "Before Vår he was chief executive of Lundin Energy until its sale to Aker BP in mid 2022, and he earlier worked at BP, Talisman Energy, Africa Oil and Cairn Oil & Gas under Vedanta. Vår says he has more than 30 years in technical, commercial and executive roles. He studied mining engineering at Imperial College London and computer science at University College London, and holds an MBA from City University Business School.",
+  "why": "The deal, on top of the BlueNord combination, puts Vår among the largest independent offshore producers, with a target of more than 500,000 boe/d into the mid 2030s. How he runs the ageing Ekofisk hub and its UK link will shape a large share of Norway's southern North Sea output.",
+  "sources": [
+   {
+    "name": "Vår Energi executive committee",
+    "url": "https://varenergi.no/en/about-us/executive-committee/"
+   },
+   {
+    "name": "Offshore Engineer",
+    "url": "https://www.oedigital.com/news/507756-former-lundin-energy-head-takes-the-helm-as-ceo-of-v-r-energi"
+   },
+   {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   },
+   {
+    "name": "Offshore Energy",
+    "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Ship attacks lift oil for a day, then it slips",
+  "points": [
+   "Brent back near $90 early Wednesday",
+   "3 vessels hit by projectiles",
+   "API: crude stocks up 126,000 bbl"
+  ],
+  "watch": "EIA gas storage report, noon ET today.",
+  "caption": "Shipping attacks near Hormuz are moving oil for a day at a time. Brent jumped more than 2% on Tuesday after three vessels were hit, then gave back $1.35 by early Wednesday as surplus worries for 2027 returned.\n\nFor US producers, that means planning around $80 WTI with wide daily swings. EIA data lands at noon Eastern today, a day early for Thanksgiving.\n\nPrices and the full read: uticamidstream.com\n\n#OilPrices #CrudeOil #Hormuz #Energy #OOTT"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "POSCO takes over Chord's Marcellus gas",
+   "points": [
+    "Closed Monday in Houston",
+    "About 32,000 net acres",
+    "Some gas to LNG plants from 2029"
+   ],
+   "watch": "POSCO targets about $74M a year in operating profit.",
+   "caption": "Korea now owns a slice of the Marcellus. POSCO International closed its $550 million purchase of Chord Energy's Pennsylvania gas stake on Monday.\n\nThe position produced about 121 MMcf/d over the past year. A local operator keeps the wells running and POSCO sells the gas, with some headed to LNG plants from 2029. Chord walks away to focus on the Williston.\n\nDetails and sources: uticamidstream.com\n\n#NaturalGas #Marcellus #Appalachia #LNG #POSCO",
+   "stat": {
+    "value": "$550M",
+    "label": "POSCO International's price for Chord's Marcellus stake"
+   }
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Dangote refinery nears a record African listing",
+   "points": [
+    "SEC cleared allotment on Monday",
+    "IPO drew about N5.85 trillion",
+    "Valued near N65.2 trillion"
+   ],
+   "watch": "Debut expected December 1 to 8.",
+   "caption": "How much is Africa's biggest refinery worth? About N65.2 trillion at the IPO price, which would make Dangote the largest listed company on the continent.\n\nNigeria's SEC approved the share allotment on Monday. Trading could start as soon as December 1.\n\nuticamidstream.com\n\n#Dangote #Nigeria #Refining #Africa #Downstream"
+  }
+ }
+}
