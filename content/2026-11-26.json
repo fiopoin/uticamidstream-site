@@ -1,0 +1,696 @@
+{
+ "date": "2026-11-26",
+ "date_long": "November 26, 2026",
+ "edition": 9,
+ "prices": {
+  "asof": "Latest quotes OilPrice.com showed when checked early Thursday, November 26, 2026, Thanksgiving Day in the US. Changes are measured from Tuesday's settlement, so these rows reflect Wednesday's session and late trade. Reuters reported Brent settled Wednesday at $94.61, up 3.5%, and WTI at $83.68, up 2%.",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "84.12",
+    "unit": "$/bbl",
+    "change": "+2.07",
+    "pct": "+2.52%",
+    "note": "Wednesday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "94.74",
+    "unit": "$/bbl",
+    "change": "+3.34",
+    "pct": "+3.65%",
+    "note": "Wednesday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "84.90",
+    "unit": "$/bbl",
+    "change": "+1.64",
+    "pct": "+1.97%",
+    "note": "Wednesday trade, 2 hour delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "84.19",
+    "unit": "$/bbl",
+    "change": "-0.80",
+    "pct": "-0.94%",
+    "note": "Last updated November 25",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "81.51",
+    "unit": "$/bbl",
+    "change": "-2.29",
+    "pct": "-2.73%",
+    "note": "Stale: page shows a one day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.682",
+    "unit": "$/MMBtu",
+    "change": "+0.019",
+    "pct": "+0.52%",
+    "note": "Wednesday trade, 11 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.422",
+    "unit": "$/gal",
+    "change": "-0.033",
+    "pct": "-1.33%",
+    "note": "Wednesday trade, 17 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.690",
+    "unit": "$/gal",
+    "change": "-0.013",
+    "pct": "-0.35%",
+    "note": "Wednesday trade, 14 min delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$10.62/bbl",
+    "note": "Calculated from the two futures quotes above."
+   },
+   {
+    "name": "WTI Midland over Cushing",
+    "value": "$0.78/bbl",
+    "note": "Calculated from the quotes above."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$35.36/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Wednesday, November 25, 2026. US markets are closed Thursday for Thanksgiving.",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "7,182.78",
+    "change": "-18.31",
+    "pct": "-0.3%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "50,182.95",
+    "change": "+164.25",
+    "pct": "+0.3%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "23,585.80",
+    "change": "-147.73",
+    "pct": "-0.6%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via myMotherLode",
+   "url": "https://mymotherlode.com/news/national/11340405/how-major-us-stock-indexes-fared-wednesday-11-25-2026.html"
+  },
+  "read": "Stocks clawed back most of a steep early drop on Wednesday. The S&P 500 closed down 0.3% after falling as much as 3.2% as AI shares sold off, AP reported, while the Dow rose 0.3%. Oil went the other way: Brent settled up 3.5% at $94.61 after the Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery, Reuters said. Fuel futures fell, so refiners did not share the gain. Markets reopen Friday for a shortened session, two days before OPEC+ meets.",
+  "read_source": {
+   "name": "Reuters via The Nation Thailand",
+   "url": "https://www.nationthailand.com/news/world/40073934"
+  },
+  "stocks": [
+   {
+    "ticker": "2222.SR",
+    "name": "Saudi Aramco",
+    "segment": "Integrated",
+    "note": "Did not respond to Reuters on the Houthi claim against its 550,000 b/d Ras Tanura refinery; Saudi air defenses said they downed four drones there on November 25.",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html"
+    }
+   },
+   {
+    "ticker": "LKOH",
+    "name": "Lukoil",
+    "segment": "Integrated",
+    "note": "A US-led consortium agreed on November 25 to acquire Lukoil International, which holds oil and gas fields, refineries and pipelines in 11 countries, AP reported. No price was disclosed.",
+    "source": {
+     "name": "AP via WSLS",
+     "url": "https://www.wsls.com/business/2026/11/26/us-led-consortium-agrees-to-acquire-assets-from-russian-oil-company-lukoil/"
+    }
+   },
+   {
+    "ticker": "ATO",
+    "name": "Atmos Energy",
+    "segment": "Midstream",
+    "note": "The Texas Railroad Commission is investigating seven alleged violations in its distribution pipe safety program, with possible fines up to $2 million, the Texas Tribune reported November 25.",
+    "source": {
+     "name": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/25/texas-railroad-commission-investigates-atmos-energy/"
+    }
+   },
+   {
+    "ticker": "YPF",
+    "name": "YPF",
+    "segment": "Gas and LNG",
+    "note": "Argentina approved the Argentina LNG project, led by YPF with Eni and XRG, for the RIGI investment regime at US$50.75 billion through 2050, DataPortuaria reported November 21.",
+    "source": {
+     "name": "DataPortuaria",
+     "url": "https://dataportuaria.com/en/destacadas/argentina-lng-secures-rigi-approval-for-us-50-75-billion-investment-through-2050-b3b6fc"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Downstream: Gulf refinery risk",
+  "chain": [
+   "upstream",
+   "midstream",
+   "downstream",
+   "market"
+  ],
+  "headline": "Brent jumps 3.5% as the Houthis claim a strike on Saudi Arabia's Ras Tanura refinery",
+  "dek": "Saudi air defenses said they downed four drones over the 550,000 b/d plant on Wednesday. Damage is unconfirmed, but satellite images showed thick smoke.",
+  "body": [
+   "Yahya Saree, the Houthis' military spokesman, said on Wednesday that the group struck Ras Tanura, Saudi Arabia's largest refinery, and caused fires. Coalition spokesman Turki Al-Maliki said air defenses destroyed four drones over the site that morning and that fragments fell, with no injuries in an initial assessment, OilPrice.com reported. The coalition did not say the refinery was hit. Aramco and the Saudi government did not respond to Reuters, and NASA imagery reviewed by Reuters showed thick black smoke over about 600 square kilometers.",
+   "The claim came a day after a strike on the Riyadh tower that houses the Public Investment Fund wounded 11 people, and after coalition strikes on Yemen's Hodeidah port, The National reported. On Thursday the coalition said it intercepted two ballistic missiles fired at Riyadh, two drones over the Eastern Province and a cruise missile aimed at the west of the kingdom. Ras Tanura handles about 16% of Saudi refining capacity, and its terminal can load about 6.5 million b/d.",
+   "Brent settled up $3.21, or 3.5%, at $94.61 and WTI rose $1.63 to $83.68, Reuters reported. Tamas Varga of PVM said traders bid up crude to cover disruption risk and bought back short positions before the holiday. Tsuyoshi Ueno of NLI Research Institute said the prospect of surplus supply capped gains. EIA data showed US commercial crude stocks up 1.1 million barrels to 418.9 million in the week to November 20."
+  ],
+  "flow": {
+   "upstream": "A $3 risk premium came back in one session. Producers get a better hedge window, but OPEC+ sets 2027 policy on Sunday.",
+   "midstream": "The Ras Tanura terminal can load about 6.5 million b/d, so any hit to the export side would matter far more than the refinery itself.",
+   "downstream": "Gasoline and diesel futures fell while crude rose, and the 3-2-1 crack narrowed to about $35.36 from about $38.70 a day earlier.",
+   "market": "Brent's premium to WTI widened to about $10.62 from about $9.43 a day earlier, since the risk sits in the Gulf, not the US."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "Brent near $95 is a hedging chance; weigh it against a possible OPEC+ supply increase on November 29."
+   },
+   {
+    "who": "Exporters and shippers",
+    "text": "Watch Saudi loadings for any delay at Ras Tanura; a terminal outage would tighten medium sour supply fast."
+   },
+   {
+    "who": "Refiners",
+    "text": "Crude rose and products fell on Wednesday. Margins narrow quickly in that setup, so check spot cracks before buying."
+   },
+   {
+    "who": "Traders",
+    "text": "Friday is a thin holiday session. Confirmation or denial of damage at Ras Tanura is the next price driver."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Reuters via The Nation Thailand",
+    "url": "https://www.nationthailand.com/news/world/40073934"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html"
+   },
+   {
+    "name": "The National",
+    "url": "https://www.thenationalnews.com/news/gulf/2026/11/26/saudi-arabia-intercepts-wave-of-retaliatory-houthi-attacks/"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/oil-price-charts/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Upstream",
+   "setting": "Global",
+   "region": "11 countries outside Russia",
+   "headline": "US-led consortium agrees to buy Lukoil's international business",
+   "text": "A group led by US asset manager Eldridge agreed on November 25 to acquire Lukoil International, which holds the Russian company's oil and gas fields, refineries, pipelines and other assets in 11 countries, AP reported. The consortium includes the US International Development Finance Corp., Catena Investment Holding of the UAE and Xtellus Capital Partners. Production is about 350,000 boe/d, the group said. No price was given. Instead of paying cash to Russia, the buyers would swap restricted Russian shares of Lukoil and other Russian companies for Lukoil International's liquidity. Treasury had set a February 28 deadline for Lukoil to sell its foreign assets.",
+   "why": "It would put a large foreign upstream and refining portfolio under US backed ownership, with a federal lender holding a stake. Rep. Gregory Meeks objected that the DFC is meant for development in emerging markets.",
+   "sources": [
+    {
+     "name": "AP via WSLS",
+     "url": "https://www.wsls.com/business/2026/11/26/us-led-consortium-agrees-to-acquire-assets-from-russian-oil-company-lukoil/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Upstream",
+   "setting": "OPEC+",
+   "region": "Iraq",
+   "headline": "Iraq disputes the capacity number behind its 2027 OPEC+ quota",
+   "text": "Outside consultants hired for OPEC+'s first independent capacity review put Iraq's maximum sustainable output below 5 million b/d, Forbes reported on November 25, citing Bloomberg. Oil Minister Basim Mohammed Khudair wrote to OPEC that Iraq can produce 5.2 million b/d. The IEA puts sustainable capacity at 4.87 million b/d. Iraq's December target is 4.431 million b/d. For October it told OPEC it produced 4.888 million b/d, while OPEC's secondary sources had 4.491 million b/d. Kazakhstan has also sought a higher estimate. Ministers meet online on November 29 to set 2027 levels, which would use the capacity figures as baselines.",
+   "why": "Capacity baselines decide who gets to grow in 2027. A bigger Iraqi number means more barrels in a market already worried about surplus, if Iraq can export them.",
+   "sources": [
+    {
+     "name": "Forbes",
+     "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/25/iraq-disputes-its-opec-capacity-assessment-can-it-use-a-bigger-quota/"
+    }
+   ]
+  },
+  {
+   "id": "storage",
+   "segment": "Gas and LNG",
+   "setting": "Onshore",
+   "region": "United States",
+   "headline": "Winter's first storage draw comes in at 24 Bcf",
+   "text": "EIA reported a 24 Bcf net withdrawal from Lower 48 storage for the week ended November 20, the first of the heating season, NGI said. The draw matched the five year average for the week and landed near consensus. The East led the declines, and NGI called the weather outlook largely bearish. NYMEX gas was quoted at $3.682/MMBtu in late Wednesday trade on OilPrice.com, up less than 1% after Tuesday's rally of about 5%.",
+   "why": "A normal first draw with record supply and a mild outlook leaves little cushion for bulls. Cold has to show up for prices to hold near $3.70.",
+   "sources": [
+    {
+     "name": "NGI",
+     "url": "https://www.naturalgasintel.com/news/natural-gas-market-serves-up-first-storage-withdrawal-of-season-before-thanksgiving-break/"
+    },
+    {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   ]
+  },
+  {
+   "id": "refining",
+   "segment": "Downstream",
+   "setting": "Refining",
+   "region": "United States",
+   "headline": "US refiners run at 97.5% as fuel stocks build",
+   "text": "Refinery inputs rose 428,000 b/d to 17.3 million b/d in the week ended November 20, and utilization reached 97.5% of capacity, EIA data cited by Oil & Gas Journal show. Gasoline stocks rose 1.7 million barrels and sit 3% above the five year average. Distillate stocks rose 700,000 barrels but are still 6% below average. Commercial crude stocks rose 1.1 million barrels to 418.9 million, helped by imports up 673,000 b/d to 6.2 million b/d.",
+   "why": "Plants are running near flat out into winter. With gasoline already ample, diesel is the product that keeps margins up, and Wednesday's fall in fuel futures shows how fast that can turn.",
+   "sources": [
+    {
+     "name": "Oil & Gas Journal",
+     "url": "https://www.ogj.com/general-interest/economics-markets/news/55421642/eia-us-crude-oil-inventories-up-11-million-bbl"
+    }
+   ]
+  },
+  {
+   "id": "atmos",
+   "segment": "Regulation",
+   "setting": "Onshore",
+   "region": "Texas",
+   "headline": "Texas Railroad Commission investigates Atmos Energy's pipe safety program",
+   "text": "The Railroad Commission of Texas is investigating Atmos Energy, the Dallas gas utility with more than 2 million Texas customers, over seven alleged violations found in a routine review of its distribution integrity management program, the Texas Tribune reported November 25. Fines could reach $2 million. The commission cited missing records, flawed risk scoring for plastic pipe and no clear rules for tracking equipment failures, and said Atmos could not show it replaced at least 8% of its riskiest pipe. Revised risk and reporting plans are due December 2. Atmos disputes parts of the findings.",
+   "why": "It is a test of how hard the commission will push on gas distribution safety as Jon Rosenthal, the first Democrat to win a seat in 36 years, prepares to join it.",
+   "sources": [
+    {
+     "name": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/25/texas-railroad-commission-investigates-atmos-energy/"
+    },
+    {
+     "name": "Bloomberg via Rigzone",
+     "url": "https://www.rigzone.com/news/wire/historic_winner_of_rrc_seat_wants_faster_permits-23-nov-2026-185151-article"
+    }
+   ]
+  },
+  {
+   "id": "argentina",
+   "segment": "Gas and LNG",
+   "setting": "Offshore",
+   "region": "Argentina",
+   "headline": "Argentina LNG clears the RIGI incentive regime at $50.75 billion",
+   "text": "Argentina's government approved the Argentina LNG project for its RIGI large investment regime, covering US$50.75 billion through 2050, DataPortuaria reported on November 21. YPF holds 36%, with Eni and ADNOC's XRG at 32% each. The plan uses two floating liquefaction units off Río Negro, each with 6 million tonnes a year of capacity, fed by Vaca Muerta gas. About US$25 billion would be spent from 2027 to 2030, and the US Export Import Bank has proposed up to US$6 billion. DataPortuaria said the final investment decision is set for November 30.",
+   "why": "It would be the first large LNG export project from Vaca Muerta and a new competitor for US Gulf Coast cargoes after 2030.",
+   "sources": [
+    {
+     "name": "DataPortuaria",
+     "url": "https://dataportuaria.com/en/destacadas/argentina-lng-secures-rigi-approval-for-us-50-75-billion-investment-through-2050-b3b6fc"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "Railroad Commission of Texas",
+   "action": "Investigation of Atmos Energy's distribution integrity management program",
+   "date": "Reported Nov 25, 2026",
+   "status": "Under investigation; revised plans due Dec 2",
+   "means": "Seven alleged violations and possible fines up to $2 million.",
+   "source": {
+    "name": "Texas Tribune",
+    "url": "https://www.texastribune.org/2026/11/25/texas-railroad-commission-investigates-atmos-energy/"
+   }
+  },
+  {
+   "agency": "US Treasury",
+   "action": "Sale of Lukoil International to a consortium led by Eldridge",
+   "date": "Agreed Nov 25, 2026",
+   "status": "Agreement reached",
+   "means": "Treasury had set a Feb 28 deadline for Lukoil to sell its foreign assets.",
+   "source": {
+    "name": "AP via WSLS",
+    "url": "https://www.wsls.com/business/2026/11/26/us-led-consortium-agrees-to-acquire-assets-from-russian-oil-company-lukoil/"
+   }
+  },
+  {
+   "agency": "Argentina government",
+   "action": "RIGI approval for Argentina LNG, US$50.75 billion",
+   "date": "Reported Nov 21, 2026",
+   "status": "Approved",
+   "means": "Final investment decision reported as set for November 30.",
+   "source": {
+    "name": "DataPortuaria",
+    "url": "https://dataportuaria.com/en/destacadas/argentina-lng-secures-rigi-approval-for-us-50-75-billion-investment-through-2050-b3b6fc"
+   }
+  },
+  {
+   "agency": "Nigeria SEC",
+   "action": "Share allotment plan for the Dangote refinery IPO",
+   "date": "Nov 23, 2026",
+   "status": "Approved",
+   "means": "Clears the way for a listing on the Nigerian Exchange, expected as early as December 1.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/markets/article/dangote-refinery-eyes-dec-1-for-historic-n65trn-ngx-listing/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "NextDecade affiliate request to introduce fuel gas at Rio Grande LNG",
+   "date": "Reported Nov 24, 2026",
+   "status": "Filed",
+   "means": "A commissioning step toward first LNG, targeted for the second quarter of 2027.",
+   "source": {
+    "name": "NGI",
+    "url": "https://naturalgasintel.com/news/rio-grande-lng-close-to-introducing-natural-gas-to-first-liquefaction-train/"
+   }
+  },
+  {
+   "agency": "Norway Ministry of Energy",
+   "action": "Approval of Vår Energi's purchase of ConocoPhillips Skandinavia and the Teesside operator",
+   "date": "Agreed Nov 23, 2026",
+   "status": "Pending approval",
+   "means": "Closing expected by the end of the first quarter of 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "agency": "UNFCCC COP31",
+   "action": "Final decision text of the Antalya climate talks",
+   "date": "Nov 22, 2026",
+   "status": "Not adopted",
+   "means": "No new language on fossil fuels; earlier COP commitments stand.",
+   "source": {
+    "name": "Al Jazeera, with AP and Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+   }
+  },
+  {
+   "agency": "Ohio Power Siting Board",
+   "action": "Permits for PowerConneX's 800 MW Ashville plant and Advanced Power's 1,350 MW Fairfield Energy Center, both for data centers",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Both projects can move ahead, though some still need separate environmental permits.",
+   "source": {
+    "name": "Signal Ohio",
+    "url": "https://signalohio.org/ohio-approves-two-large-power-plants-exclusively-for-data-centers/"
+   }
+  },
+  {
+   "agency": "US Senate",
+   "action": "Bipartisan energy permitting bill",
+   "date": "Nov 19, 2026",
+   "status": "Passed Senate, 62 to 33",
+   "means": "Moves to the House; would speed federal approvals for energy projects of all kinds.",
+   "source": {
+    "name": "OilPrice.com, citing Reuters",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "Capacity baselines for 2027 are in dispute; Iraq says it can produce 5.2 million b/d.",
+   "source": {
+    "name": "Forbes",
+    "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/25/iraq-disputes-its-opec-capacity-assessment-can-it-use-a-bigger-quota/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "Sabine Pass Stage 5 LNG expansion (CP24-75) with the Creole Trail and Sabine Crossing feed pipelines",
+   "date": "Nov 19, 2026",
+   "status": "Approved",
+   "means": "Cheniere can move toward a Phase 1 investment decision, expected in the coming months.",
+   "source": {
+    "name": "Reuters via Investing.com",
+    "url": "https://investing.com/news/stock-market-news/federal-regulators-approve-chenieres-sabine-pass-expansion-project-5039760"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Saudi Eastern Province",
+   "setting": "Refining and export",
+   "line": "Houthis claimed a strike on the 550,000 b/d Ras Tanura refinery on November 25; the coalition said four drones were downed.",
+   "source": {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html"
+   }
+  },
+  {
+   "name": "Iraq",
+   "setting": "Onshore conventional",
+   "line": "Baghdad claims 5.2 million b/d of capacity against a consultants' figure below 5 million, ahead of the November 29 OPEC+ meeting.",
+   "source": {
+    "name": "Forbes",
+    "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/25/iraq-disputes-its-opec-capacity-assessment-can-it-use-a-bigger-quota/"
+   }
+  },
+  {
+   "name": "US Gulf Coast refining",
+   "setting": "Refining",
+   "line": "US refinery utilization hit 97.5% in the week to November 20 as gasoline stocks rose 1.7 million barrels.",
+   "source": {
+    "name": "Oil & Gas Journal",
+    "url": "https://www.ogj.com/general-interest/economics-markets/news/55421642/eia-us-crude-oil-inventories-up-11-million-bbl"
+   }
+  },
+  {
+   "name": "Lower 48 gas",
+   "setting": "Onshore unconventional",
+   "line": "EIA reported a 24 Bcf storage draw for the week to November 20, matching the five year average.",
+   "source": {
+    "name": "NGI",
+    "url": "https://www.naturalgasintel.com/news/natural-gas-market-serves-up-first-storage-withdrawal-of-season-before-thanksgiving-break/"
+   }
+  },
+  {
+   "name": "Texas gas distribution",
+   "setting": "Onshore",
+   "line": "The Railroad Commission is investigating Atmos Energy's pipe safety program; revised plans are due December 2.",
+   "source": {
+    "name": "Texas Tribune",
+    "url": "https://www.texastribune.org/2026/11/25/texas-railroad-commission-investigates-atmos-energy/"
+   }
+  },
+  {
+   "name": "Vaca Muerta",
+   "setting": "Onshore unconventional",
+   "line": "Argentina LNG won RIGI approval at US$50.75 billion; two 6 mtpa floating units would export Vaca Muerta gas.",
+   "source": {
+    "name": "DataPortuaria",
+    "url": "https://dataportuaria.com/en/destacadas/argentina-lng-secures-rigi-approval-for-us-50-75-billion-investment-through-2050-b3b6fc"
+   }
+  },
+  {
+   "name": "Appalachia",
+   "setting": "Onshore unconventional",
+   "line": "POSCO International closed its $550 million purchase of Chord's non-operated Marcellus stake on November 23.",
+   "source": {
+    "name": "Korea JoongAng Daily",
+    "url": "https://www.koreajoongangdaily.com/business/posco-completes-550-million-acquisition-of-us-shale-gas-field/12988546"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 23, 2026",
+  "name": "Nick Walker",
+  "role": "Chief executive, Vår Energi",
+  "summary": "Walker's company agreed on November 23 to buy ConocoPhillips' Norway business and its Teesside terminal stake for an enterprise value of $4.425 billion, taking over operatorship of the Greater Ekofisk Area and the Norpipe export system. He has led Vår Energi, Norway's Eni controlled independent, since September 2023.",
+  "path": "Before Vår he was chief executive of Lundin Energy until its sale to Aker BP in mid 2022, and he earlier worked at BP, Talisman Energy, Africa Oil and Cairn Oil & Gas under Vedanta. Vår says he has more than 30 years in technical, commercial and executive roles. He studied mining engineering at Imperial College London and computer science at University College London, and holds an MBA from City University Business School.",
+  "why": "The deal, on top of the BlueNord combination, puts Vår among the largest independent offshore producers, with a target of more than 500,000 boe/d into the mid 2030s. How he runs the ageing Ekofisk hub and its UK link will shape a large share of Norway's southern North Sea output.",
+  "sources": [
+   {
+    "name": "Vår Energi executive committee",
+    "url": "https://varenergi.no/en/about-us/executive-committee/"
+   },
+   {
+    "name": "Offshore Engineer",
+    "url": "https://www.oedigital.com/news/507756-former-lundin-energy-head-takes-the-helm-as-ceo-of-v-r-energi"
+   },
+   {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   },
+   {
+    "name": "Offshore Energy",
+    "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Houthi claim on Ras Tanura lifts Brent 3.5%",
+  "points": [
+   "Brent settled at $94.61",
+   "4 drones downed over the refinery",
+   "EIA: crude stocks up 1.1M bbl"
+  ],
+  "watch": "OPEC+ meets online Sunday, Nov. 29.",
+  "caption": "Ras Tanura, Saudi Arabia's largest refinery, is a target again. The Houthis claimed a strike there on Wednesday, Saudi air defenses said they downed four drones, and Brent settled up 3.5% at $94.61.\n\nDamage is not confirmed. Gasoline and diesel futures fell as crude rose, so US refiners felt the squeeze, not the windfall.\n\nDetails and sources: uticamidstream.com\n\n#OilPrices #Brent #SaudiArabia #Refining #OOTT"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "US-led group to buy Lukoil's foreign assets",
+   "points": [
+    "Eldridge leads the consortium",
+    "Fields and plants in 11 countries",
+    "Share swap, no cash to Russia"
+   ],
+   "watch": "Treasury's sale deadline is February 28.",
+   "stat": {
+    "value": "350,000 boe/d",
+    "label": "Output of Lukoil International, per the consortium"
+   },
+   "caption": "Who ends up with Lukoil's oil outside Russia? A consortium led by Eldridge, with a US government lender on board, agreed on Wednesday to buy Lukoil International.\n\nThe portfolio spans fields, refineries and pipelines in 11 countries. No price was disclosed. Watch for approvals before Treasury's February 28 sale deadline.\n\nuticamidstream.com\n\n#Lukoil #Sanctions #MergersAndAcquisitions #OilAndGas #Refining"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Iraq disputes its OPEC+ capacity score",
+   "points": [
+    "Baghdad claims 5.2M b/d",
+    "Consultants: under 5M b/d",
+    "December target is 4.431M b/d"
+   ],
+   "watch": "OPEC+ ministers meet online Sunday.",
+   "caption": "Iraq says it can produce 5.2 million barrels a day. The consultants behind OPEC+'s first independent capacity review reportedly put it below 5 million, and that gap could set its 2027 quota.\n\nKazakhstan wants a higher number too. Ministers decide on Sunday.\n\nRead the edition: uticamidstream.com\n\n#OPEC #Iraq #OilMarkets #CrudeOil #MiddleEast"
+  }
+ }
+}
