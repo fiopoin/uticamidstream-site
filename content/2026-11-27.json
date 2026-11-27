@@ -1,0 +1,635 @@
+{
+ "date": "2026-11-27",
+ "date_long": "November 27, 2026",
+ "edition": 10,
+ "prices": {
+  "asof": "Quotes dated Friday, November 27, 2026 on Trading Economics, checked about 05:00 Central. Trading Economics tracks futures through CFDs and shows the date but no clock time, so treat these as indicative. OilPrice.com could not be reached for this edition, so WTI Midland, Murban and the OPEC basket are left out. Brent's Thursday settlement is listed separately; there was no WTI settlement Thursday because of Thanksgiving.",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "85.73",
+    "unit": "$/bbl",
+    "change": "+0.81",
+    "pct": "+0.95%",
+    "note": "CFD quote dated Nov 27, no time shown",
+    "source": {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "96.94",
+    "unit": "$/bbl",
+    "change": "+0.55",
+    "pct": "+0.57%",
+    "note": "CFD quote dated Nov 27, no time shown",
+    "source": {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE) settlement",
+    "value": "96.57",
+    "unit": "$/bbl",
+    "change": "+1.96",
+    "pct": "+2.07%",
+    "note": "Thursday, Nov 26 settlement",
+    "source": {
+     "name": "The Nation Thailand",
+     "url": "https://www.nationthailand.com/news/world/40073981"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.57",
+    "unit": "$/MMBtu",
+    "change": "-0.020",
+    "pct": "-0.55%",
+    "note": "CFD quote dated Nov 27, no time shown",
+    "source": {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.47",
+    "unit": "$/gal",
+    "change": "+0.031",
+    "pct": "+1.27%",
+    "note": "CFD quote dated Nov 27, no time shown",
+    "source": {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.73",
+    "unit": "$/gal",
+    "change": "-0.009",
+    "pct": "-0.23%",
+    "note": "CFD quote dated Nov 27, no time shown",
+    "source": {
+     "name": "Trading Economics",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$11.21/bbl",
+    "note": "Calculated from the two crude quotes above."
+   },
+   {
+    "name": "Diesel over gasoline",
+    "value": "$52.92/bbl",
+    "note": "ULSD less RBOB, times 42 gallons. Calculated."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$35.65/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated from rounded quotes."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Wednesday, November 25, 2026, the last full session. US markets were shut Thursday for Thanksgiving and reopen Friday for a shortened session.",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "7,182.78",
+    "change": "-18.31",
+    "pct": "-0.3%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "50,182.95",
+    "change": "+164.25",
+    "pct": "+0.3%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "23,585.80",
+    "change": "-147.73",
+    "pct": "-0.6%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via myMotherLode",
+   "url": "https://mymotherlode.com/news/national/11340405/how-major-us-stock-indexes-fared-wednesday-11-25-2026.html"
+  },
+  "read": "US stocks have not traded since Wednesday, when the S&P 500 recovered most of a 3.2% intraday drop to close down 0.3%, AP reported. Crude kept moving through the holiday. Brent settled Thursday at $96.57, up 2.07%, after Iran's Revolutionary Guards said two tankers hit mines near Hormuz, and WTI traded near $84.84 without a settlement. Friday's half session is the first chance for US energy shares to price the week's Gulf risk before OPEC+ meets on Sunday.",
+  "read_source": {
+   "name": "The Nation Thailand",
+   "url": "https://www.nationthailand.com/news/world/40073981"
+  },
+  "stocks": [
+   {
+    "ticker": "KNTK",
+    "name": "Kinetik Holdings",
+    "segment": "Midstream",
+    "price": "54.70",
+    "pct": "+1.50%",
+    "note": "Closed Nov 25 before Bloomberg reported Targa is in talks to buy it; shares rose about 7.6% after hours.",
+    "source": {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/26/targa-resources-is-reportedly-eyeing-kinetik-as-data-centers-drive-gas-demand/"
+    }
+   },
+   {
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "segment": "Midstream",
+    "price": "285.53",
+    "pct": "+0.83%",
+    "note": "Closed Nov 25; fell about 1.8% after hours on the Kinetik report, which said a deal could come as soon as next week.",
+    "source": {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/26/targa-resources-is-reportedly-eyeing-kinetik-as-data-centers-drive-gas-demand/"
+    }
+   },
+   {
+    "ticker": "2222.SR",
+    "name": "Saudi Aramco",
+    "segment": "Integrated",
+    "note": "CNN, citing sources, reported oil loadings at Ras Tanura were halted after the November 25 attack, with no restart date. Aramco has not confirmed.",
+    "source": {
+     "name": "Newsquawk, citing CNN",
+     "url": "https://www.newsquawk.com/headlines/oil-loadings-have-reportedly-been-halted-at-saudi-arabias-ras-tanura-facility-following-a-recent-attack-cnn-reports-citing-sources"
+    }
+   },
+   {
+    "ticker": "TRP",
+    "name": "TC Energy",
+    "segment": "Midstream",
+    "note": "A group of 12 British Columbia First Nations got a federal loan guarantee of about C$168 million to invest in the entity holding TC's Coastal GasLink interest, Canadian Press reported Nov 26.",
+    "source": {
+     "name": "The Canadian Press via CP24",
+     "url": "https://www.cp24.com/news/canada/2026/11/26/168m-loan-guarantee-provided-for-first-nations-investment-in-lng-pipeline/"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Midstream: Gulf export risk",
+  "chain": [
+   "upstream",
+   "midstream",
+   "market"
+  ],
+  "headline": "Brent settles at $96.57 as Iran reports mine strikes and Ras Tanura loadings reportedly halt",
+  "dek": "Iran's Revolutionary Guards said two tankers hit mines off Oman on Thursday, and CNN reported Saudi loadings stopped at the Gulf's biggest crude terminal.",
+  "body": [
+   "Iran's Revolutionary Guards said on Thursday that two tankers exploded and caught fire after hitting sea mines north of Oman's Khasab port while crossing the Strait of Hormuz on what the Guards called an unauthorised route, Reuters reported. One was a supertanker carrying more than 2 million barrels of crude, according to a statement carried by Tasnim. The UK Maritime Trade Operations agency separately reported an explosion from an unknown projectile near a tanker about 50 nautical miles west of Dubai. Guards spokesman Hossein Mohebbi said the force was using heavy firepower to keep the strait closed.",
+   "On the Saudi side, CNN reported, citing sources, that oil loadings at Ras Tanura were halted after Wednesday's Houthi attack and that it was unclear when they would resume. Saudi Arabia and Aramco have not confirmed a halt. The Saudi-led coalition said it intercepted four drones over the area on Wednesday but did not confirm a hit on the refinery, which sits inside a complex that is also a major crude export terminal.",
+   "Brent rose $1.96, or 2.07%, to settle at $96.57 on Thursday, The Nation reported. There was no WTI settlement because of Thanksgiving; WTI traded at $84.84 late in the day, up $1.16. Rory Johnston of Commodity Context said Brent had been oversold below $90 and put about 15% of global supply under a known, acute risk. ANZ's Daniel Hynes told Reuters the wider conflict threatens the recent recovery in Gulf flows."
+  ],
+  "flow": {
+   "upstream": "Gulf producers who rely on Hormuz face a strait Iran says it is mining. Producers elsewhere get Brent near $97 two days before OPEC+ meets.",
+   "midstream": "If Ras Tanura stays shut, Saudi exports have to lean on Red Sea ports instead, and Gulf tanker insurance and freight climb with each mine claim.",
+   "downstream": "Gasoline rose about 1.3% on Friday's quotes while diesel slipped, leaving the 3-2-1 crack near $35.65, little changed from Wednesday.",
+   "market": "Brent's premium to WTI is about $11.21 on Friday's quotes, wider than Wednesday's $10.62, because the risk sits east of Suez."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "US barrels gain a relative edge while Gulf exports are at risk. Brent near $97 is worth checking against Sunday's OPEC+ decision."
+   },
+   {
+    "who": "Shippers and terminals",
+    "text": "Watch for an Aramco statement on Ras Tanura and UKMTO notices before booking Gulf liftings."
+   },
+   {
+    "who": "Refiners",
+    "text": "Plants running Gulf medium sour crude should line up alternates in case Saudi loadings stay down."
+   },
+   {
+    "who": "Traders",
+    "text": "Friday is a thin US half session, and Iran's mine claims are unverified. Expect sharp moves on any confirmation."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Reuters via Arab News",
+    "url": "https://www.arabnews.com/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-3014111"
+   },
+   {
+    "name": "Reuters via Baird Maritime",
+    "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/iran-says-two-tankers-exploded-after-hitting-sea-mines-near-oman"
+   },
+   {
+    "name": "Newsquawk, citing CNN",
+    "url": "https://www.newsquawk.com/headlines/oil-loadings-have-reportedly-been-halted-at-saudi-arabias-ras-tanura-facility-following-a-recent-attack-cnn-reports-citing-sources"
+   },
+   {
+    "name": "The Nation Thailand",
+    "url": "https://www.nationthailand.com/news/world/40073981"
+   },
+   {
+    "name": "Reuters via Yahoo Finance",
+    "url": "https://finance.yahoo.com/energy/articles/oil-rises-supply-concerns-iran-030849858.html"
+   },
+   {
+    "name": "Trading Economics",
+    "url": "https://tradingeconomics.com/commodity/crude-oil"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "Permian Basin, Texas",
+   "headline": "Targa is in talks to buy Blackstone backed Kinetik, Bloomberg reports",
+   "text": "Targa Resources is in talks to acquire Kinetik Holdings, the Delaware Basin gas gatherer and processor backed by Blackstone, Bloomberg News reported on November 25, citing people familiar with the matter, according to Reuters. A deal could be sealed as soon as next week. Neither company responded to Reuters. Kinetik closed at $54.70 that day and rose about 7.6% after hours, while Targa closed at $285.53 and slipped about 1.8%, 24/7 Wall St. reported. No price or structure has been reported.",
+   "why": "Reuters noted that gas demand from data centers has drawn heavy interest in energy infrastructure. A deal would consolidate Delaware Basin processing, leaving producers there with fewer counterparties.",
+   "sources": [
+    {
+     "name": "Reuters via BOE Report",
+     "url": "https://boereport.com/2026/11/25/targa-resources-in-talks-to-acquire-kinetik-bloomberg-news-reports/"
+    },
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/26/targa-resources-is-reportedly-eyeing-kinetik-as-data-centers-drive-gas-demand/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Upstream",
+   "setting": "OPEC+",
+   "region": "Global",
+   "headline": "OPEC+ goes into Sunday expected to hold output steady into 2027",
+   "text": "OPEC+ ministers meet online on Sunday, November 29, at 1pm GMT, the first of four ministerial meetings. Two people familiar with the talks expect output targets to stay unchanged at least through the first quarter of 2027, The Nation reported. Iraq objects to a preliminary capacity figure of 4.9 million b/d and Kazakhstan also wants a higher number. Russian Deputy Prime Minister Alexander Novak said on November 25 the capacity review would be done by year end. The audits were due by the end of September and slipped to mid November, The Private Banker reported.",
+   "why": "A rollover keeps barrels off a market Rystad sees in surplus by about 5 million b/d in 2027, while the Gulf attacks argue for caution. The capacity baselines, not Sunday's headline, decide who grows later.",
+   "sources": [
+    {
+     "name": "The Nation Thailand",
+     "url": "https://www.nationthailand.com/news/world/40073981"
+    },
+    {
+     "name": "The Private Banker",
+     "url": "https://leprivatebanker.com/2026/11/27/opec-heads-into-sunday-meeting-to-set-2027-quotas-with-its-capacity-audit-weeks-late-and-output-held-flat/"
+    }
+   ]
+  },
+  {
+   "id": "suriname",
+   "segment": "Gas and LNG",
+   "setting": "Offshore",
+   "region": "Suriname",
+   "headline": "Petronas and Staatsolie take FID on Suriname's first offshore gas project",
+   "text": "Petronas and state company Staatsolie made a final investment decision on KrakaWi, a $1.6 billion development of the Sloanea gas field in Block 52 offshore Suriname, Rigzone reported on November 27. The field holds an estimated 97 billion cubic meters, about 3.43 Tcf, of recoverable gas. A floating LNG unit would produce up to about 1.5 million tonnes a year for 25 years, with gas expected from mid 2030. Petronas operates with 80% and Staatsolie holds 20%. Staatsolie's Annand Jagesar said the gas could also feed domestic power later.",
+   "why": "It opens a new gas province on the Guyana Suriname trend and adds a small Atlantic LNG supplier after 2030, alongside Argentina's planned exports.",
+   "sources": [
+    {
+     "name": "Rigzone",
+     "url": "https://rigzone.com/news/petronas_greenlights_surinames_1st_offshore_gas_project-27-nov-2026-185181-article"
+    }
+   ]
+  },
+  {
+   "id": "cgl",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "British Columbia",
+   "headline": "First Nations get C$168 million loan guarantee for a Coastal GasLink stake",
+   "text": "Twelve British Columbia First Nations in the CGL First Nations Limited Partnership received a loan guarantee of about C$168 million to invest in the entity that holds TC Energy's interest in Coastal GasLink, The Canadian Press reported on November 26. The pipeline carries gas from northeastern BC to LNG Canada at Kitimat. It is the fifth deal closed by the federal Canada Indigenous Loan Guarantee Corp. since 2024 and the second Indigenous investment tied to the line; five other Nations put in C$65.3 million in October. TC and Indigenous partners hold 35% together, with KKR and AIMCo owning the rest.",
+   "why": "Indigenous equity is becoming a standard part of Canadian LNG infrastructure, and TC has approved an expansion of the line for LNG Canada's second phase.",
+   "sources": [
+    {
+     "name": "The Canadian Press via CP24",
+     "url": "https://www.cp24.com/news/canada/2026/11/26/168m-loan-guarantee-provided-for-first-nations-investment-in-lng-pipeline/"
+    }
+   ]
+  },
+  {
+   "id": "hormuz",
+   "segment": "Cross-industry",
+   "setting": "Shipping",
+   "region": "Strait of Hormuz",
+   "headline": "Iran's mine claims pile up as it ties reopening Hormuz to US demands",
+   "text": "Iranian forces claimed on November 25 that an LNG carrier hit a naval mine and caught fire in the Strait of Hormuz, and Fars said an oil tanker hit a mine in a restricted zone, Reuters reported; Reuters could not independently verify the claims. Iranian army spokesman Mohammad Akraminia said new systems had been deployed to watch and control the strait. Tehran has told Washington normal shipping will not return until its demands are met, including lifting the US naval blockade of Iranian ports, and through Qatari mediators offered to reopen the waterway within 48 hours if they are.",
+   "why": "Two days of mine claims plus Thursday's tanker fires make Gulf transits a daily insurance and routing decision for crude, LNG and product shippers.",
+   "sources": [
+    {
+     "name": "Reuters via Arab News",
+     "url": "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "Canada Indigenous Loan Guarantee Corp.",
+   "action": "About C$168 million guarantee for First Nations' investment in Coastal GasLink",
+   "date": "Nov 26, 2026",
+   "status": "Closed",
+   "means": "Fifth deal for the federal program; second Indigenous stake in the line.",
+   "source": {
+    "name": "The Canadian Press via CP24",
+    "url": "https://www.cp24.com/news/canada/2026/11/26/168m-loan-guarantee-provided-for-first-nations-investment-in-lng-pipeline/"
+   }
+  },
+  {
+   "agency": "Railroad Commission of Texas",
+   "action": "Investigation of Atmos Energy's distribution integrity management program",
+   "date": "Reported Nov 25, 2026",
+   "status": "Under investigation; revised plans due Dec 2",
+   "means": "Seven alleged violations and possible fines up to $2 million.",
+   "source": {
+    "name": "Texas Tribune",
+    "url": "https://www.texastribune.org/2026/11/25/texas-railroad-commission-investigates-atmos-energy/"
+   }
+  },
+  {
+   "agency": "US Treasury",
+   "action": "Sale of Lukoil International to a consortium led by Eldridge",
+   "date": "Agreed Nov 25, 2026",
+   "status": "Agreement reached; needs OFAC approval",
+   "means": "Share swap; proceeds held in a restricted account for five years or until sanctions lift. Treasury's sale deadline is Feb 28.",
+   "source": {
+    "name": "Rigzone",
+    "url": "https://www.rigzone.com/news/eldridge_consortium_pens_deal_to_acquire_lukoil_international-26-nov-2026-185176-article/"
+   }
+  },
+  {
+   "agency": "Argentina government",
+   "action": "RIGI approval for Argentina LNG, US$50.75 billion",
+   "date": "Reported Nov 21, 2026",
+   "status": "Approved",
+   "means": "Final investment decision reported as set for November 30.",
+   "source": {
+    "name": "DataPortuaria",
+    "url": "https://dataportuaria.com/en/destacadas/argentina-lng-secures-rigi-approval-for-us-50-75-billion-investment-through-2050-b3b6fc"
+   }
+  },
+  {
+   "agency": "Nigeria SEC",
+   "action": "Share allotment plan for the Dangote refinery IPO",
+   "date": "Nov 23, 2026",
+   "status": "Approved",
+   "means": "Clears the way for a listing on the Nigerian Exchange, expected as early as December 1.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/markets/article/dangote-refinery-eyes-dec-1-for-historic-n65trn-ngx-listing/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "NextDecade affiliate request to introduce fuel gas at Rio Grande LNG",
+   "date": "Reported Nov 24, 2026",
+   "status": "Filed",
+   "means": "A commissioning step toward first LNG, targeted for the second quarter of 2027.",
+   "source": {
+    "name": "NGI",
+    "url": "https://naturalgasintel.com/news/rio-grande-lng-close-to-introducing-natural-gas-to-first-liquefaction-train/"
+   }
+  },
+  {
+   "agency": "Norway Ministry of Energy",
+   "action": "Approval of Vår Energi's purchase of ConocoPhillips Skandinavia and the Teesside operator",
+   "date": "Agreed Nov 23, 2026",
+   "status": "Pending approval",
+   "means": "Closing expected by the end of the first quarter of 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "agency": "UNFCCC COP31",
+   "action": "Final decision text of the Antalya climate talks",
+   "date": "Nov 22, 2026",
+   "status": "Not adopted",
+   "means": "No new language on fossil fuels; earlier COP commitments stand.",
+   "source": {
+    "name": "Al Jazeera, with AP and Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "Two people familiar expect targets unchanged at least through Q1 2027; capacity review due by year end, Novak said.",
+   "source": {
+    "name": "The Nation Thailand",
+    "url": "https://www.nationthailand.com/news/world/40073981"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Strait of Hormuz",
+   "setting": "Shipping",
+   "line": "Iran's Guards said two tankers hit mines near Khasab on November 26, one carrying more than 2 million barrels.",
+   "source": {
+    "name": "Reuters via Arab News",
+    "url": "https://www.arabnews.com/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-3014111"
+   }
+  },
+  {
+   "name": "Saudi Eastern Province",
+   "setting": "Refining and export",
+   "line": "CNN reported Ras Tanura loadings halted after the November 25 attack; Aramco has not confirmed.",
+   "source": {
+    "name": "Newsquawk, citing CNN",
+    "url": "https://www.newsquawk.com/headlines/oil-loadings-have-reportedly-been-halted-at-saudi-arabias-ras-tanura-facility-following-a-recent-attack-cnn-reports-citing-sources"
+   }
+  },
+  {
+   "name": "Delaware Basin",
+   "setting": "Onshore unconventional",
+   "line": "Targa is in talks to buy Kinetik, which processed a record 1.94 Bcf/d in the third quarter.",
+   "source": {
+    "name": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/11/26/targa-resources-is-reportedly-eyeing-kinetik-as-data-centers-drive-gas-demand/"
+   }
+  },
+  {
+   "name": "Suriname Block 52",
+   "setting": "Offshore",
+   "line": "Petronas took FID on the $1.6 billion KrakaWi floating LNG project; first gas expected mid 2030.",
+   "source": {
+    "name": "Rigzone",
+    "url": "https://rigzone.com/news/petronas_greenlights_surinames_1st_offshore_gas_project-27-nov-2026-185181-article"
+   }
+  },
+  {
+   "name": "Northeast British Columbia",
+   "setting": "Onshore unconventional",
+   "line": "First Nations secured a C$168 million guarantee to invest in Coastal GasLink, which feeds LNG Canada.",
+   "source": {
+    "name": "The Canadian Press via CP24",
+    "url": "https://www.cp24.com/news/canada/2026/11/26/168m-loan-guarantee-provided-for-first-nations-investment-in-lng-pipeline/"
+   }
+  },
+  {
+   "name": "Iraq",
+   "setting": "Onshore conventional",
+   "line": "Baghdad objects to a preliminary 4.9 million b/d capacity figure ahead of the November 29 OPEC+ meeting.",
+   "source": {
+    "name": "The Nation Thailand",
+    "url": "https://www.nationthailand.com/news/world/40073981"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 23, 2026",
+  "name": "Nick Walker",
+  "role": "Chief executive, Vår Energi",
+  "summary": "Walker's company agreed on November 23 to buy ConocoPhillips' Norway business and its Teesside terminal stake for an enterprise value of $4.425 billion, taking over operatorship of the Greater Ekofisk Area and the Norpipe export system. He has led Vår Energi, Norway's Eni controlled independent, since September 2023.",
+  "path": "Before Vår he was chief executive of Lundin Energy until its sale to Aker BP in mid 2022, and he earlier worked at BP, Talisman Energy, Africa Oil and Cairn Oil & Gas under Vedanta. Vår says he has more than 30 years in technical, commercial and executive roles. He studied mining engineering at Imperial College London and computer science at University College London, and holds an MBA from City University Business School.",
+  "why": "The deal, on top of the BlueNord combination, puts Vår among the largest independent offshore producers, with a target of more than 500,000 boe/d into the mid 2030s. How he runs the ageing Ekofisk hub and its UK link will shape a large share of Norway's southern North Sea output.",
+  "sources": [
+   {
+    "name": "Vår Energi executive committee",
+    "url": "https://varenergi.no/en/about-us/executive-committee/"
+   },
+   {
+    "name": "Offshore Engineer",
+    "url": "https://www.oedigital.com/news/507756-former-lundin-energy-head-takes-the-helm-as-ceo-of-v-r-energi"
+   },
+   {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   },
+   {
+    "name": "Offshore Energy",
+    "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "Mines near Hormuz, a halt at Ras Tanura",
+  "points": [
+   "Brent settled Thursday at $96.57",
+   "IRGC: 2 tankers hit mines off Khasab",
+   "CNN: Ras Tanura loadings stopped"
+  ],
+  "watch": "OPEC+ ministers meet Sunday, Nov. 29.",
+  "caption": "What happens to US crude when the Gulf's export doors start closing? Brent settled up 2% at $96.57 on Thanksgiving after Iran's Guards said two tankers hit mines near Hormuz and CNN reported Saudi loadings stopped at Ras Tanura.\n\nNone of it is confirmed by Saudi Arabia or Aramco. Friday's half session is the first US read.\n\nWho feels it first: Gulf Coast refiners running Middle East sour crude.\n\nPrices and the full read: uticamidstream.com\n\n#OilPrices #Brent #StraitOfHormuz #SaudiArabia #OOTT"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Targa in talks to buy Kinetik, Bloomberg says",
+   "points": [
+    "A deal could land next week",
+    "Kinetik closed $54.70 on Nov. 25",
+    "Blackstone owns about 48%"
+   ],
+   "watch": "Watch for a signed agreement next week.",
+   "stat": {
+    "value": "+7.6%",
+    "label": "Kinetik's after hours move on the Bloomberg report"
+   },
+   "caption": "Another Permian gas consolidation may be days away. Bloomberg reports Targa Resources is in talks to buy Blackstone backed Kinetik, and a deal could come as soon as next week.\n\nuticamidstream.com\n\n#Midstream #Permian #NaturalGas #MergersAndAcquisitions"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Suriname gets its first offshore gas FID",
+   "points": [
+    "$1.6B KrakaWi plan in Block 52",
+    "Floating LNG, about 1.5 Mt a year",
+    "Gas expected from mid 2030"
+   ],
+   "watch": "Argentina LNG's FID is reported for Nov. 30.",
+   "caption": "Suriname, so far known for oil hopes, is getting gas first. Petronas and Staatsolie took a final investment decision on KrakaWi, a $1.6 billion floating LNG project on the Sloanea field in Block 52.\n\nIt should make up to 1.5 million tonnes a year from mid 2030. Small, but it adds another Atlantic supplier next to Argentina's plans.\n\nFull edition: uticamidstream.com\n\n#LNG #Suriname #Petronas #Offshore #NaturalGas"
+  }
+ }
+}

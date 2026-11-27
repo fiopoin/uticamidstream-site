@@ -3,13 +3,12 @@
 > A free daily read on oil and gas from wellhead to market: prices, stocks, pipelines, policy, projects and people, with every fact sourced and dated. Each edition has a price board (crude, gas, products and calculated spreads), market and stock notes, a lead story traced through upstream, midstream, downstream and the market, briefs by segment, a regulatory docket, basin watch, a weekly leader profile and an events calendar. General information, not investment advice.
 
 ## Today's edition
-- [Brent jumps 3.5% as the Houthis claim a strike on Saudi Arabia's Ras Tanura refinery](https://uticamidstream.com/): November 26, 2026. Ras Tanura, Saudi Arabia's largest refinery, is a target again. The Houthis claimed a strike there on Wednesday, Saudi air defenses said they downed four drones, and Brent settled up 3.5% at $94.61.
-- [Upstream: US-led consortium agrees to buy Lukoil's international business](https://uticamidstream.com/#money)
-- [Upstream: Iraq disputes the capacity number behind its 2027 OPEC+ quota](https://uticamidstream.com/#world)
-- [Gas and LNG: Winter's first storage draw comes in at 24 Bcf](https://uticamidstream.com/#storage)
-- [Downstream: US refiners run at 97.5% as fuel stocks build](https://uticamidstream.com/#refining)
-- [Regulation: Texas Railroad Commission investigates Atmos Energy's pipe safety program](https://uticamidstream.com/#atmos)
-- [Gas and LNG: Argentina LNG clears the RIGI incentive regime at $50.75 billion](https://uticamidstream.com/#argentina)
+- [Brent settles at $96.57 as Iran reports mine strikes and Ras Tanura loadings reportedly halt](https://uticamidstream.com/): November 27, 2026. What happens to US crude when the Gulf's export doors start closing? Brent settled up 2% at $96.57 on Thanksgiving after Iran's Guards said two tankers hit mines near Hormuz and CNN reported Saudi loadings stopped at Ras Tanura.
+- [Midstream: Targa is in talks to buy Blackstone backed Kinetik, Bloomberg reports](https://uticamidstream.com/#money)
+- [Upstream: OPEC+ goes into Sunday expected to hold output steady into 2027](https://uticamidstream.com/#world)
+- [Gas and LNG: Petronas and Staatsolie take FID on Suriname's first offshore gas project](https://uticamidstream.com/#suriname)
+- [Midstream: First Nations get C$168 million loan guarantee for a Coastal GasLink stake](https://uticamidstream.com/#cgl)
+- [Cross-industry: Iran's mine claims pile up as it ties reopening Hormuz to US demands](https://uticamidstream.com/#hormuz)
 
 ## About
 - [How we work](https://uticamidstream.com/method.html)
@@ -18,6 +17,7 @@
 - [Sitemap](https://uticamidstream.com/sitemap.xml)
 
 ## Recent editions
+- [November 27, 2026: Brent settles at $96.57 as Iran reports mine strikes and Ras Tanura loadings reportedly halt](https://uticamidstream.com/archive/2026-11-27.html)
 - [November 26, 2026: Brent jumps 3.5% as the Houthis claim a strike on Saudi Arabia's Ras Tanura refinery](https://uticamidstream.com/archive/2026-11-26.html)
 - [November 25, 2026: Oil gives back Tuesday's gain as glut fears outweigh new ship attacks near Hormuz](https://uticamidstream.com/archive/2026-11-25.html)
 - [November 24, 2026: Oil falls to a three month low as the Iran war premium fades and stocks of crude build](https://uticamidstream.com/archive/2026-11-24.html)
