@@ -1,0 +1,639 @@
+{
+ "date": "2026-11-28",
+ "date_long": "November 28, 2026",
+ "edition": 11,
+ "prices": {
+  "asof": "Quotes from OilPrice.com, checked about 05:10 Central on Saturday, November 28, 2026. Futures markets are shut for the weekend, so these are the last quotes from Friday's session; the page labels most rows with a 2 hour delay and shows no clock time. Murban is Platts dated November 27. The OPEC basket runs a day behind. Brent's settlement was $95.44 and WTI's $83.08, Reuters reported.",
+  "rows": [
+   {
+    "group": "Crude",
+    "name": "WTI (NYMEX)",
+    "value": "83.33",
+    "unit": "$/bbl",
+    "change": "-0.35",
+    "pct": "-0.42%",
+    "note": "Last Friday quote; Reuters put the settlement at $83.08",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Brent (ICE)",
+    "value": "95.44",
+    "unit": "$/bbl",
+    "change": "-1.13",
+    "pct": "-1.17%",
+    "note": "Matches Friday's settlement",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "WTI Midland",
+    "value": "84.56",
+    "unit": "$/bbl",
+    "change": "-1.94",
+    "pct": "-2.24%",
+    "note": "Last Friday quote, 3 hour delay label",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "Murban (Platts)",
+    "value": "89.93",
+    "unit": "$/bbl",
+    "change": "+1.25",
+    "pct": "+1.41%",
+    "note": "Dated Nov 27",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Crude",
+    "name": "OPEC basket",
+    "value": "86.28",
+    "unit": "$/bbl",
+    "change": "+3.34",
+    "pct": "+4.03%",
+    "note": "Stale: one day delay",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Gas",
+    "name": "Henry Hub (NYMEX)",
+    "value": "3.486",
+    "unit": "$/MMBtu",
+    "change": "-0.172",
+    "pct": "-4.7%",
+    "note": "Friday's final quote; markets closed for the weekend",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "RBOB gasoline (NYMEX)",
+    "value": "2.449",
+    "unit": "$/gal",
+    "change": "+0.007",
+    "pct": "+0.27%",
+    "note": "Friday's final quote; markets closed for the weekend",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   },
+   {
+    "group": "Products",
+    "name": "ULSD heating oil (NYMEX)",
+    "value": "3.719",
+    "unit": "$/gal",
+    "change": "+0.017",
+    "pct": "+0.45%",
+    "note": "Friday's final quote; markets closed for the weekend",
+    "source": {
+     "name": "OilPrice.com",
+     "url": "https://oilprice.com/oil-price-charts/"
+    }
+   }
+  ],
+  "spreads": [
+   {
+    "name": "Brent over WTI",
+    "value": "$12.11/bbl",
+    "note": "Calculated from the two crude quotes above."
+   },
+   {
+    "name": "Diesel over gasoline",
+    "value": "$53.34/bbl",
+    "note": "ULSD less RBOB, times 42 gallons. Calculated."
+   },
+   {
+    "name": "NYMEX 3-2-1 crack",
+    "value": "$37.31/bbl",
+    "note": "Two barrels of gasoline plus one of diesel, less three of WTI, per barrel. Calculated from the quotes above."
+   }
+  ]
+ },
+ "markets": {
+  "asof": "Close, Friday, November 27, 2026, a shortened session after Thanksgiving.",
+  "indexes": [
+   {
+    "name": "S&P 500",
+    "value": "7,297.49",
+    "change": "+114.71",
+    "pct": "+1.6%"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "50,774.94",
+    "change": "+591.99",
+    "pct": "+1.2%"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "24,129.50",
+    "change": "+543.70",
+    "pct": "+2.3%"
+   },
+   {
+    "name": "Russell 2000",
+    "value": "2,750.30",
+    "change": "+46.24",
+    "pct": "+1.7%"
+   }
+  ],
+  "index_source": {
+   "name": "AP via WRAL",
+   "url": "https://www.wral.com/news/ap/04dab-how-major-us-stock-indexes-fared-friday-11-27-2026/"
+  },
+  "read": "Stocks capped their best week in more than a year on Friday, AP reported, with the S&P 500 up 5.6% for the week after days of swings in big technology names. Oil went the other way on the day. Brent fell $1.13 to settle at $95.44 but still gained about 3% on the week, its first weekly rise in November, while WTI settled at $83.08 and lost 0.9% for the week, Reuters reported. The next test for both is Sunday's OPEC+ meeting.",
+  "read_source": {
+   "name": "Reuters via AsiaOne",
+   "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears"
+  },
+  "stocks": [
+   {
+    "ticker": "2222.SR",
+    "name": "Saudi Aramco",
+    "segment": "Integrated",
+    "note": "A projectile hit its Jazan refinery on Nov 26, killing a worker and halting some operations, the Saudi energy ministry said.",
+    "source": {
+     "name": "Al Jazeera, with Reuters",
+     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+    }
+   },
+   {
+    "ticker": "LNG",
+    "name": "Cheniere Energy",
+    "segment": "Gas and LNG",
+    "note": "FERC unanimously approved three more liquefaction trains at Sabine Pass plus the Creole Trail expansion and the new Sabine Crossing pipeline.",
+    "source": {
+     "name": "BIC Magazine",
+     "url": "https://www.bicmagazine.com/industry/natgas-lng/ferc-approves-sabine-pass-lng-expansion-four-other-natural-gas-projects/"
+    }
+   },
+   {
+    "ticker": "TRGP",
+    "name": "Targa Resources",
+    "segment": "Midstream",
+    "note": "FERC approved its Forza Pipeline, about 36 miles from Lea County, New Mexico to Waha with up to 750,000 Dth/d; Bloomberg reported this week it is in talks to buy Kinetik.",
+    "source": {
+     "name": "Oklahoma Energy Today",
+     "url": "https://okenergytoday.com/2026/11/gas-pipeline-projects-win-ferc-approval/"
+    }
+   },
+   {
+    "ticker": "PDVSA",
+    "name": "Petróleos de Venezuela",
+    "segment": "National oil company",
+    "note": "Pumped about 1.2 million b/d in September per OPEC figures and plans 1.5 million b/d by the end of next year, Reuters reported.",
+    "source": {
+     "name": "Reuters via BNN Bloomberg",
+     "url": "https://www.bnnbloomberg.ca/business/international/2026/11/27/us-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-reuters-exclusive/"
+    }
+   }
+  ]
+ },
+ "lead": {
+  "kicker": "Upstream: OPEC's membership",
+  "chain": [
+   "upstream",
+   "market"
+  ],
+  "headline": "US pushed Venezuela and Iraq to weigh leaving OPEC, Reuters reports, days before OPEC+ meets",
+  "dek": "Ten people told Reuters Washington encouraged both founding members to consider an exit this year. OPEC+ ministers meet Sunday expecting to hold output steady.",
+  "body": [
+   "The Trump administration encouraged Venezuela and Iraq earlier this year to consider leaving OPEC and stopped Venezuela from paying its annual membership dues, Reuters reported on November 27, citing 10 people familiar with the matter. The State Department opened talks with Venezuelan officials after the US seized Maduro in January, five of the sources said. The US controls Venezuela's access to state funds, and Iraq's oil revenue passes through an account at the Federal Reserve Bank of New York.",
+   "In Iraq, US officials held talks with Prime Minister Ali Faleh al-Zaidi this summer, two sources said. He raised leaving OPEC at a government meeting, but the oil ministry persuaded him to stay and push for a higher quota instead. Two sources said Saudi Crown Prince Mohammed bin Salman intervened this summer to stop the US pressing further on Venezuela. A State Department official said leaving OPEC had not been raised by high level officials and that talks with Iraq focused on energy infrastructure. OPEC, Venezuela, Iraq and Saudi Arabia did not comment.",
+   "The report lands two days before OPEC+ ministers meet on Sunday, November 29, to set policy for 2027. Three people familiar with the talks told Reuters the group, led by Saudi Arabia and Russia, is set to keep first quarter 2027 targets unchanged. Iraq and Kazakhstan want higher capacity figures recognised, QNC News reported. The UAE left OPEC earlier this year. Brent settled Friday at $95.44, up about 3% on the week."
+  ],
+  "flow": {
+   "upstream": "Iraq is pressing for a bigger quota, and Venezuela is exempt from OPEC+ cuts and aims for 1.5 million b/d. Either exit would add barrels outside the group's control.",
+   "midstream": "More Iraqi and Venezuelan crude would test export routes already strained by Gulf attacks and Hormuz risk.",
+   "downstream": "Refiners face a 3-2-1 crack near $37 on Friday's quotes, up from about $35.65 a day earlier, with diesel still about $53 a barrel over gasoline.",
+   "market": "Brent's premium to WTI is about $12 on Friday's quotes. A weaker OPEC would lean against that premium over time, while the Gulf attacks hold it up now."
+  },
+  "use": [
+   {
+    "who": "Producers",
+    "text": "US shale plans for 2027 assume OPEC+ restraint. Watch Sunday's statement and any word on Iraq's quota."
+   },
+   {
+    "who": "Midstream",
+    "text": "Venezuelan heavy crude growth would mainly reach Gulf Coast docks, so keep an eye on PDVSA's export plans."
+   },
+   {
+    "who": "Refiners",
+    "text": "Heavy and medium sour supply could loosen if Venezuela and Iraq grow outside quotas. That is a 2027 question, not a December one."
+   },
+   {
+    "who": "Traders",
+    "text": "The report is sourced and denied in part. Price the meeting first, and membership talk only if a government says it on the record."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Reuters via BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/business/international/2026/11/27/us-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-reuters-exclusive/"
+   },
+   {
+    "name": "Reuters via AsiaOne",
+    "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears"
+   },
+   {
+    "name": "QNC News",
+    "url": "https://qncnews.com/2026/11/26/opec-plus-set-to-roll-over-oil-output-targets-at-sunday-meeting-sources-say/"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/oil-price-charts/"
+   }
+  ]
+ },
+ "briefs": [
+  {
+   "id": "money",
+   "segment": "Midstream",
+   "setting": "Onshore",
+   "region": "Alberta and British Columbia",
+   "headline": "Trans Mountain finishes its flow boost early as quarterly shipments rise",
+   "text": "Trans Mountain finished a project that uses drag reducing chemical additives to raise crude flow on its pipeline two months ahead of schedule, the Crown corporation said with third quarter results on November 27, The Canadian Press reported. Capacity rises up to about 10% to 980,000 barrels a day. Shipments averaged 840,000 b/d in the quarter, up from 777,000 a year earlier, and about 60% went to the Westridge Marine Terminal. Net income was C$132 million on revenue of C$825 million. It sent C$551 million to Ottawa in the quarter and C$1.45 billion so far this year.",
+   "why": "More West Coast capacity gives Canadian heavy crude another route to Asia and California, which competes with Gulf barrels. A further 210,000 b/d expansion is expected by the end of 2028.",
+   "sources": [
+    {
+     "name": "The Canadian Press via Global News",
+     "url": "https://globalnews.ca/news/12169033/trans-mountain-pipeline-flow-increase"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "segment": "Downstream",
+   "setting": "Refining",
+   "region": "Jazan, Saudi Arabia",
+   "headline": "Projectile strike at Aramco's Jazan refinery kills a worker and halts some units",
+   "text": "An aerial projectile hit Aramco's Jazan refinery on November 26, killing a Nepali worker, injuring several others and starting a fire that temporarily halted some operations, the Saudi energy ministry said, Al Jazeera and Reuters reported. The plant near the Yemeni border can process up to 400,000 barrels a day. The ministry did not name the attacker; the Saudi led coalition blamed the Houthis and later said it destroyed a ballistic missile launch platform in Hodeidah. The Houthis had claimed attacks on Ras Tanura and on the Red Sea ports of Jeddah and Jazan the day before.",
+   "why": "It is the second Saudi refinery targeted in two days and the first on the Red Sea side, which is where Saudi exports would turn if Gulf terminals were disrupted.",
+   "sources": [
+    {
+     "name": "Al Jazeera, with Reuters",
+     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+    },
+    {
+     "name": "Reuters via AsiaOne",
+     "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears"
+    }
+   ]
+  },
+  {
+   "id": "ferc",
+   "segment": "Regulation",
+   "setting": "Onshore",
+   "region": "US Gulf Coast, Appalachia, Permian",
+   "headline": "FERC approves Sabine Pass expansion and four more gas projects",
+   "text": "FERC voted unanimously to approve five natural gas projects, BIC Magazine reported on November 27. Cheniere's Sabine Pass in Cameron Parish, Louisiana gets three more liquefaction trains, along with an expanded Creole Trail Pipeline and a new Sabine Crossing pipeline. Mountain Valley's MVP Boost adds 600,000 Dth/d of firm capacity in Virginia and West Virginia. Targa's Forza Pipeline would run about 36 miles from Lea County, New Mexico to Waha with up to 750,000 Dth/d. Columbia Gas won a Virginia LNG storage plant and Texas Eastern a 125,000 Dth/d Mississippi expansion. Chairman Laura Swett said the commission is delivering on its commitment.",
+   "why": "Forza gives Delaware Basin gas another path to Waha, where takeaway has been tight, and Sabine Pass adds to the next wave of US LNG supply.",
+   "sources": [
+    {
+     "name": "BIC Magazine",
+     "url": "https://www.bicmagazine.com/industry/natgas-lng/ferc-approves-sabine-pass-lng-expansion-four-other-natural-gas-projects/"
+    },
+    {
+     "name": "Oklahoma Energy Today",
+     "url": "https://okenergytoday.com/2026/11/gas-pipeline-projects-win-ferc-approval/"
+    }
+   ]
+  },
+  {
+   "id": "weekly",
+   "segment": "Cross-industry",
+   "setting": "Shipping",
+   "region": "Gulf of Oman and Strait of Hormuz",
+   "headline": "Brent posts first weekly gain of November as Gulf attacks continue",
+   "text": "Brent rose about 3% this week, its first weekly gain in November after three losing weeks, though it fell 1.2% on Friday to $95.44, Reuters reported. Iran has kept attacking ships in the Strait of Hormuz, the Houthis struck Saudi infrastructure, and the US said it disabled a commercial ship that tried to run its blockade of Iran. An Iranian adviser said Iran would keep the strait shut. Ukraine has stepped up drone attacks on Russian refineries since late October. ANZ analysts said Brent can top $100 without a new escalation only if deliverable supply proves tight.",
+   "why": "Supply risk is spread across three regions at once, which keeps a floor under Brent even as forecasters see a surplus next year.",
+   "sources": [
+    {
+     "name": "Reuters via AsiaOne",
+     "url": "https://www.asiaone.com/money/oil-notches-first-weekly-gain-november-supply-fears"
+    }
+   ]
+  }
+ ],
+ "docket": [
+  {
+   "agency": "FERC",
+   "action": "Approval of five gas projects including Sabine Pass Stage 5, MVP Boost and Targa's Forza Pipeline",
+   "date": "Reported Nov 24, 2026",
+   "status": "Approved, unanimous",
+   "means": "Adds three LNG trains in Louisiana and new takeaway from Lea County to Waha.",
+   "source": {
+    "name": "Oklahoma Energy Today",
+    "url": "https://okenergytoday.com/2026/11/gas-pipeline-projects-win-ferc-approval/"
+   }
+  },
+  {
+   "agency": "Canada Indigenous Loan Guarantee Corp.",
+   "action": "About C$168 million guarantee for First Nations' investment in Coastal GasLink",
+   "date": "Nov 26, 2026",
+   "status": "Closed",
+   "means": "Fifth deal for the federal program; second Indigenous stake in the line.",
+   "source": {
+    "name": "The Canadian Press via CP24",
+    "url": "https://www.cp24.com/news/canada/2026/11/26/168m-loan-guarantee-provided-for-first-nations-investment-in-lng-pipeline/"
+   }
+  },
+  {
+   "agency": "Railroad Commission of Texas",
+   "action": "Investigation of Atmos Energy's distribution integrity management program",
+   "date": "Reported Nov 25, 2026",
+   "status": "Under investigation; revised plans due Dec 2",
+   "means": "Seven alleged violations and possible fines up to $2 million.",
+   "source": {
+    "name": "Texas Tribune",
+    "url": "https://www.texastribune.org/2026/11/25/texas-railroad-commission-investigates-atmos-energy/"
+   }
+  },
+  {
+   "agency": "US Treasury",
+   "action": "Sale of Lukoil International to a consortium led by Eldridge",
+   "date": "Agreed Nov 25, 2026",
+   "status": "Agreement reached; needs OFAC approval",
+   "means": "Share swap; proceeds held in a restricted account for five years or until sanctions lift. Treasury's sale deadline is Feb 28.",
+   "source": {
+    "name": "Rigzone",
+    "url": "https://www.rigzone.com/news/eldridge_consortium_pens_deal_to_acquire_lukoil_international-26-nov-2026-185176-article/"
+   }
+  },
+  {
+   "agency": "Nigeria SEC",
+   "action": "Share allotment plan for the Dangote refinery IPO",
+   "date": "Nov 23, 2026",
+   "status": "Approved",
+   "means": "Clears the way for a listing on the Nigerian Exchange, expected as early as December 1.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/markets/article/dangote-refinery-eyes-dec-1-for-historic-n65trn-ngx-listing/"
+   }
+  },
+  {
+   "agency": "FERC",
+   "action": "NextDecade affiliate request to introduce fuel gas at Rio Grande LNG",
+   "date": "Reported Nov 24, 2026",
+   "status": "Filed",
+   "means": "A commissioning step toward first LNG, targeted for the second quarter of 2027.",
+   "source": {
+    "name": "NGI",
+    "url": "https://naturalgasintel.com/news/rio-grande-lng-close-to-introducing-natural-gas-to-first-liquefaction-train/"
+   }
+  },
+  {
+   "agency": "Norway Ministry of Energy",
+   "action": "Approval of Vår Energi's purchase of ConocoPhillips Skandinavia and the Teesside operator",
+   "date": "Agreed Nov 23, 2026",
+   "status": "Pending approval",
+   "means": "Closing expected by the end of the first quarter of 2027.",
+   "source": {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   }
+  },
+  {
+   "agency": "UNFCCC COP31",
+   "action": "Final decision text of the Antalya climate talks",
+   "date": "Nov 22, 2026",
+   "status": "Not adopted",
+   "means": "No new language on fossil fuels; earlier COP commitments stand.",
+   "source": {
+    "name": "Al Jazeera, with AP and Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+   }
+  },
+  {
+   "agency": "NUPRC (Nigeria)",
+   "action": "2026 licensing round, 40 blocks",
+   "date": "Registration until Jan 15, 2027",
+   "status": "Open",
+   "means": "Pre-bid conference in Lagos on December 16.",
+   "source": {
+    "name": "BusinessDay",
+    "url": "https://businessday.ng/energy/article/nuprc-opens-portal-for-2026-oil-bid-round-as-40-blocks-go-on-offer/"
+   }
+  },
+  {
+   "agency": "OPEC+",
+   "action": "Ministerial meeting to set the 2027 production framework",
+   "date": "Nov 29, 2026",
+   "status": "Scheduled",
+   "means": "Two people familiar expect targets unchanged at least through Q1 2027; capacity review due by year end, Novak said.",
+   "source": {
+    "name": "The Nation Thailand",
+    "url": "https://www.nationthailand.com/news/world/40073981"
+   }
+  },
+  {
+   "agency": "BOEM",
+   "action": "Next Gulf of America lease sale required under the One Big Beautiful Bill Act",
+   "date": "By Mar 15, 2027",
+   "status": "Required by statute",
+   "means": "The law calls for at least two Gulf sales a year through 2039, by March 15 and August 15.",
+   "source": {
+    "name": "boem.gov",
+    "url": "https://www.boem.gov/oil-gas-energy/leasing/proposed-nos-bbg-3"
+   }
+  }
+ ],
+ "basins": [
+  {
+   "name": "Iraq",
+   "setting": "Onshore conventional",
+   "line": "Reuters says US officials discussed OPEC with PM al-Zaidi this summer; the oil ministry pushed for a higher quota instead.",
+   "source": {
+    "name": "Reuters via BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/business/international/2026/11/27/us-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-reuters-exclusive/"
+   }
+  },
+  {
+   "name": "Venezuela",
+   "setting": "Onshore heavy oil",
+   "line": "Output was about 1.2 million b/d in September; PDVSA targets 1.5 million b/d by the end of next year.",
+   "source": {
+    "name": "Reuters via BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/business/international/2026/11/27/us-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-reuters-exclusive/"
+   }
+  },
+  {
+   "name": "Saudi Red Sea coast",
+   "setting": "Refining",
+   "line": "A projectile strike halted some units at the 400,000 b/d Jazan refinery on November 26.",
+   "source": {
+    "name": "Al Jazeera, with Reuters",
+    "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+   }
+  },
+  {
+   "name": "Delaware Basin",
+   "setting": "Onshore unconventional",
+   "line": "FERC approved Targa's 750,000 Dth/d Forza line from Lea County to Waha.",
+   "source": {
+    "name": "Oklahoma Energy Today",
+    "url": "https://okenergytoday.com/2026/11/gas-pipeline-projects-win-ferc-approval/"
+   }
+  },
+  {
+   "name": "Cameron Parish, Louisiana",
+   "setting": "LNG",
+   "line": "Sabine Pass won approval for three more liquefaction trains.",
+   "source": {
+    "name": "BIC Magazine",
+    "url": "https://www.bicmagazine.com/industry/natgas-lng/ferc-approves-sabine-pass-lng-expansion-four-other-natural-gas-projects/"
+   }
+  },
+  {
+   "name": "Western Canada",
+   "setting": "Onshore oil sands",
+   "line": "Trans Mountain capacity rises to about 980,000 b/d after a drag reducer project finished early.",
+   "source": {
+    "name": "The Canadian Press via Global News",
+    "url": "https://globalnews.ca/news/12169033/trans-mountain-pipeline-flow-increase"
+   }
+  }
+ ],
+ "leader": {
+  "week_of": "Week of November 23, 2026",
+  "name": "Nick Walker",
+  "role": "Chief executive, Vår Energi",
+  "summary": "Walker's company agreed on November 23 to buy ConocoPhillips' Norway business and its Teesside terminal stake for an enterprise value of $4.425 billion, taking over operatorship of the Greater Ekofisk Area and the Norpipe export system. He has led Vår Energi, Norway's Eni controlled independent, since September 2023.",
+  "path": "Before Vår he was chief executive of Lundin Energy until its sale to Aker BP in mid 2022, and he earlier worked at BP, Talisman Energy, Africa Oil and Cairn Oil & Gas under Vedanta. Vår says he has more than 30 years in technical, commercial and executive roles. He studied mining engineering at Imperial College London and computer science at University College London, and holds an MBA from City University Business School.",
+  "why": "The deal, on top of the BlueNord combination, puts Vår among the largest independent offshore producers, with a target of more than 500,000 boe/d into the mid 2030s. How he runs the ageing Ekofisk hub and its UK link will shape a large share of Norway's southern North Sea output.",
+  "sources": [
+   {
+    "name": "Vår Energi executive committee",
+    "url": "https://varenergi.no/en/about-us/executive-committee/"
+   },
+   {
+    "name": "Offshore Engineer",
+    "url": "https://www.oedigital.com/news/507756-former-lundin-energy-head-takes-the-helm-as-ceo-of-v-r-energi"
+   },
+   {
+    "name": "ConocoPhillips release",
+    "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-agreement-to-sell-norway-business-and-teesside-asset-to-var-energi-2/"
+   },
+   {
+    "name": "Offshore Energy",
+    "url": "https://www.offshore-energy.biz/2026/11/23/dollar44-billion-play-for-conocophillips-norwegian-oil-and-gas-assets-and-uk-infrastructure-expands-var-energis-north-sea-footprint"
+   }
+  ]
+ },
+ "events": [
+  {
+   "when": "Nov 29, 2026",
+   "name": "OPEC+ ministerial meeting",
+   "where": "OPEC+ ministers",
+   "note": "Decision on the 2027 production framework",
+   "url": "https://gvwire.com/2026/11/01/opec-keeps-december-oil-output-targets-steady-ahead-of-tougher-call-for-2027/"
+  },
+  {
+   "when": "Feb 2 to 4, 2027",
+   "name": "SPE Hydraulic Fracturing Technology Conference",
+   "where": "The Woodlands, Texas",
+   "note": "Completions and frac technology",
+   "url": "https://www.spe-events.org/hydraulicfracturing/about-the-conference"
+  },
+  {
+   "when": "Feb 3 to 5, 2027",
+   "name": "NAPE Summit",
+   "where": "Houston",
+   "note": "The upstream deal floor",
+   "url": "https://napeexpo.com/summit/exhibit"
+  },
+  {
+   "when": "Feb 8 to 11, 2027",
+   "name": "Produced Water Society 37th Annual Conference",
+   "where": "Sugar Land, Texas",
+   "note": "Water handling, disposal, reuse and minerals",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Mar 8 to 12, 2027",
+   "name": "CERAWeek by S&P Global",
+   "where": "Houston",
+   "note": "Executive conference; dates as listed by the organizer",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "when": "May 3 to 5, 2027",
+   "name": "OTC with URTeC",
+   "where": "NRG Park, Houston",
+   "note": "Offshore and unconventional technology, co-located",
+   "url": "https://otcnet.org/"
+  },
+  {
+   "when": "Aug 3 to 5, 2027",
+   "name": "PWS Permian Basin Conference",
+   "where": "Bush Convention Center, Midland",
+   "note": "Produced water in the Permian",
+   "url": "https://producedwatersociety.com/"
+  },
+  {
+   "when": "Sep 14 to 17, 2027",
+   "name": "Gastech",
+   "where": "George R. Brown Convention Center, Houston",
+   "note": "Gas, LNG and hydrogen",
+   "url": "https://chemxplore.com/events/2027-gastech"
+  }
+ ],
+ "social": {
+  "kicker": "Morning: the flow",
+  "headline": "US urged Venezuela, Iraq to weigh OPEC exit",
+  "points": [
+   "Reuters: 10 sources on the push",
+   "Iraq chose a bigger quota instead",
+   "Brent ends the week at $95.44"
+  ],
+  "watch": "OPEC+ ministers meet Sunday, Nov. 29.",
+  "caption": "Washington has been nudging two of OPEC's founders toward the door. Reuters, citing 10 people, reports the US encouraged Venezuela and Iraq this year to consider leaving the group and blocked Venezuela's dues.\n\nThe State Department says top officials never raised it. Iraq stayed and is pushing for a bigger quota.\n\nWatch Sunday, Nov. 29, when OPEC+ sets 2027 policy.\n\nDetails and sources: uticamidstream.com\n\n#OPEC #OilPrices #Venezuela #Iraq #OOTT"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Trans Mountain lifts flow, sends C$551M to Ottawa",
+   "points": [
+    "Capacity up to about 980,000 b/d",
+    "Q3 shipments 840,000 b/d",
+    "Net income C$132 million"
+   ],
+   "watch": "A 210,000 b/d expansion is due by end of 2028.",
+   "stat": {
+    "value": "840,000 b/d",
+    "label": "Trans Mountain's average third quarter shipments"
+   },
+   "caption": "840,000 barrels a day. That is what Trans Mountain shipped on average in the third quarter, up from 777,000 a year ago, and the line can now carry up to about 980,000 after an additive project finished two months early.\n\nRevenue was C$825 million and C$551 million went back to Ottawa.\n\nuticamidstream.com\n\n#Midstream #Pipelines #Canada #CrudeOil"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "A second Saudi refinery targeted in two days",
+   "points": [
+    "Jazan can run 400,000 b/d",
+    "One worker killed, some units halted",
+    "Coalition blames the Houthis"
+   ],
+   "watch": "Saudi damage assessments at Jazan and Ras Tanura.",
+   "caption": "A second Saudi refinery has been targeted in two days. A projectile struck Aramco's Jazan plant on the Red Sea coast on Thursday, killing a worker and halting some units, a day after the Houthis claimed attacks on Ras Tanura.\n\nJazan sits on the side of the kingdom Saudi exports would lean on if Gulf terminals were shut.\n\nWho feels it: shippers and buyers already planning around Hormuz.\n\nFull edition: uticamidstream.com\n\n#SaudiArabia #Refining #RedSea #OilMarkets #Energy"
+  }
+ }
+}
